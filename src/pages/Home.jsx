@@ -15,7 +15,7 @@ function Home() {
   }
   ]
   return (
-    <div className="w-full">
+    <div className="w-full h-fit">
       <Navbar />
       <HeroSection />
       <Numbers />

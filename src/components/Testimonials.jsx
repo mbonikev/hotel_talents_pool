@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 function Testimonials() {
   return (
-    <div className="w-full py-10 px-16 flex flex-col gap-5 text-dark-text">
-      <div className="w-full h-fit grid grid-cols-2 gap-10">
+    <div className="w-full py-10 px-16 max-lg:px-5 max-lg:pt-0 flex flex-col text-dark-text">
+      <div className="w-full h-fit grid grid-cols-2 max-lg:grid-cols-1 gap-10 max-lg:gap-3">
         <h1 className="text-3xl font-medium ">
           Real Stories, Real Inspiration
         </h1>
@@ -13,7 +13,7 @@ function Testimonials() {
           <span>What people are saying about us</span>
         </h1>
       </div>
-      <div className="w-full grid grid-cols-3 gap-5">
+      <div className="w-full grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 max-lg:mt-5 gap-5">
         {/* testimonial */}
         <div className="flex flex-col gap-4 items-center justify-center text-center bg-card-bg p-5 rounded-xl">
           <div className="flex items-center justify-start gap-7">

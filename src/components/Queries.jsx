@@ -39,8 +39,8 @@ function Queries() {
     },
   ];
   return (
-    <div className="w-full py-10 px-16 flex flex-col text-dark-text">
-      <div className="w-full h-fit grid grid-cols-2 gap-10">
+    <div className="w-full py-10 px-16 max-lg:px-5 max-lg:pt-0 flex flex-col text-dark-text">
+      <div className="w-full h-fit grid grid-cols-2 max-lg:grid-cols-1 gap-10 max-lg:gap-3">
         <h1 className="text-3xl font-medium ">Frenquenlty asked questions</h1>
         <h1 className="text-sm text-dark-text/70 flex gap-4 flex-col">
           <span>
@@ -58,7 +58,7 @@ function Queries() {
         </h1>
       </div>
       {/* Questions grid */}
-      <div className="w-full grid grid-cols-2 mt-10 gap-10 rounded-xl">
+      <div className="w-full grid grid-cols-2 max-lg:grid-cols-1 mt-10 max-lg:mt-5 gap-10 max-lg:gap-5 rounded-xl">
         <div className="group w-full h-fit flex flex-col p-5 gap-4 bg-card-bg rounded-2xl">
           <h1 className="text-xl font-medium tracking-tight">Get Started</h1>
           <div className="w-full h-fit flex flex-col items-center justify-start text-dark-text ">

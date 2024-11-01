@@ -8,13 +8,13 @@ import { RiMedalFill } from "react-icons/ri";
 
 function HeroSection() {
   return (
-    <div className="w-full h-[600px] flex items-center justify-center gap-10 py-10 px-16 text-dark-text">
+    <div className="w-full h-[600px] max-lg:h-fit flex items-center justify-center max-lg:flex-col gap-10 max-lg:gap-5 py-10 px-16 max-lg:px-5 text-dark-text">
       {/* left */}
-      <div className="w-1/2 h-fit flex flex-col gap-5">
+      <div className="w-1/2 max-lg:w-full h-fit flex flex-col gap-5">
         <h1 className="font-Poppins text-5xl leading-[60px] font-semibold tracking-tight">
           Your Ultimate Food And Cooking Training
         </h1>
-        <div className="grid grid-cols-2 gap-3 w-full h-fit">
+        <div className="grid grid-cols-2 max-lg:grid-cols-1 gap-3 w-full h-fit">
           <div className="flex flex-col gap-3 w-full">
             <h1>Popular Courses</h1>
             <div className="bg-card-bg w-full h-full flex flex-col gap-2.5 p-4 rounded-2xl">
@@ -93,9 +93,9 @@ function HeroSection() {
         </div>
       </div>
       {/* right */}
-      <div className="w-1/2 h-full flex outline-none select-none">
-        <div className="w-full h-full bg-card-bg rounded-2xl flex p-4 gap-4">
-          <div className="w-1/2 h-full rounded-xl overflow-hidden relative">
+      <div className="w-1/2 max-lg:w-full h-full flex outline-none select-none">
+        <div className="w-full h-full bg-card-bg rounded-2xl flex max-md:flex-col p-4 gap-4">
+          <div className="w-1/2 max-md:w-full h-full rounded-xl overflow-hidden relative">
             <Link
               to="/"
               className="flex items-center gap-1 text-xs absolute bottom-3 left-3 z-20 bg-white hover:scale-105 transition py-2 px-4 font-medium rounded-full"
@@ -127,7 +127,7 @@ function HeroSection() {
               </div>
             </Carousel>
           </div>
-          <div className="w-1/2 h-full flex flex-col gap-4">
+          <div className="w-1/2 max-md:w-full h-full flex flex-col gap-4">
             <div className="w-full h-1/2 flex flex-col gap-4">
               <div className="w-full h-1/2 flex flex-col gap-2 bg-white p-3 rounded-2xl">
                 <div className="w-full flex items-center justify-start gap-2">
