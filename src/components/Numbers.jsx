@@ -33,7 +33,7 @@ function Numbers() {
           className="text-sm min-w-fit max-md:w-full max-md:text-center bg-main-color text-white py-2 px-5 rounded-full mt-3 font-medium"
           to="/"
         >
-          Register Form
+          Register
         </Link>
       </div>
     </div>

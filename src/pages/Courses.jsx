@@ -9,10 +9,11 @@ function Courses() {
       <Navbar />
       <div className="w-full h-fit p-16 flex flex-col items-center justify-center gap-2">
         <h1 className="text-5xl font-bold w-fit text-dark-text/90">Courses</h1>
-        <h1 className="text-base font-medium w-fit text-dark-text/90">23 available courses</h1>
       </div>
       {/* courses grid */}
-      <div className="w-full grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 px-16 py-5 max-lg:px-5 gap-5 rounded-xl">
+      <h1 className="text-sm font-normal w-fit text-dark-text/90 px-20 max-lg:px-5">23 Available Courses</h1>
+
+      <div className="w-full grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 px-16 pb-5 pt-3 max-lg:px-5 gap-5 rounded-xl">
       <Link to={'/'} className="group flex flex-col p-5 max-lg:p-0 hover:bg-card-bg rounded-2xl">
             {/* showcase */}
             <div className="w-full h-auto aspect-video overflow-hidden rounded-2xl mb-3">
