@@ -1,25 +1,18 @@
 import React from "react";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 
-function FewCourses() {
+function Courses() {
   return (
-    <div className="w-full py-10 px-16 max-lg:px-5 max-lg:pt-0 flex flex-col text-dark-text">
-      <div className="w-full h-fit grid grid-cols-2 max-lg:grid-cols-1 gap-10 max-lg:gap-2">
-        <h1 className="text-3xl font-medium ">Our Courses</h1>
-        <h1 className="text-sm text-dark-text/70 flex gap-4 flex-col">
-        <span>We offer diverse courses, Choose yours and let's get to work in no time</span>
-          <span>
-            <Link
-              className="text-sm min-w-fit bg-card-bg text-dark-text/80 py-2 px-5 rounded-full mt-3 font-medium"
-              to="/courses"
-            >
-              View all
-            </Link>
-          </span>
-        </h1>
+    <div className="w-full h-fit ">
+      <Navbar />
+      <div className="w-full h-fit p-16 flex flex-col items-center justify-center gap-2">
+        <h1 className="text-5xl font-bold w-fit text-dark-text/90">Courses</h1>
+        <h1 className="text-base font-medium w-fit text-dark-text/90">23 available courses</h1>
       </div>
       {/* courses grid */}
-      <div className="w-full grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 mt-10 max-lg:mt-5 gap-5 rounded-xl">
+      <div className="w-full grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 px-16 py-5 max-lg:px-5 gap-5 rounded-xl">
       <Link to={'/'} className="group flex flex-col p-5 max-lg:p-0 hover:bg-card-bg rounded-2xl">
             {/* showcase */}
             <div className="w-full h-auto aspect-video overflow-hidden rounded-2xl mb-3">
@@ -111,8 +104,9 @@ function FewCourses() {
             </p>
         </Link>
       </div>
+      <Footer />
     </div>
   );
 }
 
-export default FewCourses;
+export default Courses;

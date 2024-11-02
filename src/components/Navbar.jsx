@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   const [showMenu, setShowMenu] = useState();
   return (
-    <div className="w-full flex items-center justify-between px-5 py-2.5 text-dark-text">
+    <div className="w-full flex items-center justify-between px-5 py-2.5 text-dark-text bg-white max-lg:sticky top-0 max-lg:z-30">
       {/* logo */}
       <div className="">
         <img src="./logo2.jpeg" className="h-16 min-w-fit" />
@@ -31,7 +31,7 @@ function Navbar() {
         <Link className="text-sm hover:text-main-color whitespace-nowrap px-1.5" to="/">
           About
         </Link>
-        <Link className="text-sm hover:text-main-color whitespace-nowrap px-1.5" to="/">
+        <Link className="text-sm hover:text-main-color whitespace-nowrap px-1.5" to="/courses">
           Courses
         </Link>
         <Link className="text-sm hover:text-main-color whitespace-nowrap px-1.5" to="/">
