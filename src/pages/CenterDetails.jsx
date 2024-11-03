@@ -76,7 +76,7 @@ function CenterDetails() {
             },
           }}
         >
-          <div className="w-full columns-5 max-lg:columns-4 max-md:columns-2 max-sm:columns-1 gap-3 auto-rows-auto">
+          <div className="w-full columns-4 max-lg:columns-3 max-md:columns-2 max-sm:columns-1 gap-3 auto-rows-auto">
             {imageList.map((item) => (
               <div className="w-full mb-2">
                 <Image key={item} src={item} className="w-full" />

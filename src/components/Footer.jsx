@@ -6,17 +6,17 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="w-full bg-card-bg py-5 px-16 max-lg:px-5 pt-10 max-lg:pt-0 flex flex-col items-start justify-between max-md:flex-col max-md:gap-3 text-dark-text">
-      <div class="w-full">
-        <div class="grid grid-cols-4 max-md:grid-cols-2 max-sm:grid-cols-1 max-lg:px-0 max-lg:gap-5 px-16">
+      <div className="w-full">
+        <div className="grid grid-cols-4 max-md:grid-cols-2 max-sm:grid-cols-1 max-lg:px-0 max-lg:gap-5 px-16">
           <div>
-            <p class="text-sm text-dark-text/70">Company</p>
+            <p className="text-sm text-dark-text/70">Company</p>
 
-            <ul class="mt-5 space-y-3">
+            <ul className="mt-5 space-y-3">
               <li>
                 <a
                   href="#"
                   title=""
-                  class="text-sm hover:text-main-color"
+                  className="text-sm hover:text-main-color"
                 >
                   {" "}
                   About{" "}
@@ -26,7 +26,7 @@ function Footer() {
                 <a
                   href="#"
                   title=""
-                  class="text-sm hover:text-main-color"
+                  className="text-sm hover:text-main-color"
                 >
                   {" "}
                   Features{" "}
@@ -36,7 +36,7 @@ function Footer() {
                 <a
                   href="#"
                   title=""
-                  class="text-sm hover:text-main-color"
+                  className="text-sm hover:text-main-color"
                 >
                   {" "}
                   Works{" "}
@@ -46,7 +46,7 @@ function Footer() {
                 <a
                   href="#"
                   title=""
-                  class="text-sm hover:text-main-color"
+                  className="text-sm hover:text-main-color"
                 >
                   {" "}
                   Career{" "}
@@ -56,14 +56,14 @@ function Footer() {
           </div>
 
           <div>
-            <p class="text-sm text-dark-text/70">Help</p>
+            <p className="text-sm text-dark-text/70">Help</p>
 
-            <ul class="mt-5 space-y-3">
+            <ul className="mt-5 space-y-3">
               <li>
                 <a
                   href="#"
                   title=""
-                  class="text-sm hover:text-main-color"
+                  className="text-sm hover:text-main-color"
                 >
                   {" "}
                   Customer Support{" "}
@@ -73,7 +73,7 @@ function Footer() {
                 <a
                   href="#"
                   title=""
-                  class="text-sm hover:text-main-color"
+                  className="text-sm hover:text-main-color"
                 >
                   {" "}
                   Delivery Details{" "}
@@ -83,7 +83,7 @@ function Footer() {
                 <a
                   href="#"
                   title=""
-                  class="text-sm hover:text-main-color"
+                  className="text-sm hover:text-main-color"
                 >
                   {" "}
                   Terms & Conditions{" "}
@@ -93,7 +93,7 @@ function Footer() {
                 <a
                   href="#"
                   title=""
-                  class="text-sm hover:text-main-color"
+                  className="text-sm hover:text-main-color"
                 >
                   {" "}
                   Privacy Policy{" "}
@@ -103,14 +103,14 @@ function Footer() {
           </div>
 
           <div>
-            <p class="text-sm text-dark-text/70">Resources</p>
+            <p className="text-sm text-dark-text/70">Resources</p>
 
-            <ul class="mt-5 space-y-3">
+            <ul className="mt-5 space-y-3">
               <li>
                 <a
                   href="#"
                   title=""
-                  class="text-sm hover:text-main-color"
+                  className="text-sm hover:text-main-color"
                 >
                   {" "}
                   Free eBooks{" "}
@@ -120,7 +120,7 @@ function Footer() {
                 <a
                   href="#"
                   title=""
-                  class="text-sm hover:text-main-color"
+                  className="text-sm hover:text-main-color"
                 >
                   {" "}
                   Development Tutorial{" "}
@@ -130,7 +130,7 @@ function Footer() {
                 <a
                   href="#"
                   title=""
-                  class="text-sm hover:text-main-color"
+                  className="text-sm hover:text-main-color"
                 >
                   {" "}
                   How to - Blog{" "}
@@ -140,7 +140,7 @@ function Footer() {
                 <a
                   href="#"
                   title=""
-                  class="text-sm hover:text-main-color"
+                  className="text-sm hover:text-main-color"
                 >
                   {" "}
                   YouTube Playlist{" "}
@@ -150,14 +150,14 @@ function Footer() {
           </div>
 
           <div>
-            <p class="text-sm text-dark-text/70">Extra Links</p>
+            <p className="text-sm text-dark-text/70">Extra Links</p>
 
-            <ul class="mt-5 space-y-3">
+            <ul className="mt-5 space-y-3">
               <li>
                 <a
                   href="#"
                   title=""
-                  class="text-sm hover:text-main-color"
+                  className="text-sm hover:text-main-color"
                 >
                   {" "}
                   Customer Support{" "}
@@ -167,7 +167,7 @@ function Footer() {
                 <a
                   href="#"
                   title=""
-                  class="text-sm hover:text-main-color"
+                  className="text-sm hover:text-main-color"
                 >
                   {" "}
                   Delivery Details{" "}
@@ -177,7 +177,7 @@ function Footer() {
                 <a
                   href="#"
                   title=""
-                  class="text-sm hover:text-main-color"
+                  className="text-sm hover:text-main-color"
                 >
                   {" "}
                   Terms & Conditions{" "}
@@ -187,7 +187,7 @@ function Footer() {
                 <a
                   href="#"
                   title=""
-                  class="text-sm hover:text-main-color"
+                  className="text-sm hover:text-main-color"
                 >
                   {" "}
                   Privacy Policy{" "}
@@ -197,7 +197,7 @@ function Footer() {
           </div>
         </div>
 
-        <hr class="my-8 border-stone-200" />
+        <hr className="my-8 border-stone-200" />
 
       </div>
       <div className="w-full h-fit flex items-start justify-between max-md:flex-col gap-5 pb-3">
