@@ -61,26 +61,26 @@ function HeroSection() {
                 />
                 <img
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNHdb4-6C8nWbyXb4v5ZRRING0GRxIpdoJ8LAWeciuxejHSDCo3Gi4bnQfvlAYry4A-gA&usqp=CAU"
-                  className="w-[40px] ml-[-13px] aspect-square rounded-full ring-2 ring-white"
+                  className="w-[40px] ml-[-8px] aspect-square rounded-full ring-2 ring-white"
                 />
                 <img
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNHdb4-6C8nWbyXb4v5ZRRING0GRxIpdoJ8LAWeciuxejHSDCo3Gi4bnQfvlAYry4A-gA&usqp=CAU"
-                  className="w-[40px] ml-[-13px] aspect-square rounded-full ring-2 ring-white"
+                  className="w-[40px] ml-[-8px] aspect-square rounded-full ring-2 ring-white"
                 />
                 <img
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNHdb4-6C8nWbyXb4v5ZRRING0GRxIpdoJ8LAWeciuxejHSDCo3Gi4bnQfvlAYry4A-gA&usqp=CAU"
-                  className="w-[40px] ml-[-13px] aspect-square rounded-full ring-2 ring-white"
+                  className="w-[40px] ml-[-8px] aspect-square rounded-full ring-2 ring-white"
                 />
               </div>
               <div className="flex flex-col w-full mt-2">
-                <h1>Trained over</h1>
+                <h1>We have Trained over</h1>
                 <h1 className="flex items-center gap-2 text-3xl font-semibold">
                   3,434+
                   <span className="bg-white text-main-color h-[35px] aspect-square rounded-full flex items-center justify-center text-lg">
                     <FaStar />
                   </span>
                 </h1>
-                <h1>Students</h1>
+                <h1>People</h1>
                 <Link
                   className="text-sm w-fit bg-white text-main-color py-2 px-5 rounded-full mt-3 font-medium"
                   to="/"
@@ -93,16 +93,9 @@ function HeroSection() {
         </div>
       </div>
       {/* right */}
-      <div className="w-1/2 max-lg:w-full h-full flex outline-none select-none">
+      <div className="w-1/2 max-lg:w-full h-full flex outline-none">
         <div className="w-full h-full bg-card-bg rounded-2xl flex max-md:flex-col p-4 gap-4">
           <div className="w-1/2 max-md:w-full h-full rounded-xl overflow-hidden relative">
-            <Link
-              to="/"
-              className="flex items-center gap-1 text-xs absolute bottom-3 left-3 z-20 bg-white hover:scale-105 transition py-2 px-4 font-medium rounded-full"
-            >
-              View Staff
-              <LuArrowUpRight className="text-sm" />
-            </Link>
             <Carousel
               autoplay="true"
               dotPosition="top"
