@@ -22,24 +22,75 @@ function Testimonials() {
         <Swiper
           navigation={true}
           slidesPerView={1}
-          spaceBetween={30}
+          spaceBetween={20}
+          loop={true}
           modules={[Navigation]}
           className="mySwiper"
           breakpoints={{
-            640: {
+            440: {
               slidesPerView: 1,
-              spaceBetween: 20,
+              // spaceBetween: 20,
             },
             768: {
-              slidesPerView: 1  ,
-              spaceBetween: 40,
+              slidesPerView: 2,
+              // spaceBetween: 40,
             },
             1024: {
-              slidesPerView: 2,
-              spaceBetween: 50,
+              slidesPerView: 3,
+              // spaceBetween: 50,
             },
           }}
         >
+          {/* testimonial */}
+          <SwiperSlide>
+            <div className="flex flex-col gap-4 items-center justify-center text-center bg-card-bg p-5 rounded-xl">
+              <div className="flex items-center justify-start gap-7">
+                <div className="h-16 w-auto aspect-square relative">
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNHdb4-6C8nWbyXb4v5ZRRING0GRxIpdoJ8LAWeciuxejHSDCo3Gi4bnQfvlAYry4A-gA&usqp=CAU"
+                    className="h-full w-full object-cover rounded-full"
+                  />
+                  <div className="bg-main-color text-white h-7 aspect-square rounded-full absolute bottom-0 right-[-14px] flex items-center justify-center ring-2 ring-card-bg">
+                    <FaTwitter />
+                  </div>
+                </div>
+                <div className="flex flex-col items-start justify-start">
+                  <h1 className="font-medium tracking-tight">James Kabera</h1>
+                  <h1 className="text-sm text-dark-text/70">Kigali, RW</h1>
+                </div>
+              </div>
+              <h1 className="text-sm text-dark-text p-1">
+                Lorem cumque tempora obcaecati doloremque officia possimus id
+                libero, accusantium hic! Tempore laudantium quibusdam,
+                consequuntur laboriosam obcaecati eius?
+              </h1>
+            </div>
+          </SwiperSlide>
+          {/* testimonial */}
+          <SwiperSlide>
+            <div className="flex flex-col gap-4 items-center justify-center text-center bg-card-bg p-5 rounded-xl">
+              <div className="flex items-center justify-start gap-7">
+                <div className="h-16 w-auto aspect-square relative">
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNHdb4-6C8nWbyXb4v5ZRRING0GRxIpdoJ8LAWeciuxejHSDCo3Gi4bnQfvlAYry4A-gA&usqp=CAU"
+                    className="h-full w-full object-cover rounded-full"
+                  />
+                  <div className="bg-main-color text-white h-7 aspect-square rounded-full absolute bottom-0 right-[-14px] flex items-center justify-center ring-2 ring-card-bg">
+                    <FaTwitter />
+                  </div>
+                </div>
+                <div className="flex flex-col items-start justify-start">
+                  <h1 className="font-medium tracking-tight">James Kabera</h1>
+                  <h1 className="text-sm text-dark-text/70">Kigali, RW</h1>
+                </div>
+              </div>
+              <h1 className="text-sm text-dark-text p-1">
+                Lorem cumque tempora obcaecati doloremque officia possimus id
+                libero, accusantium hic! Tempore laudantium quibusdam,
+                consequuntur laboriosam obcaecati eius?
+              </h1>
+            </div>
+          </SwiperSlide>
           {/* testimonial */}
           <SwiperSlide>
             <div className="flex flex-col gap-4 items-center justify-center text-center bg-card-bg p-5 rounded-xl">
