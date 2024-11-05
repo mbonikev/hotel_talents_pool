@@ -5,10 +5,11 @@ import { Carousel } from "antd";
 import { Link } from "react-router-dom";
 import { TiFlash } from "react-icons/ti";
 import { RiMedalFill } from "react-icons/ri";
+import { HeroSectionContent } from "../content/content";
 
 function HeroSection() {
   return (
-    <div className="w-full h-[600px] max-lg:h-fit flex items-center justify-center max-lg:flex-col gap-10 max-lg:gap-5 py-10 px-16 max-lg:px-5 text-dark-text">
+    <div className="w-full h-fit max-lg:h-fit flex items-center justify-center max-lg:flex-col gap-10 max-lg:gap-5 py-10 px-16 max-lg:px-5 text-dark-text">
       {/* left */}
       <div className="w-1/2 max-lg:w-full h-fit flex flex-col gap-5">
         <h1 className="font-Poppins text-5xl leading-[60px] font-semibold tracking-tight">
@@ -93,7 +94,7 @@ function HeroSection() {
         </div>
       </div>
       {/* right */}
-      <div className="w-1/2 max-lg:w-full h-full flex outline-none">
+      <div className="w-1/2 max-lg:w-full h-full bg-red-300 flex outline-none">
         <div className="w-full h-full bg-card-bg rounded-2xl flex max-md:flex-col p-4 gap-4">
           <div className="w-1/2 max-md:w-full h-full rounded-xl overflow-hidden relative">
             <Carousel
@@ -102,22 +103,16 @@ function HeroSection() {
               draggable="true"
               pauseOnHover="false"
             >
-              <div className="w-full h-[500px] max-h-[100%]">
-                <div className="w-full h-full flex items-center justify-center select-none">
-                  <img
-                    src="https://img.freepik.com/premium-photo/female-chef-photography-portrait-kitchen_1028292-463.jpg"
-                    className="w-full min-h-full object-cover"
-                  />
+              {HeroSectionContent.sliderImages.map((img, index) => (
+                <div key={index} className="w-full h-full ">
+                  <div className="w-full h-full flex items-center justify-center select-none">
+                    <img
+                      src={img}
+                      className="w-full h-full min-h-[440px] object-cover"
+                    />
+                  </div>
                 </div>
-              </div>
-              <div className="w-full h-[500px] max-h-[100%]">
-                <div className="w-full h-full flex items-center justify-center select-none">
-                  <img
-                    src="https://img.freepik.com/premium-photo/photo-portrait-female-chef_787705-531.jpg"
-                    className="w-full min-h-full object-cover"
-                  />
-                </div>
-              </div>
+              ))}
             </Carousel>
           </div>
           <div className="w-1/2 max-md:w-full h-full flex flex-col gap-4">
@@ -141,7 +136,8 @@ function HeroSection() {
                   <h1 className="font-medium">Culinary Experts</h1>
                 </div>
                 <h1 className="text-sm line-clamp-2">
-                  You'll get to meet Experts who have experiences and skills you need
+                  You'll get to meet Experts who have experiences and skills you
+                  need
                 </h1>
               </div>
             </div>

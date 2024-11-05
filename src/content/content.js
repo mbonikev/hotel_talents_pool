@@ -2,7 +2,7 @@ import { RiMedalFill } from "react-icons/ri";
 import { TiFlash } from "react-icons/ti";
 
 // Hero section
-export const HeroSection = {
+export const HeroSectionContent = {
   // left side
   BigTitle: "Your Ultimate Food And Cooking Training",
   miniSectionTitle: "Popular Courses",
@@ -17,9 +17,12 @@ export const HeroSection = {
   count: "4,343+",
   bottomText: "People",
   // right side
-  SliderImages: [
-    "https://img.freepik.com/premium-photo/female-chef-photography-portrait-kitchen_1028292-463.jpg",
-    "https://img.freepik.com/premium-photo/photo-portrait-female-chef_787705-531.jpg",
+  sliderImages: [
+    "/images/img105.jpg",
+    "/images/img106.jpg",
+    "/images/img107.jpg",
+    "/images/img100.jpg",
+    "/images/img102.jpg",
   ],
   // two highlights
   highlights: [
