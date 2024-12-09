@@ -313,14 +313,14 @@ export const TestimonialsSection = {
   sectionDescription: "What people are saying about us",
   testimonials: [
     {
-      img: "",
+      img: "/images/Gaeta.jpeg",
       name: "TWAYIGIZE Gaetan",
       role: "",
       comment:
         "Hello 👋 So let me say this, I am happy now because of sangira sponsorship and hotel talents pool. I had many ambitious solution in my life as long as l was on first cohort  and also now I'm studying university because of Nyamasheke hotel talents pool. After my training, I found a job in Hotel Talents Pool Huye branch and be able to attend my university classes at UR. God bless Hotel Talents Pool and Sangira",
     },
     {
-      img: "",
+      img: "/images/Nicole.jpeg",
       name: "MUNEZERO Nicole",
       role: "",
       comment: `I have graduated in Africa for excellence. through the skills and knowledge I gained from Africa for Excellence, I was able to secure a job and now I'm working in Urban by city blue hotel and I'm pursuing my university studies with confidence and purpose.
