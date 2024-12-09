@@ -297,13 +297,12 @@ export const FAQSectionSection = {
     {
       question: "Can international students enroll?",
       answer:
-        "8.Yes, we welcome international students. Please contact us for specific requirements and support. ",
+        "8.Yes, we welcome international students. Please contact us for specific requirements and support.",
     },
     {
       question: "Do you offer job placement support?",
       answer:
-        "10.Yes, we connect graduates with employers through partnerships and our job placement services.
-Countify is a free tool that helps you count words, characters, lines, sentences, and whitespaces in your text and PDFs quickly and accurately.",
+        "10.Yes, we connect graduates with employers through partnerships and our job placement services.",
     },
   ],
 };
