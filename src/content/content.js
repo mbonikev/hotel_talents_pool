@@ -4,7 +4,7 @@ import { TiFlash } from "react-icons/ti";
 // Hero section
 export const HeroSectionContent = {
   // left side
-  BigTitle: "Your Ultimate Food And Cooking Training",
+  BigTitle: "Hotel Talents Pool: Shaping Hospitality Excellence",
   miniSectionTitle: "Popular Courses",
   // trained over
   spotlightStudents: [
