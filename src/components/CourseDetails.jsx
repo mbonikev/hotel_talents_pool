@@ -65,7 +65,7 @@ function CourseDetails({ Hide, Id }) {
                   className="w-full h-full flex items-center justify-center bg-main-color transition hover:opacity-90 text-sm text-white py-2.5 px-2 rounded-full"
                   to="/"
                 >
-                  Register
+                  Enroll now
                 </Link>
               </div>
             </div>

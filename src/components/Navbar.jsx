@@ -1,9 +1,20 @@
-import React, { useState } from "react";
-import { LuMenu, LuX } from "react-icons/lu";
-import { Link } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { LuChevronDown, LuMenu, LuX } from "react-icons/lu";
+import { Link, useLocation, useParams } from "react-router-dom";
+import { Centers } from "../content/content";
 
 function Navbar() {
   const [showMenu, setShowMenu] = useState();
+  const [isDropdownVisible, setDropdownVisible] = useState(false);
+
+  const handleDropdownToggle = () => {
+    setDropdownVisible(!isDropdownVisible);
+  };
+
+  const handleLinkClick = () => {
+    setDropdownVisible(false); // Close the dropdown when a link is clicked
+  };
+
   return (
     <div className="w-full flex items-center justify-between px-5 py-2.5 text-dark-text bg-white sticky top-0 z-30">
       {/* logo */}
@@ -13,8 +24,11 @@ function Navbar() {
       {/* links */}
       <div
         className={`flex items-center justify-center gap-1.5 
-        ${showMenu ? "flex max-lg:flex-col max-lg:bg-white max-lg:p-5 max-lg:gap-4 max-lg:items-start max-lg:justify-start max-lg:fixed top-0 left-0 max-lg:w-full max-lg:h-svh max-lg:z-30 max-lg:overflow-y-auto"
-          : "max-lg:hidden"}
+        ${
+          showMenu
+            ? "flex max-lg:flex-col max-lg:bg-white max-lg:p-5 max-lg:gap-4 max-lg:items-start max-lg:justify-start max-lg:fixed top-0 left-0 max-lg:w-full max-lg:h-svh max-lg:z-30 max-lg:overflow-y-auto"
+            : "max-lg:hidden"
+        }
         `}
       >
         <div className="w-full flex items-center justify-end pt-1">
@@ -25,31 +39,82 @@ function Navbar() {
             <LuX />
           </button>
         </div>
-        <Link className="text-sm hover:text-main-color whitespace-nowrap px-1.5" to="/">
+        <Link
+          className="text-sm hover:text-main-color whitespace-nowrap px-1.5"
+          to="/"
+        >
           Home
         </Link>
-        <Link className="text-sm hover:text-main-color whitespace-nowrap px-1.5" to="/about">
+        <Link
+          className="text-sm hover:text-main-color whitespace-nowrap px-1.5"
+          to="/about"
+        >
           About
         </Link>
-        <Link className="text-sm hover:text-main-color whitespace-nowrap px-1.5" to="/courses">
+        <Link
+          className="text-sm hover:text-main-color whitespace-nowrap px-1.5"
+          to="/courses"
+        >
           Courses
         </Link>
-        <Link className="text-sm hover:text-main-color whitespace-nowrap px-1.5" to="/centers">
+        <div
+          className="text-sm hover:text-main-color whitespace-nowrap px-1.5 cursor-default group flex max-lg:flex-col max-lg:items-start items-center gap-1 py-4 max-lg:py-0 relative"
+          onMouseEnter={() => setDropdownVisible(true)}
+          onMouseLeave={() => setDropdownVisible(false)}
+        >
           Centers
-        </Link>
-        <Link className="text-sm hover:text-main-color whitespace-nowrap px-1.5" to="/services">
+          <LuChevronDown
+            className="text-sm mt-[2px] max-lg:hidden"
+            onClick={handleDropdownToggle}
+          />
+          <div
+            className={`bg-white lg:shadow-xl rounded-xl lg:ring-1 ring-stone-200/70 max-lg:mt-2 lg:absolute top-[90%] left-0 p-1.5 w-fit h-fit flex flex-col transition-all ${
+              isDropdownVisible
+                ? "lg:opacity-100 lg:translate-y-0"
+                : "lg:opacity-0 lg:translate-y-[-5px] lg:pointer-events-none"
+            }`}
+          >
+            {Centers.map((center, index) => (
+              <Link
+                to={`/center-details/${center.name}`}
+                key={index}
+                className="text-black text-sm py-1 px-2 hover:bg-stone-200/50 hover:text-main-color rounded-lg"
+                onClick={handleLinkClick}
+              >
+                <span className=" opacity-40 mr-1 hidden max-lg:flex">&bull; </span>
+                {center.name}
+              </Link>
+            ))}
+          </div>
+        </div>
+        <Link
+          className="text-sm hover:text-main-color whitespace-nowrap px-1.5"
+          to="/services"
+        >
           Services
         </Link>
-        <Link className="text-sm hover:text-main-color whitespace-nowrap px-1.5" to="/partners">
+        <Link
+          className="text-sm hover:text-main-color whitespace-nowrap px-1.5"
+          to="/partners"
+        >
           Partners
         </Link>
-        <Link className="text-sm hover:text-main-color whitespace-nowrap px-1.5" to="/contacts">
+        <Link
+          className="text-sm hover:text-main-color whitespace-nowrap px-1.5"
+          to="/contacts"
+        >
           Contacts
         </Link>
-        <Link className="text-sm hover:text-main-color whitespace-nowrap px-1.5" to="/">
+        <Link
+          className="text-sm hover:text-main-color whitespace-nowrap px-1.5"
+          to="/"
+        >
           Hire Graduate
         </Link>
-        <Link className="text-sm text-main-color px-1.5 hidden max-lg:flex" to="/">
+        <Link
+          className="text-sm text-main-color px-1.5 hidden max-lg:flex"
+          to="/"
+        >
           Register
         </Link>
       </div>
@@ -58,7 +123,7 @@ function Navbar() {
           className="text-sm bg-main-color text-white py-2.5 px-5 rounded-full max-lg:hidden"
           to="/"
         >
-          Register
+          Enroll now
         </Link>
         <button
           onClick={() => setShowMenu(true)}

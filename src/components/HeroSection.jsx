@@ -67,7 +67,7 @@ function HeroSection() {
                   className="text-sm w-fit bg-white text-main-color py-2 px-5 rounded-full mt-3 font-medium"
                   to="/"
                 >
-                  Register
+                  Enroll now
                 </Link>
               </div>
             </div>

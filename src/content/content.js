@@ -347,3 +347,39 @@ I am truly grateful for everything Africa for Excellence has given me and contin
     },
   ],
 };
+
+// centers
+export const Centers = [
+  {
+    name: "Kimironko Center",
+    images: [],
+  },
+  {
+    name: "Kimisagara Center",
+    images: [],
+  },
+  {
+    name: "Nyamata Center",
+    images: [],
+  },
+  {
+    name: "Nyagatare Center",
+    images: [],
+  },
+  {
+    name: "Nyamasheke Center",
+    images: [],
+  },
+  {
+    name: "Rubavu Center",
+    images: [],
+  },
+  {
+    name: "Huye Center",
+    images: [],
+  },
+  {
+    name: "Karongi Center",
+    images: [],
+  }
+] 
