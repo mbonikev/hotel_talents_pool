@@ -19,42 +19,54 @@ function Centers() {
             className="w-full h-fit py-2.5 hover:bg-slate-100 px-2 flex items-center justify-start gap-1 text-sm font-medium"
           >
             <LuChevronRight className="text-xl text-main-color" />
-            KIREHE CENTER
+            KIMIRONKO CENTER
           </Link>
           <Link
             to="/center-details/Rubavu Center"
             className="w-full h-fit py-2.5 hover:bg-slate-100 px-2 flex items-center justify-start gap-1 text-sm font-medium"
           >
             <LuChevronRight className="text-xl text-main-color" />
-            KIREHE CENTER
+            KIMISAGARA CENTER
           </Link>
           <Link
             to="/center-details/Rubavu Center"
             className="w-full h-fit py-2.5 hover:bg-slate-100 px-2 flex items-center justify-start gap-1 text-sm font-medium"
           >
             <LuChevronRight className="text-xl text-main-color" />
-            KIREHE CENTER
+            NYAMATA CENTER
           </Link>
           <Link
             to="/center-details/Rubavu Center"
             className="w-full h-fit py-2.5 hover:bg-slate-100 px-2 flex items-center justify-start gap-1 text-sm font-medium"
           >
             <LuChevronRight className="text-xl text-main-color" />
-            KIREHE CENTER
+            NYAGATARE CENTER
           </Link>
           <Link
             to="/center-details/Rubavu Center"
             className="w-full h-fit py-2.5 hover:bg-slate-100 px-2 flex items-center justify-start gap-1 text-sm font-medium"
           >
             <LuChevronRight className="text-xl text-main-color" />
-            KIREHE CENTER
+            NYAMASHEKE CENTER
           </Link>
           <Link
             to="/center-details/Rubavu Center"
             className="w-full h-fit py-2.5 hover:bg-slate-100 px-2 flex items-center justify-start gap-1 text-sm font-medium"
           >
             <LuChevronRight className="text-xl text-main-color" />
-            KIREHE CENTER
+            RUBAVU CENTER
+          </Link><Link
+            to="/center-details/Rubavu Center"
+            className="w-full h-fit py-2.5 hover:bg-slate-100 px-2 flex items-center justify-start gap-1 text-sm font-medium"
+          >
+            <LuChevronRight className="text-xl text-main-color" />
+            HUYE CENTER
+          </Link><Link
+            to="/center-details/Rubavu Center"
+            className="w-full h-fit py-2.5 hover:bg-slate-100 px-2 flex items-center justify-start gap-1 text-sm font-medium"
+          >
+            <LuChevronRight className="text-xl text-main-color" />
+            KARONGI CENTER
           </Link>
         </div>
       </div>
