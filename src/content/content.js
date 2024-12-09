@@ -315,9 +315,8 @@ export const TestimonialsSection = {
     {
       img: "",
       name: "",
-      location: "",
+      role: "",
       comment: "",
-      social: "",
     },
   ],
 };
