@@ -268,8 +268,6 @@ export const CoursesSection = {
 // FAQ Section
 export const FAQSectionSection = {
   sectionTitle: "Frenquenlty asked questions (FAQ)",
-  sectionDescription:
-    "f your question wasn’t answered, feel free to reach out via our [Contact Page](https://yourwebsite.com/contact). We’d be happy to assist you!",
   surveyForm: "",
   LeftQuestions: [
     {

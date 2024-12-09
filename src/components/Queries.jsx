@@ -12,40 +12,13 @@ function Queries() {
   const toggleAnswer2 = (index) => {
     setActiveIndex2(activeIndex2 === index ? null : index);
   };
-  const GettingStarted = [
-    {
-      question: "What is Countify?",
-      answer:
-        "Countify is a free tool that helps you count words, characters, lines, sentences, and whitespaces in your text and PDFs quickly and accurately.",
-    },
-    {
-      question: "How do I use Countify?",
-      answer:
-        "Simply copy and paste your text into the textbox or upload a PDF, and Countify will instantly provide you with detailed counts of words, characters, lines, sentences, and whitespaces.",
-    },
-    {
-      question: "Is Countify really free?",
-      answer:
-        "Yes, Countify is completely free to use. There are no hidden fees or subscription costs.",
-    },
-    {
-      question: "Can I save my counting history?",
-      answer:
-        "Yes, Countify automatically saves your counting history, so you can easily revisit and access your past counts whenever you need them.",
-    },
-    {
-      question: "What types of documents can I analyze?",
-      answer:
-        "You can analyze plain text, paragraphs, and PDFs using Countify. Simply paste your text or upload your PDF to get started.",
-    },
-  ];
   return (
     <div className="w-full py-10 px-16 max-lg:px-5 max-lg:pt-0 flex flex-col text-dark-text">
       <div className="w-full h-fit grid grid-cols-2 max-lg:grid-cols-1 gap-10 max-lg:gap-3">
         <h1 className="text-3xl font-medium ">{FAQSectionSection.sectionTitle}</h1>
         <h1 className="text-sm text-dark-text/70 flex gap-4 flex-col">
           <span>
-            {FAQSectionSection.sectionDescription}
+          If your question wasn’t answered, feel free to reach out via our <a href="/contacts" className="text-main-color underline font-semibold">Contact Page</a>. We’d be happy to assist you!
           </span>
           <span>
             <Link
