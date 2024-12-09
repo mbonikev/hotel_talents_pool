@@ -278,9 +278,9 @@ export const FAQSectionSection = {
         "We provide hands-on training with experienced instructors and strong industry connections to ensure you excel in hospitality.",
     },
     {
-      question: "What is Countify?",
+      question: "What courses do you offer?",
       answer:
-        "Countify is a free tool that helps you count words, characters, lines, sentences, and whitespaces in your text and PDFs quickly and accurately.",
+        "Our programs include Barista Training, Bakery Training, Culinary Arts, Hotel Management, and more. See the full list on our Training Programs page.",
     },
     {
       question: "What is Countify?",
