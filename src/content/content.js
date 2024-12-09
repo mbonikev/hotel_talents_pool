@@ -6,6 +6,12 @@ export const HeroSectionContent = {
   // left side
   BigTitle: "Hotel Talents Pool: Shaping Hospitality Excellence",
   miniSectionTitle: "Popular Courses",
+  // Popular Courses
+  popularCourses: [
+    { name: "Barista training", link: "" },
+    { name: "Business Leadership training", link: "" },
+    { name: "Bakery Training", link: "" },
+  ],
   // trained over
   spotlightStudents: [
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNHdb4-6C8nWbyXb4v5ZRRING0GRxIpdoJ8LAWeciuxejHSDCo3Gi4bnQfvlAYry4A-gA&usqp=CAU",
@@ -152,11 +158,7 @@ export const CoursesSection = {
         "Enhance communication and teamwork skills.",
         "Practice problem-solving in hospitality scenarios.",
       ],
-      gallery: [
-        { img: "" },
-        { img: "" },
-        { img: "" },
-      ],
+      gallery: [{ img: "" }, { img: "" }, { img: "" }],
     },
     {
       id: "HTP-CN-05",
@@ -173,11 +175,7 @@ export const CoursesSection = {
         "Learn about funding options and resources.",
         "Gain marketing and networking skills.",
       ],
-      gallery: [
-        { img: "" },
-        { img: "" },
-        { img: "" },
-      ],
+      gallery: [{ img: "" }, { img: "" }, { img: "" }],
     },
     {
       id: "HTP-CN-06",
@@ -194,11 +192,7 @@ export const CoursesSection = {
         "Gain skills in digital marketing and social media.",
         "Develop effective communication and negotiation skills.",
       ],
-      gallery: [
-        { img: "" },
-        { img: "" },
-        { img: "" },
-      ],
+      gallery: [{ img: "" }, { img: "" }, { img: "" }],
     },
     {
       id: "HTP-CN-07",
@@ -215,11 +209,7 @@ export const CoursesSection = {
         "Learn effective communication strategies.",
         "Foster leadership qualities within teams.",
       ],
-      gallery: [
-        { img: "" },
-        { img: "" },
-        { img: "" },
-      ],
+      gallery: [{ img: "" }, { img: "" }, { img: "" }],
     },
     {
       id: "HTP-CN-08",
@@ -236,11 +226,7 @@ export const CoursesSection = {
         "Learn how to motivate and inspire teams.",
         "Enhance conflict resolution and negotiation skills.",
       ],
-      gallery: [
-        { img: "" },
-        { img: "" },
-        { img: "" },
-      ],
+      gallery: [{ img: "" }, { img: "" }, { img: "" }],
     },
     {
       id: "HTP-CN-09",
@@ -257,11 +243,7 @@ export const CoursesSection = {
         "Develop skills in performance management.",
         "Familiarize with labor laws and regulations.",
       ],
-      gallery: [
-        { img: "" },
-        { img: "" },
-        { img: "" },
-      ],
+      gallery: [{ img: "" }, { img: "" }, { img: "" }],
     },
     {
       id: "HTP-CN-10",
@@ -278,11 +260,7 @@ export const CoursesSection = {
         "Understand the roles and responsibilities in hospitality.",
         "Develop skills for working in diverse hospitality settings.",
       ],
-      gallery: [
-        { img: "" },
-        { img: "" },
-        { img: "" },
-      ],
+      gallery: [{ img: "" }, { img: "" }, { img: "" }],
     },
   ],
 };

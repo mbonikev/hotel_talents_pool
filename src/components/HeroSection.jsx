@@ -13,44 +13,25 @@ function HeroSection() {
       {/* left */}
       <div className="w-1/2 max-lg:w-full h-fit flex flex-col gap-5">
         <h1 className="font-Poppins text-5xl leading-[60px] font-semibold tracking-tight">
-          Your Ultimate Food And Cooking Training
+          {HeroSectionContent.BigTitle}
         </h1>
         <div className="grid grid-cols-2 max-lg:grid-cols-1 gap-3 w-full h-fit">
           <div className="flex flex-col gap-3 w-full">
-            <h1>Popular Courses</h1>
+            <h1>{HeroSectionContent.miniSectionTitle}</h1>
             <div className="bg-card-bg w-full h-full flex flex-col gap-2.5 p-4 rounded-2xl">
-              <Link
-                to="/"
-                className="flex items-center gap-4 w-fit hover:bg-main-color/10 py-1 px-2 rounded-lg "
-              >
-                <span className="text-main-color">01</span>
-                <span>Barista training</span>
-                <span>
-                  <LuArrowUpRight className="text-xl text-main-color" />
-                </span>
-              </Link>
-              <div className="w-full h-[1px] bg-blue-200/50"></div>
-              <Link
-                to="/"
-                className="flex items-center gap-4 w-fit hover:bg-main-color/10 py-1 px-2 rounded-lg "
-              >
-                <span className="text-main-color">02</span>
-                <span>Business Leadership training</span>
-                <span>
-                  <LuArrowUpRight className="text-xl text-main-color" />
-                </span>
-              </Link>
-              <div className="w-full h-[1px] bg-blue-200/50"></div>
-              <Link
-                to="/"
-                className="flex items-center gap-4 w-fit hover:bg-main-color/10 py-1 px-2 rounded-lg "
-              >
-                <span className="text-main-color">03</span>
-                <span>Bakery Training</span>
-                <span>
-                  <LuArrowUpRight className="text-xl text-main-color" />
-                </span>
-              </Link>
+              {HeroSectionContent.popularCourses.map((course, index) => (
+                <Link
+                  to={course.link}
+                  key={index}
+                  className="flex items-center gap-4 w-fit hover:bg-main-color/10 py-1 px-2 rounded-lg "
+                >
+                  <span className="text-main-color">0{index+1}</span>
+                  <span>{course.name}</span>
+                  <span>
+                    <LuArrowUpRight className="text-xl text-main-color" />
+                  </span>
+                </Link>
+              ))}
             </div>
           </div>
           <div className="flex flex-col w-full h-full">
