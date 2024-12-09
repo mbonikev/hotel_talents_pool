@@ -271,7 +271,7 @@ export const FAQSectionSection = {
   sectionDescription:
     "If your question was not answered, feel free to ask via t a survey form",
   surveyForm: "",
-  gettingStarted: [
+  LeftQuestions: [
     {
       question: "Why choose Hotel Talents Pool?",
       answer:
@@ -288,7 +288,7 @@ export const FAQSectionSection = {
         "Countify is a free tool that helps you count words, characters, lines, sentences, and whitespaces in your text and PDFs quickly and accurately.",
     },
   ],
-  gettingStarted: [
+  RightQuestions: [
     {
       question: "What is Countify?",
       answer:

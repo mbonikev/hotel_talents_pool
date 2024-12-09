@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaCaretDown } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { FAQSectionSection } from "../content/content";
 
 function Queries() {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -41,16 +42,15 @@ function Queries() {
   return (
     <div className="w-full py-10 px-16 max-lg:px-5 max-lg:pt-0 flex flex-col text-dark-text">
       <div className="w-full h-fit grid grid-cols-2 max-lg:grid-cols-1 gap-10 max-lg:gap-3">
-        <h1 className="text-3xl font-medium ">Frenquenlty asked questions</h1>
+        <h1 className="text-3xl font-medium ">{FAQSectionSection.sectionTitle}</h1>
         <h1 className="text-sm text-dark-text/70 flex gap-4 flex-col">
           <span>
-            If your question was not answered, feel free to ask via t a survey
-            form
+            {FAQSectionSection.sectionDescription}
           </span>
           <span>
             <Link
               className="text-sm min-w-fit bg-card-bg text-dark-text/80 py-2 px-5 rounded-full mt-3 font-medium"
-              to="/"
+              to={FAQSectionSection.surveyForm}
             >
               View Surevey
             </Link>
@@ -63,7 +63,7 @@ function Queries() {
           <h1 className="text-xl font-medium tracking-tight">Get Started</h1>
           <div className="w-full h-fit flex flex-col items-center justify-start text-dark-text ">
             <div className="w-full h-fit flex flex-col items-center justify-start gap-2 max-w-[900px]">
-              {GettingStarted.map((item, index) => (
+              {FAQSectionSection.LeftQuestions.map((item, index) => (
                 <div
                   key={index}
                   className=" py-4 px-5 bg-white text-dark-body-color rounded-xl w-full flex justify-between items-start gap-5"
@@ -95,7 +95,7 @@ function Queries() {
           <h1 className="text-xl font-medium tracking-tight">Get Started</h1>
           <div className="w-full h-fit flex flex-col items-center justify-start text-dark-text ">
             <div className="w-full h-fit flex flex-col items-center justify-start gap-2 max-w-[900px]">
-              {GettingStarted.map((item, index) => (
+              {FAQSectionSection.RightQuestions.map((item, index) => (
                 <div
                   key={index}
                   className=" py-4 px-5 bg-white text-dark-body-color rounded-xl w-full flex justify-between items-start gap-5"
