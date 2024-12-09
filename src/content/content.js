@@ -283,26 +283,27 @@ export const FAQSectionSection = {
         "Our programs include Barista Training, Bakery Training, Culinary Arts, Hotel Management, and more. See the full list on our Training Programs page.",
     },
     {
-      question: "What is Countify?",
+      question: "How can I enroll?",
       answer:
-        "Countify is a free tool that helps you count words, characters, lines, sentences, and whitespaces in your text and PDFs quickly and accurately.",
+        "Visit our Enroll Now page, fill out the application form, and pay the registration fee to secure your spot."
     },
   ],
   RightQuestions: [
     {
-      question: "What is Countify?",
+      question: "Do you provide certificates after training?",
       answer:
-        "Countify is a free tool that helps you count words, characters, lines, sentences, and whitespaces in your text and PDFs quickly and accurately.",
+        "Yes, all graduates receive certificates recognized by leading industry partners.",
     },
     {
-      question: "What is Countify?",
+      question: "Can international students enroll?",
       answer:
-        "Countify is a free tool that helps you count words, characters, lines, sentences, and whitespaces in your text and PDFs quickly and accurately.",
+        "8.Yes, we welcome international students. Please contact us for specific requirements and support. ",
     },
     {
-      question: "What is Countify?",
+      question: "Do you offer job placement support?",
       answer:
-        "Countify is a free tool that helps you count words, characters, lines, sentences, and whitespaces in your text and PDFs quickly and accurately.",
+        "10.Yes, we connect graduates with employers through partnerships and our job placement services.
+Countify is a free tool that helps you count words, characters, lines, sentences, and whitespaces in your text and PDFs quickly and accurately.",
     },
   ],
 };
