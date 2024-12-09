@@ -269,7 +269,7 @@ export const CoursesSection = {
 export const FAQSectionSection = {
   sectionTitle: "Frenquenlty asked questions (FAQ)",
   sectionDescription:
-    "f your question wasn’t answered, feel free to reach out via our Contact Page. We’d be happy to assist you!",
+    "f your question wasn’t answered, feel free to reach out via our [Contact Page](https://yourwebsite.com/contact). We’d be happy to assist you!",
   surveyForm: "",
   LeftQuestions: [
     {
@@ -313,6 +313,32 @@ export const TestimonialsSection = {
   sectionDescription: "What people are saying about us",
   testimonials: [
     {
+      img: "",
+      name: "TWAYIGIZE Gaetan",
+      role: "",
+      comment: "Hello 👋 So let me say this, I am happy now because of sangira sponsorship and hotel talents pool. I had many ambitious solution in my life as long as l was on first cohort  and also now I'm studying university because of Nyamasheke hotel talents pool. After my training, I found a job in Hotel Talents Pool Huye branch and be able to attend my university classes at UR. God bless Hotel Talents Pool and Sangira
+",
+    }, {
+      img: "",
+      name: "MUNEZERO Nicole",
+      role: "",
+      comment: `I have graduated in Africa for excellence. through the skills and knowledge I gained from Africa for Excellence, I was able to secure a job and now I'm working in Urban by city blue hotel and I'm pursuing my university studies with confidence and purpose.
+
+The lessons I learned and the opportunities Africa for excellence provided have played a pivotal role in shaping my career path and academic journey. Thanks to its dedication and commitment to empowering individuals, I am now able to build a brighter future for myself.
+
+I am truly grateful for everything Africa for Excellence has given me and continue to look forward to further growing and contributing to society with the foundation you have helped me establish.`
+,
+    }, {
+      img: "",
+      name: "",
+      role: "",
+      comment: "",
+    }, {
+      img: "",
+      name: "",
+      role: "",
+      comment: "",
+    }, {
       img: "",
       name: "",
       role: "",
