@@ -267,15 +267,15 @@ export const CoursesSection = {
 
 // FAQ Section
 export const FAQSectionSection = {
-  sectionTitle: "Frenquenlty asked questions",
+  sectionTitle: "Frenquenlty asked questions (FAQ)",
   sectionDescription:
     "If your question was not answered, feel free to ask via t a survey form",
   surveyForm: "",
   gettingStarted: [
     {
-      question: "What is Countify?",
+      question: "Why choose Hotel Talents Pool?",
       answer:
-        "Countify is a free tool that helps you count words, characters, lines, sentences, and whitespaces in your text and PDFs quickly and accurately.",
+        "We provide hands-on training with experienced instructors and strong industry connections to ensure you excel in hospitality.",
     },
     {
       question: "What is Countify?",
