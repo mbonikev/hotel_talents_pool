@@ -75,7 +75,7 @@ function HeroSection() {
         </div>
       </div>
       {/* right */}
-      <div className="w-1/2 max-lg:w-full h-full bg-red-300 flex outline-none">
+      <div className="w-1/2 max-lg:w-full h-full bg-transparent flex outline-none">
         <div className="w-full h-full bg-card-bg rounded-2xl flex max-md:flex-col p-4 gap-4">
           <div className="w-1/2 max-md:w-full h-full rounded-xl overflow-hidden relative">
             <Carousel
