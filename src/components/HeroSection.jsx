@@ -34,8 +34,8 @@ function HeroSection() {
               ))}
             </div>
           </div>
-          <div className="flex flex-col w-full h-full">
-            <div className="bg-main-color text-white w-full h-full flex flex-col gap-2.5 p-6 rounded-2xl">
+          <div className="flex flex-col w-full h-fit">
+            <div className="bg-main-color text-white w-full h-fit flex flex-col gap-2.5 p-6 rounded-2xl">
               <div className="flex items-center">
                 <img
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNHdb4-6C8nWbyXb4v5ZRRING0GRxIpdoJ8LAWeciuxejHSDCo3Gi4bnQfvlAYry4A-gA&usqp=CAU"

@@ -18,8 +18,8 @@ function Navbar() {
   return (
     <div className="w-full flex items-center justify-between px-5 py-2.5 text-dark-text bg-white sticky top-0 z-30">
       {/* logo */}
-      <div className="">
-        <img src="./logo2.jpeg" className="h-16 min-w-fit" />
+      <div className="w-[120px] max-w-[120px] flex justify-center ">
+        <img src="./logo2.jpeg" className="h-16 min-w-fit max-w-full" />
       </div>
       {/* links */}
       <div
