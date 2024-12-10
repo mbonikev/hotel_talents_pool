@@ -15,6 +15,7 @@ import {
   ZoomOutOutlined,
 } from "@ant-design/icons";
 import { Image, Space } from "antd";
+import { Centers } from "../content/content";
 const imageList = [
   "./images/img1.jpg",
   "./images/img2.jpg",
@@ -29,6 +30,7 @@ const imageList = [
 
 function CenterDetails() {
   const { center_name } = useParams();
+  const choosenCenter = Centers.find((center) => center.name === center_name)
   const [current, setCurrent] = useState(0);
   return (
     <div className="w-full h-fit text-dark-text">
@@ -36,6 +38,9 @@ function CenterDetails() {
       <div className="w-full h-fit p-16 flex flex-col items-center justify-center gap-2">
         <h1 className="text-5xl font-bold w-fit text-dark-text/90">
           {center_name}
+        </h1>
+        <h1 className="max-w-[920px] text-center mt-3 mx-auto">
+          {choosenCenter ? choosenCenter.introduction : 'Center not found'}
         </h1>
       </div>
       {/* Content */}

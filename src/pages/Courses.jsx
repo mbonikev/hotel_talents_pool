@@ -6,38 +6,45 @@ import { CoursesSection } from "../content/content";
 import CourseDetails from "../components/CourseDetails";
 
 function Courses() {
-  const [showCourseDetails, setShowCourseDetails] = useState(false)
-  const [courseId, setCourseId] = useState("")
+  const [showCourseDetails, setShowCourseDetails] = useState(false);
+  const [courseId, setCourseId] = useState("");
 
   const courseDetails = (id) => {
-    setCourseId(id)
-    setShowCourseDetails(true)
-  }
+    setCourseId(id);
+    setShowCourseDetails(true);
+  };
 
   const HideCourseDetails = () => {
-    setCourseId("")
-    setShowCourseDetails(false)
-  }
+    setCourseId("");
+    setShowCourseDetails(false);
+  };
 
   return (
     <div className="w-full h-fit relative">
       {/* course details */}
-      {showCourseDetails && <CourseDetails Id={courseId} Hide={HideCourseDetails} />} 
+      {showCourseDetails && (
+        <CourseDetails Id={courseId} Hide={HideCourseDetails} />
+      )}
       <Navbar />
       <div className="w-full h-fit p-16 flex flex-col items-center justify-center gap-2">
-        <h1 className="text-5xl font-bold w-fit text-dark-text/90">
+        <h1 className="text-5xl font-bold w-fit text-main-color">
           {CoursesSection.HeaderTitle}
+        </h1>
+        <h1 className="max-w-[920px] text-center mt-3 mx-auto">
+          {CoursesSection.intro[0]}
         </h1>
       </div>
       {/* courses grid */}
-      <h1 className="text-sm font-normal w-fit text-dark-text/90 px-20 max-lg:px-5">
-        {CoursesSection.courses.length} Available Courses
+      <h1 className="max-w-[920px] text-center mt-3 mx-auto">
+        {CoursesSection.intro[1]}
       </h1>
-
+      <h1 className="text-sm font-bold mt-5 mb-2 max-w-[1150px] w-fit text-main-color px-20 max-lg:px-5">
+        {CoursesSection.intro[2]}
+      </h1>
       <div className="w-full grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 px-16 pb-5 pt-3 max-lg:px-5 gap-5 rounded-xl">
         {CoursesSection.courses.map((course, index) => (
           <div
-          key={index}
+            key={index}
             onClick={() => courseDetails(course.id)}
             className="group cursor-pointer flex flex-col p-3 max-lg:p-0 hover:bg-card-bg rounded-2xl"
           >
@@ -63,6 +70,12 @@ function Courses() {
           </div>
         ))}
       </div>
+      <h1 className="max-w-[870px] text-center w-full mx-auto mt-[100px] px-3 font-bold">
+        {CoursesSection.outro[0]}
+      </h1>
+      <h1 className="max-w-[870px] text-center w-full mx-auto mb-[100px] px-3 font-bold">
+        {CoursesSection.outro[1]}
+      </h1>
       <Footer />
     </div>
   );
