@@ -3,7 +3,7 @@ import { LuChevronDown, LuMenu, LuX } from "react-icons/lu";
 import { Link, useLocation, useParams } from "react-router-dom";
 import { Centers } from "../content/content";
 
-function Navbar() {
+function Navbar({setLoading}) {
   const [showMenu, setShowMenu] = useState();
   const [isDropdownVisible, setDropdownVisible] = useState(false);
 
@@ -12,6 +12,7 @@ function Navbar() {
   };
 
   const handleLinkClick = () => {
+    setLoading(true)
     setDropdownVisible(false); // Close the dropdown when a link is clicked
   };
 
@@ -68,7 +69,7 @@ function Navbar() {
             onClick={handleDropdownToggle}
           />
           <div
-            className={`bg-white lg:shadow-xl rounded-xl lg:ring-1 ring-stone-200/70 max-lg:mt-2 lg:absolute top-[90%] left-0 p-1.5 w-fit h-fit flex flex-col transition-all ${
+            className={`bg-white lg:shadow-xl rounded-xl lg:ring-1 ring-stone-200/70 max-lg:mt-2 lg:absolute top-[90%] left-0 p-1.5 w-fit lg:min-w-[180px] max-lg:w-full h-fit flex flex-col transition-all ${
               isDropdownVisible
                 ? "lg:opacity-100 lg:translate-y-0"
                 : "lg:opacity-0 lg:translate-y-[-5px] lg:pointer-events-none"
@@ -78,10 +79,10 @@ function Navbar() {
               <Link
                 to={`/center-details/${center.name}`}
                 key={index}
-                className="text-black text-sm py-1 px-2 hover:bg-stone-200/50 hover:text-main-color rounded-lg"
+                className="text-black text-sm py-1 px-2 hover:bg-stone-200/50 hover:text-main-color rounded-lg flex items-center gap-1 max-lg:w-full"
                 onClick={handleLinkClick}
               >
-                <span className=" opacity-40 mr-1 hidden max-lg:flex">&bull; </span>
+                <span className="text-main-color mr-1 hidden max-lg:flex">&bull; </span>
                 {center.name}
               </Link>
             ))}

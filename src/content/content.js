@@ -80,9 +80,7 @@ export const CoursesSection = {
     "We offer diverse courses. Choose yours and let's get to work in no time",
   HeaderTitle: "Courses",
   intro: [
-    `At Hotel Talents Pool, we are dedicated to shaping the future of the hospitality industry. Our comprehensive courses are designed to equip aspiring professionals and industry experts with the skills, knowledge, and confidence they need to excel in various hospitality fields.
-
-Whether you dream of becoming a top-notch barista, mastering the art of bakery, leading a hotel team, or starting your own business, our tailored programs will empower you to achieve your goals.`,
+    `At Hotel Talents Pool, we are dedicated to shaping the future of the hospitality industry. Our comprehensive courses are designed to equip aspiring professionals and industry experts with the skills, knowledge, and confidence they need to excel in various hospitality fields. In addition to our core programs, we proudly offer a special program dedicated to Persons With Disabilities (PWDs), tailored to empower them with the tools they need to succeed in the hospitality industry. Whether you dream of becoming a top-notch barista, mastering the art of bakery, leading a hotel team, starting your own business, or exploring opportunities through our PWD program, our inclusive and tailored offerings empower everyone to achieve their goals.`,
     `Excellence Across Rwanda
 With nine specialized centers across Rwanda, Hotel Talents Pool brings world-class hospitality training closer to you. Each center embodies our mission to empower individuals, uplift communities, and shape the future of the hospitality industry.`,
     `Discover the center nearest to you—where passion meets opportunity!`,
@@ -363,51 +361,51 @@ I am truly grateful for everything Africa for Excellence has given me and contin
 // centers
 export const Centers = [
   {
+    name: "Special Program",
+    introduction: `At Hotel Talents Pool, we believe in creating opportunities for everyone, regardless of their abilities. Our special program for Persons With Disabilities (PWDs) is designed to provide tailored training that equips participants with the skills, confidence, and expertise to excel in the hospitality industry.
+
+This program is more than just training; it's a pathway to empowerment, independence, and career growth. From barista skills to culinary arts, hotel operations, and entrepreneurship, our curriculum is thoughtfully designed to meet the unique needs of PWDs, ensuring inclusivity and success for all.
+
+Join us in redefining possibilities and breaking barriers as we shape a brighter future together in hospitality.`,
+  },
+  {
     name: "Kimironko Center",
     introduction:
       "Welcome to the Kimironko Center, a bustling hub of hospitality training in Kigali. Known for its dynamic learning environment and state-of-the-art facilities, this center is where passion for excellence meets practical skill-building. Whether you're just starting your hospitality journey or looking to advance, Kimironko Center is the perfect place to hone your craft and build a successful career.",
-    images: [],
   },
   {
     name: "Kimisagara Center",
     introduction:
       "Located in the vibrant heart of Kigali, the Kimisagara Center offers unparalleled access to top-tier hospitality training. This center is renowned for fostering creativity and innovation, preparing students to thrive in a fast-paced industry. Join us at Kimisagara Center to unlock your potential and set yourself apart in the world of hospitality.",
-    images: [],
   },
   {
     name: "Nyamata Center",
     introduction:
       "Nestled in the serene town of Nyamata, the Nyamata Center combines the charm of its location with hands-on training in hospitality excellence. With a focus on community engagement and personal growth, this center offers a unique learning experience tailored to your aspirations. Discover how Nyamata Center can help you achieve your professional dreams.",
-    images: [],
   },
   {
     name: "Nyagatare Center",
     introduction:
       "At the Nyagatare Center, hospitality training meets rural innovation. Situated in the heart of Rwanda’s agricultural region, this center equips learners with skills that resonate with both global standards and local needs. Step into Nyagatare Center and take the first step toward a fulfilling career in hospitality.",
-    images: [],
   },
   {
     name: "Nyamasheke Center",
     introduction:
       "Welcome to the Nyamasheke Center, a haven for aspiring hospitality professionals in the picturesque Western Province. Known for its dedication to quality and detail, this center provides an immersive environment where students learn, grow, and excel. Nyamasheke Center is your gateway to a brighter future in the hospitality industry.",
-    images: [],
   },
   {
     name: "Rubavu Center",
     introduction:
       "Overlooking the stunning shores of Lake Kivu, the Rubavu Center offers a truly unique hospitality training experience. This center blends practical education with the beauty of its surroundings, inspiring students to achieve greatness. Join us at Rubavu Center and let the journey to your dream career begin.",
-    images: [],
   },
   {
     name: "Huye Center",
     introduction:
       "The Huye Center, located in Rwanda's cultural hub, is where tradition meets modern hospitality training. Here, students benefit from a rich blend of heritage and innovation, preparing them for diverse opportunities in the industry. Explore the Huye Center and become part of a legacy of excellence.",
-    images: [],
   },
   {
     name: "Karongi Center",
     introduction:
       "Situated in the scenic landscapes of Karongi, the Karongi Center offers a tranquil yet professional environment for learning. This center is dedicated to nurturing talent and helping students master the art of hospitality with confidence and skill. Start your journey to success with Karongi Center today.",
-    images: [],
   },
 ];

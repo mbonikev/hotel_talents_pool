@@ -9,7 +9,7 @@ function Footer() {
       <div className="w-full">
         <div className="grid grid-cols-4 max-md:grid-cols-2 max-sm:grid-cols-1 max-lg:px-0 max-lg:gap-5 px-16">
           <div>
-            <p className="text-sm text-dark-text/70">Company</p>
+            <p className="text-sm text-main-color font-semibold">Company</p>
 
             <ul className="mt-5 space-y-3">
               <li>
@@ -56,7 +56,7 @@ function Footer() {
           </div>
 
           <div>
-            <p className="text-sm text-dark-text/70">Help</p>
+            <p className="text-sm text-main-color font-semibold">Help</p>
 
             <ul className="mt-5 space-y-3">
               <li>
@@ -103,7 +103,7 @@ function Footer() {
           </div>
 
           <div>
-            <p className="text-sm text-dark-text/70">Resources</p>
+            <p className="text-sm text-main-color font-semibold">Resources</p>
 
             <ul className="mt-5 space-y-3">
               <li>
@@ -150,7 +150,7 @@ function Footer() {
           </div>
 
           <div>
-            <p className="text-sm text-dark-text/70">Extra Links</p>
+            <p className="text-sm text-main-color font-semibold">Extra Links</p>
 
             <ul className="mt-5 space-y-3">
               <li>
@@ -205,7 +205,7 @@ function Footer() {
           <h1 className="text-sm font-medium">
             &copy; 2024 Hotel Talents Pool, All rights reserved
           </h1>
-          <p className="text-xs text-dark-text/70">
+          <p className="text-xs text-main-color font-semibold">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum,
             necessitatibus! Dolore
           </p>
