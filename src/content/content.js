@@ -8,9 +8,9 @@ export const HeroSectionContent = {
   miniSectionTitle: "Popular Courses",
   // Popular Courses
   popularCourses: [
-    { name: "Barista training", link: "" },
-    { name: "Business Leadership training", link: "" },
-    { name: "Bakery Training", link: "" },
+    { name: "Barista Training", link: "" },
+    { name: "Bakery & Pastry Training", link: "" },
+    { name: "Culinary Arts Training", link: "" },
   ],
   // trained over
   spotlightStudents: [
@@ -58,7 +58,7 @@ export const numbersSection = {
     {
       title: "GUIDED BY",
       amount: "14+",
-      description: "Calinary Experts",
+      description: "Culinary Experts",
     },
     {
       title: "UNLOCK",
@@ -68,8 +68,7 @@ export const numbersSection = {
   ],
   callToAction: {
     title: "Ready to Experience and learn? Register Today",
-    description:
-      "Fill out the form by providing information about yourself and what course you want to take, we will be in touch",
+    description: "",
   },
 };
 
@@ -77,7 +76,7 @@ export const numbersSection = {
 export const CoursesSection = {
   sectionTitle: "Our Courses",
   sectionDescription:
-    "We offer diverse courses. Choose yours and let's get to work in no time",
+    "We offer diverse courses. Choose yours and get started right away!",
   HeaderTitle: "Courses",
   intro: [
     `At Hotel Talents Pool, we are dedicated to shaping the future of the hospitality industry. Our comprehensive courses are designed to equip aspiring professionals and industry experts with the skills, knowledge, and confidence they need to excel in various hospitality fields. In addition to our core programs, we proudly offer a special program dedicated to Persons With Disabilities (PWDs), tailored to empower them with the tools they need to succeed in the hospitality industry. Whether you dream of becoming a top-notch barista, mastering the art of bakery, leading a hotel team, starting your own business, or exploring opportunities through our PWD program, our inclusive and tailored offerings empower everyone to achieve their goals.`,
