@@ -9,13 +9,13 @@ import { HeroSectionContent } from "../content/content";
 
 function HeroSection() {
   return (
-    <div className="w-full h-fit max-lg:h-fit flex items-center justify-center max-lg:flex-col gap-10 max-lg:gap-5 py-10 px-16 max-lg:px-5 text-dark-text">
+    <div className="w-full h-fit max-lg:h-fit flex items-center justify-center flex-col gap-10 max-lg:gap-5 py-10 px-16 max-lg:px-5 text-dark-text">
       {/* left */}
-      <div className="w-1/2 max-lg:w-full h-fit flex flex-col gap-5">
-        <h1 className="font-Poppins text-5xl leading-[60px] font-semibold tracking-tight">
+      <div className="w-1/2 max-lg:w-full h-fit flex flex-col items-center justify-center gap-5 min-h-[600px]">
+        <h1 className="font-Poppins text-4xl leading-[45px] font-semibold tracking-tight text-center max-w-[600px] mx-auto">
           {HeroSectionContent.BigTitle}
         </h1>
-        <div className="grid grid-cols-2 max-lg:grid-cols-1 gap-3 w-full h-fit">
+        {/* <div className="grid grid-cols-2 max-lg:grid-cols-1 gap-3 w-full h-fit">
           <div className="flex flex-col gap-3 w-full">
             <h1>{HeroSectionContent.miniSectionTitle}</h1>
             <div className="bg-card-bg w-full h-full flex flex-col gap-2.5 p-4 rounded-2xl">
@@ -57,7 +57,7 @@ function HeroSection() {
               <div className="flex flex-col w-full mt-2">
                 <h1>We have Trained over</h1>
                 <h1 className="flex items-center gap-2 text-3xl font-semibold">
-                  3,434+
+                  1,242+
                   <span className="bg-white text-main-color h-[35px] aspect-square rounded-full flex items-center justify-center text-lg">
                     <FaStar />
                   </span>
@@ -72,70 +72,9 @@ function HeroSection() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
-      {/* right */}
-      <div className="w-1/2 max-lg:w-full h-full bg-transparent flex outline-none">
-        <div className="w-full h-full bg-card-bg rounded-2xl flex max-md:flex-col p-4 gap-4">
-          <div className="w-1/2 max-md:w-full h-full rounded-xl overflow-hidden relative">
-            <Carousel
-              autoplay="true"
-              dotPosition="top"
-              draggable="true"
-              pauseOnHover="false"
-            >
-              {HeroSectionContent.sliderImages.map((img, index) => (
-                <div key={index} className="w-full h-full ">
-                  <div className="w-full h-full flex items-center justify-center select-none">
-                    <img
-                      src={img}
-                      className="w-full h-full min-h-[440px] object-cover"
-                    />
-                  </div>
-                </div>
-              ))}
-            </Carousel>
-          </div>
-          <div className="w-1/2 max-md:w-full h-full flex flex-col gap-4">
-            <div className="w-full h-1/2 flex flex-col gap-4">
-              <div className="w-full h-1/2 flex flex-col gap-2 bg-white p-3 rounded-2xl">
-                <div className="w-full flex items-center justify-start gap-2">
-                  <div className="bg-main-color text-white text-2xl flex items-center justify-center h-9 w-auto aspect-square rounded-full ">
-                    <TiFlash />
-                  </div>
-                  <h1 className="font-medium">Get Skills Faster</h1>
-                </div>
-                <h1 className="text-sm line-clamp-2">
-                  it's fast and effective, get your trainings in style
-                </h1>
-              </div>
-              <div className="w-full h-1/2 flex flex-col gap-2 bg-white p-3 rounded-2xl">
-                <div className="w-full flex items-center justify-start gap-2">
-                  <div className="bg-main-color text-white text-2xl flex items-center justify-center h-9 w-auto aspect-square rounded-full ">
-                    <RiMedalFill />
-                  </div>
-                  <h1 className="font-medium">Culinary Experts</h1>
-                </div>
-                <h1 className="text-sm line-clamp-2">
-                  You'll get to meet Experts who have experiences and skills you
-                  need
-                </h1>
-              </div>
-            </div>
-            <div className="w-full h-1/2 select-none relative">
-              <img
-                src="https://img.freepik.com/premium-photo/female-chef-cutting-tomatos-when-cooking-salad-hotel-kitchen_274689-45301.jpg"
-                className="h-full w-full object-cover rounded-2xl select-none"
-              />
-              <div className="absolute top-0 left-0 w-full h-full rounded-2xl flex items-center justify-center z-10 bg-black/10">
-                <button className="h-12 text-lg transition hover:scale-105 active:scale-95 aspect-square bg-white rounded-full flex items-center justify-center text-main-color">
-                  <FaPlay />
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
     </div>
   );
 }

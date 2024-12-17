@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import LoadingScreen from "./LoadingScreen";
 import { CoursesSection } from "../content/content";
 import { TbHexagonFilled, TbMichelinStar } from "react-icons/tb";
+import { formUrl } from "../content/enrollForm";
 
 function CourseDetails({ Hide, Id }) {
   const [animate, setAnimate] = useState(true);
@@ -63,7 +64,8 @@ function CourseDetails({ Hide, Id }) {
               <div className="w-full h-fit py-4 px-4">
                 <Link
                   className="w-full h-full flex items-center justify-center bg-main-color transition hover:opacity-90 text-sm text-white py-2.5 px-2 rounded-full"
-                  to="/"
+                  target="_blank"
+                  to={formUrl}
                 >
                   Enroll now
                 </Link>
@@ -83,14 +85,14 @@ function CourseDetails({ Hide, Id }) {
                 pauseOnHover="false"
               >
                 {Course.gallery.map((img, index) => (
-                <div key={index} className="w-full h-[550px]">
-                  <div className="w-full h-full flex items-center justify-center select-none">
-                    <img
-                      src={img.img}
-                      className="w-full min-h-full object-cover"
-                    />
+                  <div key={index} className="w-full h-[550px]">
+                    <div className="w-full h-full flex items-center justify-center select-none">
+                      <img
+                        src={img.img}
+                        className="w-full min-h-full object-cover"
+                      />
+                    </div>
                   </div>
-                </div>
                 ))}
               </Carousel>
             </div>

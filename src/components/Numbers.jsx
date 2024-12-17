@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { formUrl } from "../content/enrollForm";
 
 function Numbers() {
   return (
@@ -31,7 +32,8 @@ function Numbers() {
         </div>
         <Link
           className="text-sm min-w-fit max-md:w-full max-md:text-center bg-main-color text-white py-2 px-5 rounded-full mt-3 font-medium"
-          to="/"
+          target="_blank"
+          to={formUrl}
         >
           Enroll now
         </Link>

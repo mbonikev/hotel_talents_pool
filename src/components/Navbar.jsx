@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { LuChevronDown, LuMenu, LuX } from "react-icons/lu";
 import { Link, useLocation, useParams } from "react-router-dom";
 import { Centers } from "../content/content";
+import { formUrl } from "../content/enrollForm";
 
 function Navbar({setLoading}) {
   const [showMenu, setShowMenu] = useState();
@@ -122,7 +123,8 @@ function Navbar({setLoading}) {
       <div className="flex items-center justify-end gap-1.5">
         <Link
           className="text-sm bg-main-color text-white py-2.5 px-5 rounded-full max-lg:hidden"
-          to="/"
+          target="_blank"
+          to={formUrl}
         >
           Enroll now
         </Link>

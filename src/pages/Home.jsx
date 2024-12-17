@@ -18,7 +18,6 @@ function Home() {
     <div className="w-full h-fit">
       <Navbar />
       <HeroSection />
-      <Numbers />
       <FewCourses />
       <Queries />
       <Testimonials />
