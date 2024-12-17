@@ -41,7 +41,6 @@ export const HeroSectionContent = {
       // icon: <RiMedalFill />,
       title: "Culinary Experts",
       text: "You'll get to meet Experts who have experiences and skills you need",
-    },
   ],
   tourVideo: "",
 };
@@ -58,7 +57,7 @@ export const numbersSection = {
     {
       title: "GUIDED BY",
       amount: "14+",
-      description: "Calinary Experts",
+      description: "Culinary Experts",
     },
     {
       title: "UNLOCK",
