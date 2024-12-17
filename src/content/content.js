@@ -8,9 +8,9 @@ export const HeroSectionContent = {
   miniSectionTitle: "Popular Courses",
   // Popular Courses
   popularCourses: [
-    { name: "Barista training", link: "" },
-    { name: "Business Leadership training", link: "" },
-    { name: "Bakery Training", link: "" },
+    { name: "Barista Training", link: "" },
+    { name: "Bakery & Pastry Training", link: "" },
+    { name: "Culinaey Arts Training", link: "" },
   ],
   // trained over
   spotlightStudents: [
@@ -67,9 +67,7 @@ export const numbersSection = {
     },
   ],
   callToAction: {
-    title: "Ready to Experience and learn? Register Today",
-    description:
-      "Fill out the form by providing information about yourself and what course you want to take, we will be in touch",
+    title: "Ready to Experience and learn? Register Today"
   },
 };
 
