@@ -41,6 +41,7 @@ export const HeroSectionContent = {
       // icon: <RiMedalFill />,
       title: "Culinary Experts",
       text: "You'll get to meet Experts who have experiences and skills you need",
+    },
   ],
   tourVideo: "",
 };
@@ -66,7 +67,8 @@ export const numbersSection = {
     },
   ],
   callToAction: {
-    title: "Ready to Experience and learn? Register Today"
+    title: "Ready to Experience and learn? Register Today",
+    description: "",
 };
 
 // Courses Section
