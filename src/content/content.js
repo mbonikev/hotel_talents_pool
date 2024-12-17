@@ -10,7 +10,7 @@ export const HeroSectionContent = {
   popularCourses: [
     { name: "Barista Training", link: "" },
     { name: "Bakery & Pastry Training", link: "" },
-    { name: "Culinaey Arts Training", link: "" },
+    { name: "Culinary Arts Training", link: "" },
   ],
   // trained over
   spotlightStudents: [
@@ -68,14 +68,13 @@ export const numbersSection = {
   ],
   callToAction: {
     title: "Ready to Experience and learn? Register Today"
-  },
 };
 
 // Courses Section
 export const CoursesSection = {
   sectionTitle: "Our Courses",
   sectionDescription:
-    "We offer diverse courses. Choose yours and let's get to work in no time",
+    "We offer diverse courses. Choose yours and get started right away!",
   HeaderTitle: "Courses",
   intro: [
     `At Hotel Talents Pool, we are dedicated to shaping the future of the hospitality industry. Our comprehensive courses are designed to equip aspiring professionals and industry experts with the skills, knowledge, and confidence they need to excel in various hospitality fields. In addition to our core programs, we proudly offer a special program dedicated to Persons With Disabilities (PWDs), tailored to empower them with the tools they need to succeed in the hospitality industry. Whether you dream of becoming a top-notch barista, mastering the art of bakery, leading a hotel team, starting your own business, or exploring opportunities through our PWD program, our inclusive and tailored offerings empower everyone to achieve their goals.`,
