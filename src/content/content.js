@@ -69,6 +69,7 @@ export const numbersSection = {
   callToAction: {
     title: "Ready to Experience and learn? Register Today",
     description: "",
+  },
 };
 
 // Courses Section
