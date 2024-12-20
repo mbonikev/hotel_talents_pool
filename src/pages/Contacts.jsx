@@ -21,7 +21,7 @@ function Contacts() {
               fulfilling careers in Rwanda’s growing hospitality industry.
             </p>
           </div>
-          <div className="w-fit min-w-fit flex items-start justify-end">
+          <div className="w-fit min-w-fit flex items-start justify-end gap-10">
             <div className="flex flex-col gap-1">
               <div className="h-12 w-12 aspect-square rounded-full bg-[#ebebeb] text-2xl flex items-center justify-center">
                 <IoLocationOutline />
@@ -38,7 +38,7 @@ function Contacts() {
               <div className="h-12 w-12 aspect-square rounded-full bg-[#ebebeb] text-2xl flex items-center justify-center">
                 <IoLocationOutline />
               </div>
-              <p className="text-xl font-medium max-w-[434px]">Our Address</p>
+              <p className="text-xl font-medium max-w-[434px]">Our contact info</p>
               <p className="text-base font-normal text-[#626262] max-w-[434px]">
                 City towel
               </p>
