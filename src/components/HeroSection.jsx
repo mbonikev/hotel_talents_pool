@@ -116,7 +116,7 @@ function HeroSection() {
           </div>
         </div>
         {/* white shadow */}
-        <div className="absolute -bottom-2 left-0 w-full h-[120px] border-t bg-red-300 flex items-center justify-center"></div>
+        <div className="absolute top-[83%] left-0 w-full h-[300px] border-t bg-red-300 flex items-center justify-center"></div>
       </div>
     </div>
   );
