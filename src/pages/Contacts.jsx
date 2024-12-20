@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 import { LuChevronRight, LuMail, LuPhone } from "react-icons/lu";
 import { IoLocationOutline } from "react-icons/io5";
+import { HiOutlinePhone } from "react-icons/hi";
 
 function Contacts() {
   return (
@@ -21,7 +22,7 @@ function Contacts() {
               fulfilling careers in Rwanda’s growing hospitality industry.
             </p>
           </div>
-          <div className="w-fit min-w-fit flex items-start justify-end gap-10">
+          <div className="w-fit min-w-fit flex items-start justify-end gap-20">
             <div className="flex flex-col gap-1">
               <div className="h-12 w-12 aspect-square rounded-full bg-[#ebebeb] text-2xl flex items-center justify-center">
                 <IoLocationOutline />
@@ -36,7 +37,7 @@ function Contacts() {
             </div>
             <div className="flex flex-col gap-1">
               <div className="h-12 w-12 aspect-square rounded-full bg-[#ebebeb] text-2xl flex items-center justify-center">
-                <IoLocationOutline />
+                <HiOutlinePhone />
               </div>
               <p className="text-xl font-medium max-w-[434px]">
                 Our contact info
