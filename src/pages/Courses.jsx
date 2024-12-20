@@ -38,7 +38,7 @@ function Courses() {
       {/* <h1 className="max-w-[920px] text-center mt-3 mx-auto">
         {CoursesSection.intro[1]}
       </h1> */}
-      <h1 className="text-sm font-bold mt-2 mb-4 max-w-[1150px] w-fit px-16 max-lg:px-5">
+      <h1 className="text-sm text-[#626262] my-10 mb-4 max-w-[1150px] w-fit px-16 max-lg:px-5">
         {CoursesSection.intro[2]}
       </h1>
       <div className="w-full grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 px-16 pb-5 pt-3 max-lg:px-5 gap-7 rounded-xl">
