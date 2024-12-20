@@ -22,7 +22,7 @@ function Testimonials() {
       <div className="w-full columns-3">
         {/* testimonial */}
         {TestimonialsSection.testimonials.map((person, index) => (
-          <div className="flex flex-col gap-4 items-center justify-center text-center break-inside-avoid bg-white p-5 rounded-2xl">
+          <div className="flex flex-col gap-4 items-center justify-center text-center break-inside-avoid bg-white relative p-5 rounded-2xl">
             <div className="flex items-center justify-start gap-7">
               <div className="h-16 w-auto aspect-square relative">
                 <img
