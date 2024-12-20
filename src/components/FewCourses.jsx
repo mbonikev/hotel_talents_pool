@@ -4,7 +4,7 @@ import { CoursesSection } from "../content/content";
 
 function FewCourses() {
   return (
-    <div className="w-full py-20 px-16 max-lg:px-5 max-lg:pt-0 flex gap-5 text-dark-text max-w-[1700px] mx-auto">
+    <div className="w-full py-20 px-16 max-lg:px-5 max-lg:pt-0 flex gap-5 items-start justify-between text-dark-text max-w-[1700px] mx-auto">
       <div className="w-fit min-w-fit h-fit flex flex-col gap-1 bg-red-400">
         <h1 className="text-lg font-medium ">{CoursesSection.sectionTitle}</h1>
         <h1 className="text-5xl font-bold w-fit max-w-[300px]">
@@ -21,7 +21,7 @@ function FewCourses() {
         </Link>
       </div>
       {/* courses grid */}
-      <div className="w-full gap-5 bg-emerald-300 h-[300px]"></div>
+      <div className="w-full max-w-[700px] gap-5 bg-emerald-300 h-[300px]"></div>
     </div>
   );
 }
