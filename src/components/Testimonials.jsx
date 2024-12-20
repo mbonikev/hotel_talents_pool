@@ -39,7 +39,7 @@ function Testimonials() {
                   <h1 className="text-sm text-dark-text/70">{person.role}</h1>
                 </div>
               </div>
-              <h1 className="text-sm text-dark-text p-1">{person.comment}</h1>
+              <h1 className="text-sm text-dark-text p-1 text-justify font-medium">{person.comment}</h1>
             </div>
           </div>
         ))}
