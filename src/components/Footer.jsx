@@ -71,18 +71,25 @@ function Footer() {
               {/* 3 */}
               <div className="flex flex-col gap-2">
                 <Link
-                  to={"/hireGraduate"}
+                  to={"/about"}
                   target="_blank"
                   className="text-sm text-white/30 font-medium"
                 >
                   About us
                 </Link>
                 <Link
-                  to={formUrl}
+                  to={'/'}
                   target="_blank"
                   className="text-sm text-white/30 font-medium"
                 >
-                  Apply now
+                  Support
+                </Link>
+                <Link
+                  to={'/'}
+                  target="_blank"
+                  className="text-sm text-white/30 font-medium"
+                >
+                  support
                 </Link>
               </div>
             </div>
