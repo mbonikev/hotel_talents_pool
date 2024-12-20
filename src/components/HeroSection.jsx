@@ -12,8 +12,8 @@ const allImages = import.meta.glob("/public/images/*/*.{png,jpg,jpeg,svg}", {
   eager: true,
 });
 
-const arrayImages = for (let index = 0; index < array.length; index++) {
-  const element = array[index];
+const arrayImages = for (let i = 0; i < allImages.length; i++) {
+  const images = array[i];
   
 }
 
