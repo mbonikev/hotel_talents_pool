@@ -54,7 +54,7 @@ function HireGraduate() {
           ) : (
             <ul>
               {graduates.map((graduate, index) => (
-                <>
+                <div className="flex flex-col w-full gap-10 pt-10">
                 <div key={index} className="w-full flex items-center justify-between gap-6 px-5 mb-0 hover:text-main-color cursor-pointer">
                   <div className="w-[100px] h-[100px] aspect-square overflow-hidden rounded-lg ">
                     <LazyImage
@@ -74,7 +74,7 @@ function HireGraduate() {
                   <button className="h-[45px] px-5 capitalize bg-main-color text-white font-medium rounded-full">view profile</button>
                 </div>
                 <div className="w-full h-[1px] bg-[#ebebeb]"></div>
-                </>
+                </div>
               ))}
             </ul>
           )}
