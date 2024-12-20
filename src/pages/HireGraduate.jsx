@@ -12,6 +12,7 @@ function HireGraduate() {
               Graduate List
             </h1>
           </div>
+          <div className="flex items-center justify-start gap-2"></div>
         </div>
       </div>
     </div>
