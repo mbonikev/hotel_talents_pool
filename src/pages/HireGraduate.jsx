@@ -67,7 +67,7 @@ function HireGraduate() {
         <div className="bg-white p-7">
           <div className="px-5 ">
             {filteredGraduates.length === 0 ? (
-              <p>Loading...</p>
+              <p></p>
             ) : (
               <ul>
                 {filteredGraduates.map((graduate, index) => (
