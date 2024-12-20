@@ -78,6 +78,24 @@ function HeroSection() {
               </div>
             ))}
           </div>
+          {/* 5 */}
+          <div className="flex flex-col gap-4">
+            {images.slice(8, 10).map((image, index) => (
+              <div key={index} className="w-full h-fit">
+                <img src={image.img} className="h-[200px] bg-yellow-400" />
+                <span>{image.position}</span>
+              </div>
+            ))}
+          </div>
+          {/* 6 */}
+          <div className="flex flex-col gap-4">
+            {images.slice(10, 12).map((image, index) => (
+              <div key={index} className="w-full h-fit">
+                <img src={image.img} className="h-[200px] bg-yellow-400" />
+                <span>{image.position}</span>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>
