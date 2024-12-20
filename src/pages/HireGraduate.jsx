@@ -76,7 +76,7 @@ function HireGraduate() {
                       key={index}
                       className="w-full flex items-center justify-between gap-6 mt-5 cursor-pointer transition rounded-xl"
                     >
-                      <div className="w-[100px] h-[100px] aspect-square overflow-hidden rounded-full ">
+                      <div className="w-14 h-14 aspect-square overflow-hidden rounded-full ">
                         <LazyImage
                           image={`/Graduates/profiles/${graduate["Profile Image"]}`}
                         />
