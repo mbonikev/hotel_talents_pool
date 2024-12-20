@@ -2,6 +2,7 @@ import React from "react";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 import { LuMail } from "react-icons/lu";
 import { Link } from "react-router-dom";
+import { formUrl } from '../content/enrollForm'
 
 function Footer() {
   return (
