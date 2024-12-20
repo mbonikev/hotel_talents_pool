@@ -10,12 +10,12 @@ function Footer() {
         <div className="w-full h-[300px] px-16 max-lg:px-5 absolute top-[-150px] ">
           <div className="w-full h-full bg-[#b2c3ec] rounded-[35px] p-10 flex items-start justify-between">
             <div className="w-full flex-1">
-              <h1 className="text-4xl leading-[45px] pb-3 font-extrabold w-fit text-[#111111]">
+              <h1 className="text-4xl leading-[45px] tracking-tight pb-3 font-extrabold w-fit text-[#111111]">
                 Apply today and <br /> kick start your hospitality <br /> Career
               </h1>
             </div>
             <div className="w-[200px] min-w-fit flex flex-col justify-between items-end">
-              <h1 className="text-lg font-bold text-[#111111]">
+              <h1 className="text-sm font-medium text-[#111111]">
                 Hotel Talents Pool
               </h1>
             </div>
