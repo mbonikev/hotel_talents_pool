@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { LuChevronRight, LuMail, LuPhone } from "react-icons/lu";
 import { IoLocationOutline } from "react-icons/io5";
 import { HiOutlinePhone } from "react-icons/hi";
+import Queries from "../components/Queries";
 
 function Contacts() {
   return (
@@ -51,19 +52,17 @@ function Contacts() {
             </div>
           </div>
         </div>
-        {/* Content */}
-        <div className="h-fit w-full pb-10">
-          {/* map */}
-          <div className="w-full px-16 py-5 max-lg:px-5">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51444.54513432262!2d30.059960375004472!3d-1.9577614217355783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca6e42ffdf0af%3A0xca7b37500ae06cc5!2sGorillas%20Golf%20Hotel!5e0!3m2!1sen!2srw!4v1730564666931!5m2!1sen!2srw"
-              className="w-full h-[450px] border-none"
-              allowFullScreen=""
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
+        {/* map */}
+        <div className="w-full px-16 py-5 max-lg:px-5">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51444.54513432262!2d30.059960375004472!3d-1.9577614217355783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca6e42ffdf0af%3A0xca7b37500ae06cc5!2sGorillas%20Golf%20Hotel!5e0!3m2!1sen!2srw!4v1730564666931!5m2!1sen!2srw"
+            className="w-full h-[450px] border-none"
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
+        <Queries />
       </div>
       <Footer />
     </div>
