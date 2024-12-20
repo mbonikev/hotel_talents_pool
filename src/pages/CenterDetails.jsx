@@ -75,7 +75,7 @@ function CenterDetails() {
           </h1>
         </div>
       </div>
-      <div className="w-full h-full px-16 max-lg:px-5 py-5 pb-10 px-16 max-md:px-5">
+      <div className="w-full h-full px-16 max-lg:px-5 py-5 pb-10 max-w-[1700px] mx-auto ">
         {loading ? ( // Show loading spinner/message
           <div className="flex justify-center items-start min-h-[200px]">
             <Spin size="large" tip="Loading images..." />
