@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 import { LuChevronRight, LuMail, LuPhone } from "react-icons/lu";
+import { IoLocationOutline } from "react-icons/io5";
 
 function Contacts() {
   return (
@@ -22,7 +23,9 @@ function Contacts() {
           </div>
           <div className="w-fit min-w-fit flex items-start justify-end">
             <div className="">
-              
+              <div className="h-12 aspect-square rounded-full">
+                <IoLocationOutline/>
+              </div>
             </div>
           </div>
         </div>
