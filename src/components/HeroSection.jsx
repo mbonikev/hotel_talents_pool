@@ -116,8 +116,9 @@ function HeroSection() {
           </div>
         </div>
         {/* white shadow */}
-        <div className="absolute top-[83%] left-0 w-full h-[170px] border-t bg-body-color flex items-center justify-center">
+        <div className="absolute top-[83%] left-0 w-full h-[170px] border-t bg-body-color flex items-center justify-center gap-9">
           <img src="https://upload.wikimedia.org/wikipedia/en/e/e4/National_Bank_of_Rwanda_logo.png" className="h-[40px] saturate-0" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Samsung_Logo.svg/2560px-Samsung_Logo.svg.png py-[1px]" className="h-[40px] saturate-0" />
         </div>
       </div>
     </div>
