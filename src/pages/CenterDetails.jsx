@@ -65,7 +65,7 @@ function CenterDetails() {
   return (
     <div className="w-full h-fit text-dark-text">
       <Navbar setLoading={setLoading} />
-      <div className="w-full h-fit pt-20 pb-10 px-16 max-md:px-5 flex flex-col items-start justify-start gap-2">
+      <div className="w-full h-fit pt-20 pb-10 px-16 max-md:px-5 flex flex-col items-start justify-start gap-2 max-w-[1700px] mx-auto ">
         <h1 className="text-5xl font-bold w-fit text-main-color">
           {center_name}
         </h1>
@@ -114,7 +114,7 @@ function CenterDetails() {
               },
             }}
           >
-            <div className="w-full max-w-[1500px] mx-auto 2xl:columns-5 max-2xl:columns-4 max-lg:columns-3 max-md:columns-2 max-sm:columns-2 gap-3 space-y-2 auto-rows-auto">
+            <div className="w-full max-w-[1700px] mx-auto 2xl:columns-5 max-2xl:columns-4 max-lg:columns-3 max-md:columns-2 max-sm:columns-2 gap-3 space-y-2 auto-rows-auto">
               <Reveal
                 triggerOnce
                 // damping={0.06}
