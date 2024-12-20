@@ -16,8 +16,7 @@ function FewCourses() {
       </div>
       <Link
         className="text-sm bg-main-color transition active:scale-90 text-white py-2.5 px-5 rounded-full max-lg:hidden"
-        target="_blank"
-        to={formUrl}
+        to='/courses'
       >
         Enroll now
       </Link>
