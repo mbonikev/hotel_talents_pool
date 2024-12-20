@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import { LuSearch } from "react-icons/lu";
 import * as XLSX from "xlsx";
 import LazyImage from "../components/LazyImage";
+import Footer from "../components/Footer";
 
 function HireGraduate() {
   const [graduates, setGraduates] = useState([]);
@@ -64,7 +65,7 @@ function HireGraduate() {
           </div>
         </div>
         {/* graduate */}
-        <div className="bg-white p-7">
+        <div className="bg-white p-7 rounded-3xl">
           <div className="px-5 ">
             {filteredGraduates.length === 0 ? (
               <p></p>
@@ -103,6 +104,7 @@ function HireGraduate() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
