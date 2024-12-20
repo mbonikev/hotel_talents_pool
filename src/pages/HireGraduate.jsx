@@ -13,8 +13,8 @@ function HireGraduate() {
               Graduate List
             </h1>
           </div>
-          <div className="flex items-center justify-start gap-2">
-            <LuSearch className="text-2xl" />
+          <div className="flex items-center justify-start gap-2 border-b">
+            <LuSearch className="text-xl text-[#626262]" />
             <input type="text" className="h-[30px] outline-none border-none bg-transparent text-base placeholder:text-[#626262] text-[#111111]" placeholder="search graduate..." />
           </div>
         </div>
