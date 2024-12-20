@@ -69,7 +69,7 @@ function HeroSection() {
       <div className="w-full min-h-[400px] overflow-x-clip flex items-start justify-center relative">
         <div className="w-fit h-fit flex items-start justify-center overflow-x-clip gap-4">
           {/* 1 */}
-          <div className="flex flex-col gap-4 translate-y-[75px]">
+          <div className="flex flex-col gap-4 translate-y-[35px]">
             {updatedImages.slice(0, 2).map((image, index) => (
               <div
                 key={index}
@@ -141,7 +141,7 @@ function HeroSection() {
             ))}
           </div>
           {/* 7 */}
-          <div className="flex flex-col gap-4 translate-y-[-1300px]">
+          <div className="flex flex-col gap-4 translate-y-[-130px]">
             {updatedImages.slice(12, 14).map((image, index) => (
               <div
                 key={index}
@@ -153,7 +153,7 @@ function HeroSection() {
             ))}
           </div>
           {/* 8 */}
-          <div className="flex flex-col gap-4 translate-y-[-75px]">
+          <div className="flex flex-col gap-4 translate-y-[-35px]">
             {updatedImages.slice(14, 16).map((image, index) => (
               <div
                 key={index}
@@ -165,7 +165,7 @@ function HeroSection() {
             ))}
           </div>
         </div>
-        {/* white shadow
+        {/* white shadow */}
         <div className="absolute top-[83%] left-0 w-full h-[170px] border-t bg-body-color flex items-center justify-center gap-20">
           <img
             src="https://upload.wikimedia.org/wikipedia/en/e/e4/National_Bank_of_Rwanda_logo.png"
@@ -183,7 +183,7 @@ function HeroSection() {
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS4kbc2fdM1LZgPP7T1i7SAp-MpJg2AFcU7A&s"
             className="h-[60px] saturate-0 opacity-70 py-[5px]"
           />
-        </div> */}
+        </div>
       </div>
     </div>
   );
