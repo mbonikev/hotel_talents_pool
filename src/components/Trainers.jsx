@@ -16,9 +16,15 @@ function Trainers() {
           </p>
           <div className="w-full flex items-center justify-center gap-2">
             <div className="flex flex-col items-center justify-center w-fit gap-2">
-                <div className="h-[50px] w-[50px] min-w-fit"></div>
-                <img src="https://cdn.lucidpic.com/cdn-cgi/image/w=600,format=auto,metadata=none/66c43abe18502.png" className=" h-fit min-h-full w-full aspect-square rounded-full object-cover" />
-                <h1 className="text-sm font-medium tracking-tight max-w-[50px] text-center leading-4">James Karekare</h1>
+              <div className="h-[50px] w-[50px] min-w-fit rounded-full flex items-center justify-center overflow-hidden ">
+                <img
+                  src="https://cdn.lucidpic.com/cdn-cgi/image/w=600,format=auto,metadata=none/66c43abe18502.png"
+                  className=" h-fit min-h-full w-full object-cover"
+                />
+              </div>
+              <h1 className="text-sm font-medium tracking-tight max-w-[50px] text-center leading-4">
+                James Karekare
+              </h1>
             </div>
           </div>
         </div>
