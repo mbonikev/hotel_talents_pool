@@ -14,21 +14,17 @@ function Queries() {
   };
   return (
     <div className="w-full py-10 px-16 max-lg:px-5 max-lg:pt-0 flex flex-col text-dark-text">
-      <div className="w-full h-fit flex flex-col gap-10 max-lg:gap-3">
-        <h1 className="text-3xl font-medium ">{FAQSectionSection.sectionTitle}</h1>
-        <h1 className="text-sm text-dark-text/70 flex gap-4 flex-col">
-          <span>
-          If your question wasn’t answered, feel free to reach out via our <a href="/contacts" className="text-main-color underline font-semibold">Contact Page</a>. We’d be happy to assist you!
-          </span>
-          <span>
-            <Link
-              className="text-sm min-w-fit bg-card-bg text-dark-text/80 py-2 px-5 rounded-full mt-3 font-medium"
-              to={FAQSectionSection.surveyForm}
-            >
-              View Surevey
-            </Link>
-          </span>
-        </h1>
+      <div className="w-fit h-fit flex flex-col gap-1 ">
+        <h1 className="text-lg font-medium">{FAQSectionSection.sectionTitle}</h1>
+        <p className="text-base font-medium leading-6 max-w-[490px] pt-5 opacity-65">
+          {CoursesSection.HeaderDesc}
+        </p>
+        <Link
+          className="text-sm mt-[20px] w-fit bg-[#7b6fb8] transition active:scale-90 text-white py-2.5 px-6 rounded-full max-lg:hidden"
+          to="/courses"
+        >
+          View all
+        </Link>
       </div>
       {/* Questions grid */}
       <div className="w-full grid grid-cols-1 mt-10 max-lg:mt-5 gap-10 max-lg:gap-5 rounded-xl">
