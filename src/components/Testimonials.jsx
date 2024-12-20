@@ -10,7 +10,7 @@ import { TestimonialsSection } from "../content/content";
 
 function Testimonials() {
   return (
-    <div className="w-full py-10 px-16 max-lg:px-5 gap-10 flex flex-col text-dark-text bg-red-200 max-w-[1700px] mx-auto">
+    <div className="w-full py-10 px-16 max-lg:px-5 gap-10 flex flex-col text-dark-text max-w-[1700px] mx-auto">
       <div className="w-1/2 h-fit flex flex-col gap-1 ">
         <h1 className="text-lg font-bold text-main-color">
           {TestimonialsSection.sectionTitle}
