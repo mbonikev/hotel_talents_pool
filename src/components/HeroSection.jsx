@@ -46,7 +46,7 @@ function HeroSection() {
           <div className="flex flex-col gap-4">
             {images.slice(0, 2).map((image, index) => (
               <div key={index} className="w-full h-fit">
-                <img src={image.img} className="h-[200px] min-w-[300px] bg-yellow-400" />
+                <img src={image.img} className="h-[200px] min-w-[200px] bg-yellow-400" />
                 {/* <span>{image.position}</span> */}
               </div>
             ))}
@@ -55,7 +55,7 @@ function HeroSection() {
           <div className="flex flex-col gap-4">
             {images.slice(2, 4).map((image, index) => (
               <div key={index} className="w-full h-fit">
-                <img src={image.img} className="h-[200px] min-w-[300px] bg-yellow-400" />
+                <img src={image.img} className="h-[200px] min-w-[200px] bg-yellow-400" />
                 {/* <span>{image.position}</span> */}
               </div>
             ))}
@@ -64,7 +64,7 @@ function HeroSection() {
           <div className="flex flex-col gap-4">
             {images.slice(4, 6).map((image, index) => (
               <div key={index} className="w-full h-fit">
-                <img src={image.img} className="h-[200px] min-w-[300px] bg-yellow-400" />
+                <img src={image.img} className="h-[200px] min-w-[200px] bg-yellow-400" />
                 {/* <span>{image.position}</span> */}
               </div>
             ))}
@@ -73,7 +73,7 @@ function HeroSection() {
           <div className="flex flex-col gap-4">
             {images.slice(6, 8).map((image, index) => (
               <div key={index} className="w-full h-fit">
-                <img src={image.img} className="h-[200px] min-w-[300px] bg-yellow-400" />
+                <img src={image.img} className="h-[200px] min-w-[200px] bg-yellow-400" />
                 {/* <span>{image.position}</span> */}
               </div>
             ))}
@@ -82,7 +82,7 @@ function HeroSection() {
           <div className="flex flex-col gap-4">
             {images.slice(8, 10).map((image, index) => (
               <div key={index} className="w-full h-fit">
-                <img src={image.img} className="h-[200px] min-w-[300px] bg-yellow-400" />
+                <img src={image.img} className="h-[200px] min-w-[200px] bg-yellow-400" />
                 {/* <span>{image.position}</span> */}
               </div>
             ))}
@@ -91,7 +91,7 @@ function HeroSection() {
           <div className="flex flex-col gap-4">
             {images.slice(10, 12).map((image, index) => (
               <div key={index} className="w-full h-fit">
-                <img src={image.img} className="h-[200px] min-w-[300px] bg-yellow-400" />
+                <img src={image.img} className="h-[200px] min-w-[200px] bg-yellow-400" />
                 {/* <span>{image.position}</span> */}
               </div>
             ))}
