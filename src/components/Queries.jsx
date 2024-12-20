@@ -29,13 +29,13 @@ function Queries() {
       </div>
       {/* Questions grid */}
       <div className="w-1/2 grid grid-cols-1 gap-10 max-lg:gap-5 rounded-xl">
-        <div className="group w-full h-fit flex flex-col p-5 gap-4 bg-card-bg rounded-2xl">
+        <div className="group w-full h-fit flex flex-col">
           <div className="w-full h-fit flex flex-col items-center justify-start text-dark-text ">
             <div className="w-full h-fit flex flex-col items-center justify-start gap-2 max-w-[900px]">
               {FAQSectionSection.Questions.map((item, index) => (
                 <div
                   key={index}
-                  className=" py-4 px-5 bg-white text-dark-body-color border-b w-full flex justify-between items-start gap-5"
+                  className=" py-4 px-5 bg-white text-dark-body-color border-b w-full flex justify-between items-start gap-0"
                 >
                   <div className="flex flex-col items-start justify-start">
                     <h1 className="font-normal tracking-tight text-base leading-5 min-h-[30px] w-full flex items-center justify-start">
