@@ -118,7 +118,7 @@ function HeroSection() {
         {/* white shadow */}
         <div className="absolute top-[83%] left-0 w-full h-[170px] border-t bg-body-color flex items-center justify-center gap-9">
           <img src="https://upload.wikimedia.org/wikipedia/en/e/e4/National_Bank_of_Rwanda_logo.png" className="h-[40px] saturate-0 opacity-70" />
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Samsung_Logo.svg/2560px-Samsung_Logo.svg.png" className="h-[40px] saturate-0 opacity-70 py-[5px]" />
+          <img src="https://seeklogo.com/images/E/Equity_Bank-logo-88F49E17E2-seeklogo.com.png" className="h-[40px] saturate-0 opacity-70 py-[5px]" />
           <img src="https://www.mineduc.gov.rw/index.php?eID=dumpFile&t=f&f=435&token=795108a09af0455f218944c43b044c38ca9da5ac" className="h-[40px] saturate-0 opacity-70 py-[5px]" />
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS4kbc2fdM1LZgPP7T1i7SAp-MpJg2AFcU7A&s" className="h-[40px] saturate-0 opacity-70 py-[5px]" />
         </div>
