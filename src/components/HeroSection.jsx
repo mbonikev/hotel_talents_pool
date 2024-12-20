@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import { TiFlash } from "react-icons/ti";
 import { RiMedalFill } from "react-icons/ri";
 import { HeroSectionContent } from "../content/content";
+import { formUrl } from "../content/enrollForm";
 
 // Import images
 const allImages = import.meta.glob("/public/images/Hero/*.{png,jpg,jpeg,svg}", {
@@ -50,9 +51,9 @@ function HeroSection() {
         <h1 className=" text-lg max-lg:mt-0 leading-6 font-medium tracking-tight text-center w-full max-w-[500px] opacity-65">
           {HeroSectionContent.SmallDesc}
         </h1>
-        <button className="min-w-[130px] h-[42px] bg-main-color text-white font-medium text-sm flex items-center justify-center gap-1 rounded-full">
+        <Link to={formUrl} target="_blank" className="min-w-[130px] h-[42px] bg-main-color hover:scale-110 transition text-white font-medium text-sm flex items-center justify-center gap-1 rounded-full">
           Enroll now
-        </button>
+        </Link>
         <h1 className=" text-sm font-medium tracking-tight text-center w-full max-w-[500px] opacity-45">
           Trained over {HeroSectionContent.count} Students
         </h1>
