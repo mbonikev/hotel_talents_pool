@@ -39,7 +39,7 @@ function Queries() {
                   className=" py-4 px-5 bg-transparent text-dark-body-color border-b w-full flex justify-between items-start gap-5"
                 >
                   <div className="flex flex-col items-start justify-start">
-                    <h1 className="font-normal tracking-tight text-base leading-5 min-h-[30px] w-full flex items-center justify-start">
+                    <h1 className="font-normal tracking-tight text-base leading-5 min-h-[40px] w-full flex items-center justify-start">
                       {item.question}
                     </h1>
                     <p
