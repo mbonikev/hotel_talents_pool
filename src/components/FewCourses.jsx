@@ -13,13 +13,13 @@ function FewCourses() {
         <p className="text-base font-medium leading-6 max-w-[400px] pt-5 opacity-65">
           {CoursesSection.HeaderDesc}
         </p>
+        <Link
+          className="text-sm mt-[20px] w-fit bg-[#7b6fb8] transition active:scale-90 text-white py-2.5 px-6 rounded-full max-lg:hidden"
+          to="/courses"
+        >
+          Enroll now
+        </Link>
       </div>
-      <Link
-        className="text-sm w-fit bg-main-color transition active:scale-90 text-white py-2.5 px-6 rounded-full max-lg:hidden"
-        to='/courses'
-      >
-        Enroll now
-      </Link>
       {/* courses grid */}
       <div className="w-full gap-5"></div>
     </div>
