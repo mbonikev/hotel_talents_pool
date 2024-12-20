@@ -13,7 +13,7 @@ function Footer() {
               <h1 className="text-5xl pb-3 font-bold w-fit max-w-[380px]"></h1>
             </div>
             <div className="w-[200px] min-w-fit flex flex-col justify-between items-end">
-              
+              <h1 className="text-lg font-bold text-[#111111]">Hotel Talents Pool</h1>
             </div>
           </div>
         </div>
