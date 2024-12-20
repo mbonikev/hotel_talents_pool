@@ -411,3 +411,6 @@ Join us in redefining possibilities and breaking barriers as we shape a brighter
       "Situated in the scenic landscapes of Karongi, the Karongi Center offers a tranquil yet professional environment for learning. This center is dedicated to nurturing talent and helping students master the art of hospitality with confidence and skill. Start your journey to success with Karongi Center today.",
   },
 ];
+
+
+// graduate
