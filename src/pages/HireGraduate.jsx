@@ -8,7 +8,7 @@ function HireGraduate() {
   useEffect(() => {
     const fetchExcelData = async () => {
       try {
-        const response = await fetch("/data/graduates.xlsx");
+        const response = await fetch("/Graduates/list.xlsx");
         const blob = await response.blob();
         const reader = new FileReader();
         reader.onload = (e) => {
