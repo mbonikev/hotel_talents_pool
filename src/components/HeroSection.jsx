@@ -7,7 +7,20 @@ import { TiFlash } from "react-icons/ti";
 import { RiMedalFill } from "react-icons/ri";
 import { HeroSectionContent } from "../content/content";
 
-const images = ["", "", "", "", "", "", "", "", "", "", "", ""];
+const images = [
+  { position: "", img: "/" },
+  { position: "", img: "/" },
+  { position: "", img: "/" },
+  { position: "", img: "/" },
+  { position: "", img: "/" },
+  { position: "", img: "/" },
+  { position: "", img: "/" },
+  { position: "", img: "/" },
+  { position: "", img: "/" },
+  { position: "", img: "/" },
+  { position: "", img: "/" },
+  { position: "", img: "/" },
+];
 
 function HeroSection() {
   return (
@@ -33,6 +46,7 @@ function HeroSection() {
             {images.slice(0, 2).map((image, index) => (
               <>
                 <img src="/" className="h-[200px] bg-yellow-400" />
+                <span></span>
               </>
             ))}
           </div>
