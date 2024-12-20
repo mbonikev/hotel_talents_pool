@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import { LuSearch } from "react-icons/lu";
+import * as XLSX from "xlsx";
 
 function HireGraduate() {
   return (
@@ -19,7 +20,7 @@ function HireGraduate() {
           </div>
         </div>
         {/* graduate */}
-        
+
       </div>
     </div>
   );
