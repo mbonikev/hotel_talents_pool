@@ -10,7 +10,7 @@ function Footer() {
         <div className="w-full h-[300px] px-16 max-lg:px-5 absolute top-[-150px] ">
           <div className="w-full h-full bg-[#b2c3ec] rounded-[35px] p-10 flex items-start justify-between">
             <div className="w-full flex-1">
-              <h1 className="text-5xl pb-3 font-bold w-fit max-w-[380px]"></h1>
+              <h1 className="text-5xl pb-3 font-bold w-fit max-w-[380px] text-[#111111]"></h1>
             </div>
             <div className="w-[200px] min-w-fit flex flex-col justify-between items-end">
               <h1 className="text-lg font-bold text-[#111111]">Hotel Talents Pool</h1>
