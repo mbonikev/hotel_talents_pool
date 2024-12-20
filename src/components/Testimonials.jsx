@@ -24,26 +24,22 @@ function Testimonials() {
         {TestimonialsSection.testimonials.map((person, index) => (
           <div className="flex flex-col gap-4 items-center justify-center text-center break-inside-avoid bg-white relative p-5 rounded-2xl">
             {/* lights */}
-            <div className="w-full h-full relative">
-              <div className="w-[40%] rounded-full -z-0 blur-[100px] aspect-square absolute top-[-150px] right-[-160px] bg-[#7FA2CA]/60"></div>
-              <div className="w-[40%] rounded-full -z-0 blur-[100px] aspect-square absolute bottom-[-150px] left-[-160px] bg-[#4D61BA]/35"></div>
-              <div className="w-full h-full z-10 flex flex-col items-center justify-center gap-1">
-                <div className="flex items-center justify-start gap-7">
-                  <div className="h-16 w-auto aspect-square relative">
-                    <img
-                      src={person.img}
-                      className="h-full w-full object-cover rounded-full"
-                    />
-                  </div>
-                  <div className="flex flex-col items-start justify-start">
-                    <h1 className="font-medium tracking-tight">
-                      {person.name}
-                    </h1>
-                    <h1 className="text-sm text-dark-text/70">{person.role}</h1>
-                  </div>
+            <div className="w-[40%] rounded-full -z-0 blur-[100px] aspect-square absolute top-[-150px] right-[-160px] bg-[#7FA2CA]/60"></div>
+            <div className="w-[40%] rounded-full -z-0 blur-[100px] aspect-square absolute bottom-[-150px] left-[-160px] bg-[#4D61BA]/35"></div>
+            <div className="w-full h-full z-10 flex flex-col items-center justify-center gap-1">
+              <div className="flex items-center justify-start gap-7">
+                <div className="h-16 w-auto aspect-square relative">
+                  <img
+                    src={person.img}
+                    className="h-full w-full object-cover rounded-full"
+                  />
                 </div>
-                <h1 className="text-sm text-dark-text p-1">{person.comment}</h1>
+                <div className="flex flex-col items-start justify-start">
+                  <h1 className="font-medium tracking-tight">{person.name}</h1>
+                  <h1 className="text-sm text-dark-text/70">{person.role}</h1>
+                </div>
               </div>
+              <h1 className="text-sm text-dark-text p-1">{person.comment}</h1>
             </div>
           </div>
         ))}
