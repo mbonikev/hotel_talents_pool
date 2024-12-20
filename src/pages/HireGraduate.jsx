@@ -54,13 +54,15 @@ function HireGraduate() {
           ) : (
             <ul>
               {graduates.map((graduate, index) => (
-                <div key={index} className="w-full flex p-5">
+                <div key={index} className="w-full flex items-center justify-between gap-3 p-5">
                   <div className="w-[100px] h-[100px] aspect-square overflow-hidden rounded-lg ">
                     <LazyImage
                       image={`/Graduates/profiles/${graduate["Profile Image"]}`}
                     />
                   </div>
-                  <div className="flex-1 flex flex-col"></div>
+                  <div className="flex-1 flex flex-col">
+                    <h1></h1>
+                  </div>
                   <button className="h-[45px] px-5 capitalize bg-main-color text-white font-medium rounded-full">view profile</button>
                 </div>
               ))}
