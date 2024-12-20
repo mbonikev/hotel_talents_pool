@@ -23,7 +23,7 @@ function Contacts() {
           </div>
           <div className="w-fit min-w-fit flex items-start justify-end">
             <div className="">
-              <div className="h-12 aspect-square rounded-full">
+              <div className="h-12 aspect-square rounded-full bg-[#ebebeb] text-2xl flex items-center justify-center">
                 <IoLocationOutline/>
               </div>
             </div>
