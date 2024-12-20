@@ -47,6 +47,23 @@ function HireGraduate() {
           </div>
         </div>
         {/* graduate */}
+        <div>
+          {graduates.length === 0 ? (
+            <p>Loading...</p>
+          ) : (
+            <ul>
+              {graduates.map((graduate, index) => (
+                <li key={index}>
+                  {Object.entries(graduate).map(([key, value]) => (
+                    <div key={key}>
+                      <strong>{key}:</strong> {value}
+                    </div>
+                  ))}
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
       </div>
     </div>
   );
