@@ -63,7 +63,7 @@ function CenterDetails() {
   }, [filteredImages]);
 
   return (
-    <div className="w-full h-fit text-dark-text">
+    <div className="w-full h-fit text-dark-text max-w-[1700px] mx-auto">
       <Navbar setLoading={setLoading} />
       <div className="px-16 max-md:px-5">
         <div className="w-full h-fit pt-20 pb-10 flex flex-col items-start justify-start gap-2">
