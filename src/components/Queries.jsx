@@ -43,7 +43,7 @@ function Queries() {
                       {item.question}
                     </h1>
                     <p
-                      className={`text-sm text-black/50 leading-5 font-normal transition-all duration-500 ease-in-out overflow-hidden ${
+                      className={`text-sm text-black/40 leading-5 font-normal transition-all duration-500 ease-in-out overflow-hidden ${
                         activeIndex === index ? "max-h-96" : "max-h-0"
                       }`}
                     >
