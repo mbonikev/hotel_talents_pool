@@ -8,18 +8,18 @@ import { RiMedalFill } from "react-icons/ri";
 import { HeroSectionContent } from "../content/content";
 
 const images = [
-  { position: "", img: "/" },
-  { position: "", img: "/" },
-  { position: "", img: "/" },
-  { position: "", img: "/" },
-  { position: "", img: "/" },
-  { position: "", img: "/" },
-  { position: "", img: "/" },
-  { position: "", img: "/" },
-  { position: "", img: "/" },
-  { position: "", img: "/" },
-  { position: "", img: "/" },
-  { position: "", img: "/" },
+  { position: "1", img: "/" },
+  { position: "2", img: "/" },
+  { position: "3", img: "/" },
+  { position: "4", img: "/" },
+  { position: "5", img: "/" },
+  { position: "6", img: "/" },
+  { position: "7", img: "/" },
+  { position: "8", img: "/" },
+  { position: "9", img: "/" },
+  { position: "10", img: "/" },
+  { position: "11", img: "/" },
+  { position: "12", img: "/" },
 ];
 
 function HeroSection() {
@@ -45,7 +45,7 @@ function HeroSection() {
           <div className="flex flex-col gap-5">
             {images.slice(0, 2).map((image, index) => (
               <>
-                <img src="/" className="h-[200px] bg-yellow-400" />
+                <img src={image.img} className="h-[200px] bg-yellow-400" />
                 <span></span>
               </>
             ))}
