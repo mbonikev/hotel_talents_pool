@@ -16,9 +16,10 @@ function Queries() {
     <div className="w-full py-10 px-16 max-lg:px-5 max-lg:pt-0 flex flex-col text-dark-text">
       <div className="w-fit h-fit flex flex-col gap-1 ">
         <h1 className="text-lg font-medium">{FAQSectionSection.sectionTitle}</h1>
-        <p className="text-base font-medium leading-6 max-w-[490px] pt-5 opacity-65">
-          {CoursesSection.HeaderDesc}
-        </p>
+        <h1 className="text-5xl font-bold w-fit max-w-[300px]">
+          {FAQSectionSection.HeaderTitle}
+        </h1>
+
         <Link
           className="text-sm mt-[20px] w-fit bg-[#7b6fb8] transition active:scale-90 text-white py-2.5 px-6 rounded-full max-lg:hidden"
           to="/courses"

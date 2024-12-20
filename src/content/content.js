@@ -278,7 +278,8 @@ With nine specialized centers across Rwanda, Hotel Talents Pool brings world-cla
 
 // FAQ Section
 export const FAQSectionSection = {
-  sectionTitle: "Frenquenlty asked questions (FAQ)",
+  sectionTitle: "FAQ",
+  setionHeaderTitle: "Frenquenlty asked questions",
   surveyForm: "",
   LeftQuestions: [
     {
