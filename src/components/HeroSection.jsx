@@ -65,7 +65,7 @@ function HeroSection() {
       <div className="w-full min-h-[400px] overflow-x-clip flex items-start justify-center relative">
         <div className="w-fit h-fit flex items-start justify-center overflow-x-clip gap-4">
           {/* 1 */}
-          <div className="flex flex-col gap-4 translate-y-[-80px]">
+          <div className="flex flex-col gap-4 translate-y-[75px]">
             {updatedImages.slice(0, 2).map((image, index) => (
               <div
                 key={index}
@@ -113,7 +113,7 @@ function HeroSection() {
             ))}
           </div>
           {/* 5 */}
-          <div className="flex flex-col gap-4 translate-y-[-130px]">
+          <div className="flex flex-col gap-4 ">
             {updatedImages.slice(8, 10).map((image, index) => (
               <div
                 key={index}
@@ -137,7 +137,7 @@ function HeroSection() {
             ))}
           </div>
           {/* 7 */}
-          <div className="flex flex-col gap-4 translate-y-[-80px]">
+          <div className="flex flex-col gap-4 translate-y-[-1300px]">
             {updatedImages.slice(12, 14).map((image, index) => (
               <div
                 key={index}
@@ -149,7 +149,7 @@ function HeroSection() {
             ))}
           </div>
           {/* 8 */}
-          <div className="flex flex-col gap-4 translate-y-[-80px]">
+          <div className="flex flex-col gap-4 translate-y-[-75px]">
             {updatedImages.slice(14, 16).map((image, index) => (
               <div
                 key={index}
