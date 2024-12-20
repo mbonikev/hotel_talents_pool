@@ -20,7 +20,11 @@ function Contacts() {
               fulfilling careers in Rwanda’s growing hospitality industry.
             </p>
           </div>
-          <div className="w-fit"></div>
+          <div className="w-fit min-w-fit flex items-start justify-end">
+            <div className="">
+              
+            </div>
+          </div>
         </div>
         {/* Content */}
         <div className="h-fit w-full pb-10">
