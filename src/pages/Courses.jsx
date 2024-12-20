@@ -64,10 +64,10 @@ function Courses() {
           </div>
         ))}
       </div>
-      <h1 className="max-w-[870px] text-left px-16 w-full mt-[100px] px-3 font-bold">
+      <h1 className="max-w-[870px] text-left px-16 max-md:px-5 w-full mt-[40px] font-bold">
         {CoursesSection.outro[0]}
       </h1>
-      <h1 className="max-w-[870px] text-left px-16 w-full mb-[100px] px-3 font-bold">
+      <h1 className="max-w-[870px] text-left px-16 max-md:px-5 w-full mb-[200px] font-bold">
         {CoursesSection.outro[1]}
       </h1>
       <Footer />
