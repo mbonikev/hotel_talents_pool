@@ -15,7 +15,7 @@ function HireGraduate() {
           </div>
           <div className="flex items-center justify-start gap-2">
             <LuSearch className="text-2xl" />
-            <input type="text" className="h-[30px]" />
+            <input type="text" className="h-[30px] outline-none border-none bg-transparent text-base placeholder:text-[#626262] text-[#111111]" placeholder="search graduate..." />
           </div>
         </div>
       </div>
