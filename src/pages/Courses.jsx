@@ -26,7 +26,7 @@ function Courses() {
         <CourseDetails Id={courseId} Hide={HideCourseDetails} />
       )}
       <Navbar />
-      <div className="w-full h-fit p-16 max-md:px-5 flex flex-col items-start justify-start gap-2">
+      <div className="w-full h-fit pt-16 px-16 max-md:px-5 flex flex-col items-start justify-start gap-2">
         <h1 className="text-5xl font-bold w-fit text-main-color">
           {CoursesSection.sectionTitle}
         </h1>
