@@ -15,7 +15,7 @@ function Home() {
   }
   ]
   return (
-    <div className="w-full h-fit">
+    <div className="w-full h-fit bg-body-color">
       <Navbar />
       <HeroSection />
       <FewCourses />
