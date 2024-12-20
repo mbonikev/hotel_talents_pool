@@ -20,7 +20,8 @@ function HireGraduate() {
           const sheetName = workbook.SheetNames[0]; // Assuming data is in the first sheet
           const sheet = workbook.Sheets[sheetName];
           const jsonData = XLSX.utils.sheet_to_json(sheet);
-          setGraduates(jsonData); // jsonData will be an array of objects
+          setGraduates(jsonData);
+          setFilteredGraduates(jsonData);
         };
         reader.readAsArrayBuffer(blob);
       } catch (error) {
@@ -30,6 +31,17 @@ function HireGraduate() {
 
     fetchExcelData();
   }, []);
+
+  const handleSearch = (e) => {
+    const query = e.target.value.toLowerCase();
+    setSearchQuery(query);
+
+    // Filter graduates by "Full Names"
+    const filtered = graduates.filter((graduate) =>
+      graduate["Full Names"].toLowerCase().includes(query)
+    );
+    setFilteredGraduates(filtered);
+  };
   return (
     <div className="w-full">
       <div className="w-full h-fit max-w-[1700px] px-16 max-md:px-5 mx-auto pb-[80px]">
@@ -51,37 +63,42 @@ function HireGraduate() {
         </div>
         {/* graduate */}
         <div className="bg-white p-7">
-        <div className="px-5 ">
-          {graduates.length === 0 ? (
-            <p>Loading...</p>
-          ) : (
-            <ul>
-              {graduates.map((graduate, index) => (
-                <div className="flex flex-col w-full gap-5">
-                <div key={index} className="w-full flex items-center justify-between gap-6 mt-5 cursor-pointer transition rounded-xl">
-                  <div className="w-[100px] h-[100px] aspect-square overflow-hidden rounded-full ">
-                    <LazyImage
-                      image={`/Graduates/profiles/${graduate["Profile Image"]}`}
-                    />
+          <div className="px-5 ">
+            {graduates.length === 0 ? (
+              <p>Loading...</p>
+            ) : (
+              <ul>
+                {graduates.map((graduate, index) => (
+                  <div className="flex flex-col w-full gap-5">
+                    <div
+                      key={index}
+                      className="w-full flex items-center justify-between gap-6 mt-5 cursor-pointer transition rounded-xl"
+                    >
+                      <div className="w-[100px] h-[100px] aspect-square overflow-hidden rounded-full ">
+                        <LazyImage
+                          image={`/Graduates/profiles/${graduate["Profile Image"]}`}
+                        />
+                      </div>
+                      <div className="flex-1 flex flex-col gap-1">
+                        <h1 className="text-2xl font-medium">
+                          {graduate["Full Names"]}
+                        </h1>
+                        <h1 className="text-lg font-normal text-[#626262] flex items-center gap-3">
+                          <span>{graduate["Position"]}</span>|
+                          <span>{graduate["Experience"]}</span>|
+                          <span>Available: {graduate["Available"]}</span>
+                        </h1>
+                      </div>
+                      <button className="h-[45px] px-5 capitalize bg-main-color text-white font-medium rounded-full transition-none active:scale-95">
+                        view profile
+                      </button>
+                    </div>
+                    <div className="w-full h-[1px] bg-[#ebebeb]"></div>
                   </div>
-                  <div className="flex-1 flex flex-col gap-1">
-                    <h1 className="text-2xl font-medium">{graduate["Full Names"]}</h1>
-                    <h1 className="text-lg font-normal text-[#626262] flex items-center gap-3">
-                        <span>{graduate["Position"]}</span>
-                        |
-                        <span>{graduate["Experience"]}</span>
-                        |
-                        <span>Available: {graduate["Available"]}</span>
-                    </h1>
-                  </div>
-                  <button className="h-[45px] px-5 capitalize bg-main-color text-white font-medium rounded-full transition-none active:scale-95">view profile</button>
-                </div>
-                <div className="w-full h-[1px] bg-[#ebebeb]"></div>
-                </div>
-              ))}
-            </ul>
-          )}
-        </div>
+                ))}
+              </ul>
+            )}
+          </div>
         </div>
       </div>
     </div>
