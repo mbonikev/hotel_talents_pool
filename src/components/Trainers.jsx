@@ -14,7 +14,9 @@ function Trainers() {
           <p className="text-lg font-medium max-w-[490px] pt-3 opacity-65">
             We offer hands-on training for aspiring
           </p>
-          <div className="w-full"></div>
+          <div className="w-full items-center justify-center gap-2">
+            <div></div>
+          </div>
         </div>
       </div>
     </div>
