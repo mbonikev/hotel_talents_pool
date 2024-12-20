@@ -40,8 +40,8 @@ function HeroSection() {
           Trained over {HeroSectionContent.count} Students
         </h1>
       </div>
-      <div className="w-full min-h-[400px] bg-blue-500 overflow-clip ">
-        <div className="w-fit flex items-start justify-center overflow-clip gap-4">
+      <div className="w-full min-h-[400px] bg-blue-500 overflow-clip flex items-start justify-center ">
+        <div className="w-fit flex items-start justify-center overflow-clip gap-4 bg-red-500">
           {/* 1 */}
           <div className="flex flex-col gap-4">
             {images.slice(0, 2).map((image, index) => (
