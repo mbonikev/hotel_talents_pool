@@ -28,7 +28,7 @@ function Queries() {
         </Link>
       </div>
       {/* Questions grid */}
-      <div className="w-1/2 grid grid-cols-1 mt-10 max-lg:mt-5 gap-10 max-lg:gap-5 rounded-xl">
+      <div className="w-1/2 bg-red-400 grid grid-cols-1 gap-10 max-lg:gap-5 rounded-xl">
         <div className="group w-full h-fit flex flex-col p-5 gap-4 bg-card-bg rounded-2xl">
           <div className="w-full h-fit flex flex-col items-center justify-start text-dark-text ">
             <div className="w-full h-fit flex flex-col items-center justify-start gap-2 max-w-[900px]">
