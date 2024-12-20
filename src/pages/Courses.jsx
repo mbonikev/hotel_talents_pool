@@ -49,7 +49,7 @@ function Courses() {
             className="group cursor-pointer flex flex-col max-lg:p-0 hover:bg-card-bg rounded-2xl"
           >
             {/* showcase */}
-            <div className="w-full h-auto aspect-video overflow-hidden rounded-2xl mb-4 flex items-center justify-center">
+            <div className="w-full h-auto aspect-video overflow-hidden rounded-2xl mb-4 flex items-center justify-center bg-white">
               <img
                 src={course.img}
                 className="w-full min-h-full object-cover group-hover:scale-105 transition"
@@ -67,7 +67,7 @@ function Courses() {
       <h1 className="max-w-[870px] text-left px-16 max-md:px-5 w-full mt-[40px] font-bold">
         {CoursesSection.outro[0]}
       </h1>
-      <h1 className="max-w-[870px] text-left px-16 max-md:px-5 w-full mb-[200px] font-bold">
+      <h1 className="max-w-[870px] text-left px-16 max-md:px-5 w-full mb-[220px] font-bold">
         {CoursesSection.outro[1]}
       </h1>
       <Footer />
