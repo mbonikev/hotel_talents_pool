@@ -18,6 +18,8 @@ function HireGraduate() {
             <input type="text" className="h-[30px] outline-none border-none bg-transparent text-base placeholder:text-[#626262] text-[#111111]" placeholder="search graduate..." />
           </div>
         </div>
+        {/* graduate */}
+        
       </div>
     </div>
   );
