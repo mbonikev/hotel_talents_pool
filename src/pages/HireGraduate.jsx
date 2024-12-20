@@ -59,7 +59,7 @@ function HireGraduate() {
                       <strong>{key}:</strong> {value}
                     </div>
                   ))} */}
-                  {graduate}
+                  {Object.entries(graduate).map(([key, value]) => (value))}
                 </li>
               ))}
             </ul>
