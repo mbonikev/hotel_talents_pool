@@ -7,6 +7,16 @@ import { TiFlash } from "react-icons/ti";
 import { RiMedalFill } from "react-icons/ri";
 import { HeroSectionContent } from "../content/content";
 
+// Import images
+const allImages = import.meta.glob("/public/images/*/*.{png,jpg,jpeg,svg}", {
+  eager: true,
+});
+
+const arrayImages = for (let index = 0; index < array.length; index++) {
+  const element = array[index];
+  
+}
+
 const images = [
   { position: "1", img: "/" },
   { position: "2", img: "/" },
