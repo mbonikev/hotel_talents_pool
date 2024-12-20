@@ -6,7 +6,7 @@ function Trainers() {
       <div className="w-full min-h-[400px] bg-[#EBEBEB] rounded-3xl relative overflow-clip">
         {/* lights */}
         <div className="w-[330px] blur-2xl aspect-square absolute top-[-90px] right-[-90px] bg-[#7FA2CA]/60"></div>
-        <div className="w-[330px] blur-2xl aspect-square absolute bottom-[-90px] left-[-90px] bg-[#7FA2CA]/60"></div>
+        <div className="w-[330px] blur-2xl aspect-square absolute bottom-[-90px] left-[-90px] bg-[#4D61BA]/35"></div>
       </div>
     </div>
   );
