@@ -53,7 +53,7 @@ function HeroSection() {
           </div>
           {/* 2 */}
           <div className="flex flex-col gap-4">
-            {images.slice(0, 2).map((image, index) => (
+            {images.slice(2, 4).map((image, index) => (
               <div key={index} className="w-full h-fit">
                 <img src={image.img} className="h-[200px] bg-yellow-400" />
                 <span>{image.position}</span>
