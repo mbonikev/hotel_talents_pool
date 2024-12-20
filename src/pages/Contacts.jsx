@@ -13,7 +13,7 @@ function Contacts() {
         <div className="w-full flex p-20 justify-between">
           <div className="w-fit h-fit flex flex-col items-start justify-center gap-2">
             <h1 className="text-5xl font-bold w-fit text-dark-text/90">
-              Contacts
+              Contact us
             </h1>
             <p className="text-base font-normal text-[#626262] max-w-[434px]">
               We offer hands-on training for aspiring professionals and PWDs,
