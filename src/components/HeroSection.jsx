@@ -27,7 +27,9 @@ function HeroSection() {
       </div>
       <div className="w-full min-h-[400px] bg-blue-500 ">
         <div className="w-full grid grid-cols-6 overflow-clip gap-5">
-          <div className="flex flex-col gap-5"></div>
+          <div className="flex flex-col gap-5">
+            <img src="/" className="h-[200px] bg-yellow-400" />
+          </div>
         </div>
       </div>
     </div>
