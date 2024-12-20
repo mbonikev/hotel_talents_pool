@@ -138,7 +138,7 @@ function HeroSection() {
           </div>
           {/* 7 */}
           <div className="flex flex-col gap-4 translate-y-[-80px]">
-            {updatedImages.slice(10, 12).map((image, index) => (
+            {updatedImages.slice(12, 14).map((image, index) => (
               <div
                 key={index}
                 className="h-[320px] w-[240px] overflow-hidden rounded-2xl"
@@ -150,7 +150,7 @@ function HeroSection() {
           </div>
           {/* 8 */}
           <div className="flex flex-col gap-4 translate-y-[-80px]">
-            {updatedImages.slice(10, 12).map((image, index) => (
+            {updatedImages.slice(14, 16).map((image, index) => (
               <div
                 key={index}
                 className="h-[320px] w-[240px] overflow-hidden rounded-2xl"
