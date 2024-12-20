@@ -24,8 +24,8 @@ function Testimonials() {
         {TestimonialsSection.testimonials.map((person, index) => (
           <div className="flex flex-col gap-4 items-center justify-center text-center break-inside-avoid bg-white relative p-5 rounded-2xl overflow-hidden">
             {/* lights */}
-            <div className="w-[40%] rounded-full -z-0 blur-[100px] aspect-square absolute top-[-150px] right-[-160px] bg-red-500/60"></div>
-            <div className="w-[40%] rounded-full -z-0 blur-[100px] aspect-square absolute bottom-[-150px] left-[-160px] bg-[#4D61BA]/35"></div>
+            <div className="w-[40%] rounded-full -z-0 blur-[0px] aspect-square absolute top-[-150px] right-[-160px] bg-red-500/60"></div>
+            <div className="w-[40%] rounded-full -z-0 blur-[0px] aspect-square absolute bottom-[-150px] left-[-160px] bg-blue-500/35"></div>
             <div className="w-full h-full z-10 flex flex-col items-center justify-center gap-1">
               <div className="flex items-center justify-start gap-7">
                 <div className="h-16 w-auto aspect-square relative">
