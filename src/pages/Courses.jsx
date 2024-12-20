@@ -26,11 +26,11 @@ function Courses() {
         <CourseDetails Id={courseId} Hide={HideCourseDetails} />
       )}
       <Navbar />
-      <div className="w-full h-fit p-16 max-md:px-5 flex flex-col items-start justify-center gap-2">
+      <div className="w-full h-fit p-16 max-md:px-5 flex flex-col items-start justify-start gap-2">
         <h1 className="text-5xl font-bold w-fit text-main-color">
           {CoursesSection.sectionTitle}
         </h1>
-        <h1 className="max-w-[620px] text-left mt-3 mx-auto">
+        <h1 className="bg-red-300 max-w-[620px] text-left mt-3">
           {CoursesSection.intro[0]}
         </h1>
       </div>
@@ -38,7 +38,7 @@ function Courses() {
       {/* <h1 className="max-w-[920px] text-center mt-3 mx-auto">
         {CoursesSection.intro[1]}
       </h1> */}
-      <h1 className="text-sm font-bold mt-5 mb-2 max-w-[1150px] w-fit text-main-color px-20 max-lg:px-5">
+      <h1 className="text-sm font-bold mt-5 mb-2 max-w-[1150px] w-fit px-20 max-lg:px-5">
         {CoursesSection.intro[2]}
       </h1>
       <div className="w-full grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 px-16 pb-5 pt-3 max-lg:px-5 gap-7 rounded-xl">
