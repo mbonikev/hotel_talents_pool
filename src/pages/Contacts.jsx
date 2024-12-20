@@ -26,7 +26,7 @@ function Contacts() {
               <div className="h-12 aspect-square rounded-full bg-[#ebebeb] text-2xl flex items-center justify-center">
                 <IoLocationOutline/>
               </div>
-              <p className="text-base font-normal text-[#626262] max-w-[434px]"></p>
+              <p className="text-xl font-medium max-w-[434px]">Our Address</p>
             </div>
           </div>
         </div>
