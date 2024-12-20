@@ -7,9 +7,11 @@ function Trainers() {
         {/* lights */}
         <div className="w-[40%] rounded-full -z-0 blur-[100px] aspect-square absolute top-[-150px] right-[-160px] bg-[#7FA2CA]/60"></div>
         <div className="w-[40%] rounded-full -z-0 blur-[100px] aspect-square absolute bottom-[-150px] left-[-160px] bg-[#4D61BA]/35"></div>
-           <div className="w-full h-full bg-red-400 absolute top-0 z-10 flex flex-col items-center justify-center gap-2">
-                
-            </div>       
+        <div className="w-full h-full bg-red-400 absolute top-0 z-10 flex flex-col items-center justify-center gap-2">
+          <h1 className="text-5xl font-bold w-fit text-center">
+            Trained by professionals
+          </h1>
+        </div>
       </div>
     </div>
   );
