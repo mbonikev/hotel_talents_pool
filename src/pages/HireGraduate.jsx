@@ -59,6 +59,7 @@ function HireGraduate() {
                         <LazyImage image={`/Graduates/profiles/${graduate["Profile Image"]}`} />
                     </div>
                     <div className="flex flex-col"></div>
+                    <button className="view profile"></button>
                 </div>
               ))}
             </ul>
