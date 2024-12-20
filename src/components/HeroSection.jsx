@@ -61,7 +61,7 @@ function HeroSection() {
         <div className="w-fit flex items-start justify-center overflow-x-clip gap-4">
           {/* 1 */}
           <div className="flex flex-col gap-4 translate-y-[-80px]">
-            {images.slice(0, 2).map((image, index) => (
+            {updatedImages.slice(0, 2).map((image, index) => (
               <div key={index} className="w-full h-fit">
                 <img src={image.img} className={`${imageStyle}`} />
                 {/* <span>{image.position}</span> */}
@@ -70,7 +70,7 @@ function HeroSection() {
           </div>
           {/* 2 */}
           <div className="flex flex-col gap-4 translate-y-[-130px]">
-            {images.slice(2, 4).map((image, index) => (
+            {updatedImages.slice(2, 4).map((image, index) => (
               <div key={index} className="w-full h-fit">
                 <img src={image.img} className={`${imageStyle}`} />
                 {/* <span>{image.position}</span> */}
@@ -79,7 +79,7 @@ function HeroSection() {
           </div>
           {/* 3 */}
           <div className="flex flex-col gap-4">
-            {images.slice(4, 6).map((image, index) => (
+            {updatedImages.slice(4, 6).map((image, index) => (
               <div key={index} className="w-full h-fit">
                 <img src={image.img} className={`${imageStyle}`} />
                 {/* <span>{image.position}</span> */}
@@ -88,7 +88,7 @@ function HeroSection() {
           </div>
           {/* 4 */}
           <div className="flex flex-col gap-4">
-            {images.slice(6, 8).map((image, index) => (
+            {updatedImages.slice(6, 8).map((image, index) => (
               <div key={index} className="w-full h-fit">
                 <img src={image.img} className={`${imageStyle}`} />
                 {/* <span>{image.position}</span> */}
@@ -97,7 +97,7 @@ function HeroSection() {
           </div>
           {/* 5 */}
           <div className="flex flex-col gap-4 translate-y-[-130px]">
-            {images.slice(8, 10).map((image, index) => (
+            {updatedImages.slice(8, 10).map((image, index) => (
               <div key={index} className="w-full h-fit">
                 <img src={image.img} className={`${imageStyle}`} />
                 {/* <span>{image.position}</span> */}
@@ -106,7 +106,7 @@ function HeroSection() {
           </div>
           {/* 6 */}
           <div className="flex flex-col gap-4 translate-y-[-80px]">
-            {images.slice(10, 12).map((image, index) => (
+            {updatedImages.slice(10, 12).map((image, index) => (
               <div key={index} className="w-full h-fit">
                 <img src={image.img} className={`${imageStyle}`} />
                 {/* <span>{image.position}</span> */}
