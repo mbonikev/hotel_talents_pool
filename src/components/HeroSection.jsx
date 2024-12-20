@@ -57,8 +57,8 @@ function HeroSection() {
           Trained over {HeroSectionContent.count} Students
         </h1>
       </div>
-      <div className="w-full min-h-[400px] overflow-x-clip flex items-start justify-center ">
-        <div className="w-fit h-fit flex items-start justify-center overflow-x-clip gap-4 ">
+      <div className="w-full min-h-[400px] overflow-x-clip flex items-start justify-center relative">
+        <div className="w-fit h-fit flex items-start justify-center overflow-x-clip gap-4">
           {/* 1 */}
           <div className="flex flex-col gap-4 translate-y-[-80px]">
             {updatedImages.slice(0, 2).map((image, index) => (
@@ -114,6 +114,7 @@ function HeroSection() {
             ))}
           </div>
         </div>
+        {/* white shadow */}
       </div>
     </div>
   );
