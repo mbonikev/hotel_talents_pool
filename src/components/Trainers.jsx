@@ -7,6 +7,7 @@ function Trainers() {
         {/* lights */}
         <div className="w-[40%] rounded-full blur-[100px] aspect-square absolute top-[-150px] right-[-160px] bg-[#7FA2CA]/60"></div>
         <div className="w-[40%] rounded-full blur-[100px] aspect-square absolute bottom-[-150px] left-[-160px] bg-[#4D61BA]/35"></div>
+           <div className="w-full h-full bg-red-400 z-20"></div>       
       </div>
     </div>
   );
