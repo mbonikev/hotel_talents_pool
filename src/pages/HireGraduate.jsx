@@ -48,13 +48,13 @@ function HireGraduate() {
           </div>
         </div>
         {/* graduate */}
-        <div className="px-16 max-md:px-5 bg-white">
+        <div className="px-16 max-md:px-5 bg-white py-10">
           {graduates.length === 0 ? (
             <p>Loading...</p>
           ) : (
             <ul>
               {graduates.map((graduate, index) => (
-                <div key={index} className="w-full flex items-center justify-between gap-6 p-5 border-b-[1px] border-stone-300">
+                <div key={index} className="w-full flex items-center justify-between gap-6 p-5 border-b-[1px] border-stone-200">
                   <div className="w-[100px] h-[100px] aspect-square overflow-hidden rounded-lg ">
                     <LazyImage
                       image={`/Graduates/profiles/${graduate["Profile Image"]}`}
