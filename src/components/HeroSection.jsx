@@ -22,7 +22,7 @@ const images = [
   { position: "12", img: "/" },
 ];
 
-const imageStyle = `h-[300px] w-[240px] rounded-2xl bg-yellow-400 border-none outline-none`;
+const imageStyle = `h-[300px] w-[240px] rounded-2xl bg-yellow-400 border-none outline-none shadow-xl`;
 
 function HeroSection() {
   return (
@@ -49,7 +49,7 @@ function HeroSection() {
             {images.slice(0, 2).map((image, index) => (
               <div key={index} className="w-full h-fit">
                 <img src={image.img} className={`${imageStyle}`} />
-                <span>{image.position}</span>
+                {/* <span>{image.position}</span> */}
               </div>
             ))}
           </div>
@@ -58,7 +58,7 @@ function HeroSection() {
             {images.slice(2, 4).map((image, index) => (
               <div key={index} className="w-full h-fit">
                 <img src={image.img} className={`${imageStyle}`} />
-                <span>{image.position}</span>
+                {/* <span>{image.position}</span> */}
               </div>
             ))}
           </div>
@@ -67,7 +67,7 @@ function HeroSection() {
             {images.slice(4, 6).map((image, index) => (
               <div key={index} className="w-full h-fit">
                 <img src={image.img} className={`${imageStyle}`} />
-                <span>{image.position}</span>
+                {/* <span>{image.position}</span> */}
               </div>
             ))}
           </div>
@@ -76,7 +76,7 @@ function HeroSection() {
             {images.slice(6, 8).map((image, index) => (
               <div key={index} className="w-full h-fit">
                 <img src={image.img} className={`${imageStyle}`} />
-                <span>{image.position}</span>
+                {/* <span>{image.position}</span> */}
               </div>
             ))}
           </div>
@@ -85,7 +85,7 @@ function HeroSection() {
             {images.slice(8, 10).map((image, index) => (
               <div key={index} className="w-full h-fit">
                 <img src={image.img} className={`${imageStyle}`} />
-                <span>{image.position}</span>
+                {/* <span>{image.position}</span> */}
               </div>
             ))}
           </div>
@@ -94,7 +94,7 @@ function HeroSection() {
             {images.slice(10, 12).map((image, index) => (
               <div key={index} className="w-full h-fit">
                 <img src={image.img} className={`${imageStyle}`} />
-                <span>{image.position}</span>
+                {/* <span>{image.position}</span> */}
               </div>
             ))}
           </div>
