@@ -15,7 +15,7 @@ function HeroSection() {
         <h1 className="mt-[130px] text-6xl leading-[75px] font-bold tracking-tight text-center w-full">
           {HeroSectionContent.BigTitle}
         </h1>
-        <h1 className=" text-lg mt-[15px] leading-6 font-medium tracking-tight text-center w-full max-w-[500px] opacity-65">
+        <h1 className=" text-lg mt-[15px] max-lg:mt-0 leading-6 font-medium tracking-tight text-center w-full max-w-[500px] opacity-65">
           {HeroSectionContent.SmallDesc}
         </h1>
         <button className="min-w-[130px] h-[42px] bg-main-color text-white font-medium text-sm flex items-center justify-center gap-1 rounded-full">
@@ -25,7 +25,7 @@ function HeroSection() {
           Trained over {HeroSectionContent.count} Students
         </h1>
       </div>
-      <div className="w-full min-h-[400px] bg-blue-500"></div>
+      <div className="w-full min-h-[400px] bg-blue-500 grid grid-cols-6 overflow-clip"></div>
     </div>
   );
 }
