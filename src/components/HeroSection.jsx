@@ -25,7 +25,14 @@ function HeroSection() {
           Trained over {HeroSectionContent.count} Students
         </h1>
       </div>
-      <div className="w-full min-h-[400px] bg-blue-500 grid grid-cols-6 overflow-clip"></div>
+      <div className="w-full min-h-[400px] bg-blue-500 grid grid-cols-6 overflow-clip">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </div>
   );
 }
