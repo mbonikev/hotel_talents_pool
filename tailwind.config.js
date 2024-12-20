@@ -12,6 +12,7 @@ export default {
         "dark-text": "#202124",
         "card-bg": "#f5f8fa",
         "main-color": "#1178a5",
+        "body-color": "#eff2ff",
       }
     },
   },
