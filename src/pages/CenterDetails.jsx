@@ -65,11 +65,11 @@ function CenterDetails() {
   return (
     <div className="w-full h-fit text-dark-text">
       <Navbar setLoading={setLoading} />
-      <div className="w-full h-fit pt-20 pb-10 flex flex-col items-start justify-start gap-2 max-w-[1700px] mx-auto ">
-        <h1 className="text-5xl font-bold w-fit text-main-color">
+      <div className="w-full h-fit pt-20 pb-10 px-16 max-md:px-5 flex flex-col items-start justify-start gap-2">
+        <h1 className="text-5xl font-bold w-fit text-main-color max-w-[1700px] mx-auto  ">
           {center_name}
         </h1>
-        <h1 className="max-w-[1200px] text-[#626262] mt-3 text-justify ">
+        <h1 className=" text-[#626262] mt-3 text-justify max-w-[1700px] mx-auto   ">
           {choosenCenter.introduction}
         </h1>
       </div>
