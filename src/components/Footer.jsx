@@ -22,6 +22,7 @@ function Footer() {
               <Link
                 className="text-sm mt-[20px] w-fit bg-[#111111] transition active:scale-90 text-white py-2.5 px-6 rounded-full max-lg:hidden"
                 to={formUrl}
+                target="_blank"
               >
                 Enroll now
               </Link>
