@@ -8,14 +8,14 @@ function Footer() {
     <div className="w-full">
       <div className="w-full flex flex-col items-start justify-between max-md:flex-col mt-[160px] max-md:gap-3 text-dark-text relative max-w-[1700px] mx-auto">
         <div className="w-full h-[300px] px-16 max-lg:px-5 absolute top-[-150px] ">
-          <div className="w-full h-full bg-[#b2c3ec] rounded-[30px] ">
+          <div className="w-full h-full bg-[#b2c3ec] rounded-[35px] p-10">
             s
           </div>
         </div>
       </div>
       <div className="bg-[#111111] w-full pt-[150px] ">
-        <div className="w-full min-h-[300px] flex items-center justify-center flex-col px-16 max-lg:px-5 max-w-[1700px] mx-auto">
-          <div className="bg-green-400 w-full h-full flex-1 p-5"></div>
+        <div className="w-full min-h-[200px] flex items-center justify-center flex-col px-16 max-lg:px-5 max-w-[1700px] mx-auto">
+          <div className=" w-full h-full flex-1 p-5"></div>
         </div>
       </div>
     </div>
