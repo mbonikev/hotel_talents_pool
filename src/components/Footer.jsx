@@ -37,7 +37,7 @@ function Footer() {
             <h1 className="text-2xl leading-[45px] tracking-tight pb-3 font-bold w-fit text-white">
               Hotel Talents pool
             </h1>
-            <p className="text-sm text-white/40">&copy; 2023 hoteltalentspool.com</p>
+            <p className="text-sm text-white/30 font-medium">&copy; 2023 hoteltalentspool.com</p>
             </div>
           </div>
         </div>
