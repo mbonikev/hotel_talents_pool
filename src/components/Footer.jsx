@@ -12,7 +12,9 @@ function Footer() {
             <div className="w-full flex-1">
               <h1 className="text-5xl pb-3 font-bold w-fit max-w-[380px]"></h1>
             </div>
-            <div cl></div>
+            <div className="w-[200px] min-w-fit flex flex-col justify-between items-end">
+              
+            </div>
           </div>
         </div>
       </div>
