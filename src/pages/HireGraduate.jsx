@@ -48,7 +48,8 @@ function HireGraduate() {
           </div>
         </div>
         {/* graduate */}
-        <div className="px-5 bg-white">
+        <div className="bg-white p-7">
+        <div className="px-5 ">
           {graduates.length === 0 ? (
             <p>Loading...</p>
           ) : (
@@ -78,6 +79,7 @@ function HireGraduate() {
               ))}
             </ul>
           )}
+        </div>
         </div>
       </div>
     </div>
