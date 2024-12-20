@@ -42,7 +42,7 @@ const updatedImages = images.map((image, index) => ({
   img: imagePaths[index] || "/", // Use '/' as fallback if there are fewer images
 }));
 
-const imageStyle = `h-fit min-h-full w-full bg-stone-100 border-none outline-none shadow-xl object-cover brightness-90 saturate-[.8] `;
+const imageStyle = `h-fit min-h-full w-full bg-stone-100 border-none outline-none shadow-xl object-cover brightness-75 saturate-[.8] `;
 
 function HeroSection() {
   return (
