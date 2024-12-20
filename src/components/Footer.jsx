@@ -12,7 +12,7 @@ function Footer() {
         </div>
       </div>
       <div className="bg-[#111111] w-full pt-[150px] ">
-        <div className="w-full min-h-[300px] px-16 max-lg:px-5max-w-[1000px] mx-auto">
+        <div className="w-full min-h-[300px] flex items-center justify-center flex-col px-16 max-lg:px-5 max-w-[1000px] mx-auto">
           <div className="bg-green-400 w-full h-full flex-1 p-5"></div>
         </div>
       </div>
