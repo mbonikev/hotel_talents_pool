@@ -43,7 +43,7 @@ function Queries() {
                       {item.question}
                     </h1>
                     <p
-                      className={`text-sm text-black/40 leading-5 font-normal transition-all duration-500 ease-in-out overflow-hidden ${
+                      className={`text-sm text-black/40 leading-5 font-normal transition-all duration-300 ease-in-out overflow-hidden ${
                         activeIndex === index ? "max-h-96" : "max-h-0"
                       }`}
                     >
@@ -52,7 +52,7 @@ function Queries() {
                   </div>
                   <button
                     onClick={() => toggleAnswer(index)}
-                    className=" h-[30px] aspect-square rounded-full transition duration-150 active:scale-90 text-dark-text/50 hover:bg-card-bg hover:text-main-color flex items-center justify-center   "
+                    className=" h-[30px] aspect-square rounded-full transition duration-150 text-dark-text/50 hover:bg-card-bg hover:text-main-color flex items-center justify-center   "
                   >
                     <LuArrowRight className="text-[20px] stroke-[3px] " />
                   </button>
