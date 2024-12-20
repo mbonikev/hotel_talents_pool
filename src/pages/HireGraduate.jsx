@@ -48,13 +48,13 @@ function HireGraduate() {
           </div>
         </div>
         {/* graduate */}
-        <div className="px-5 bg-white">
+        <div className="p-5 bg-white">
           {graduates.length === 0 ? (
             <p>Loading...</p>
           ) : (
             <ul>
               {graduates.map((graduate, index) => (
-                <div className="flex flex-col w-full gap-5 pt-5">
+                <div className="flex flex-col w-full gap-5">
                 <div key={index} className="w-full flex items-center justify-between gap-6 p-5 mb-0 hover:text-main-color cursor-pointer transition rounded-xl hover:bg-[#ebebeb69]">
                   <div className="w-[100px] h-[100px] aspect-square overflow-hidden rounded-full ">
                     <LazyImage
