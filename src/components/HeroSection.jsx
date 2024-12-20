@@ -8,7 +8,7 @@ import { RiMedalFill } from "react-icons/ri";
 import { HeroSectionContent } from "../content/content";
 
 // Import images
-const allImages = import.meta.glob("/public/images/*/*.{png,jpg,jpeg,svg}", {
+const allImages = import.meta.glob("/public/images/Hero/*.{png,jpg,jpeg,svg}", {
   eager: true,
 });
 
