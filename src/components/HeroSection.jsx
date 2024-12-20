@@ -115,7 +115,7 @@ function HeroSection() {
           </div>
         </div>
         {/* white shadow */}
-        <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-white to-transparent"></div>
+        <div className="absolute bottom-0 left-0 w-full h-[800px] bg-gradient-to-t from-white to-transparent"></div>
       </div>
     </div>
   );
