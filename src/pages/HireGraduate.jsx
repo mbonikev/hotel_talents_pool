@@ -55,6 +55,8 @@ function HireGraduate() {
           <div className="flex items-center justify-start gap-2 border-b-[1px] border-[#b8b8b8]">
             <LuSearch className="text-xl text-[#626262]" />
             <input
+              value={searchQuery}
+              onChange={handleSearch}
               type="text"
               className="h-[30px] outline-none border-none bg-transparent text-base placeholder:text-[#626262] text-[#111111]"
               placeholder="search graduate..."
@@ -64,11 +66,11 @@ function HireGraduate() {
         {/* graduate */}
         <div className="bg-white p-7">
           <div className="px-5 ">
-            {graduates.length === 0 ? (
+            {filteredGraduates.length === 0 ? (
               <p>Loading...</p>
             ) : (
               <ul>
-                {graduates.map((graduate, index) => (
+                {filteredGraduates.map((graduate, index) => (
                   <div className="flex flex-col w-full gap-5">
                     <div
                       key={index}
