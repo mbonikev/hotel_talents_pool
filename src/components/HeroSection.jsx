@@ -64,7 +64,7 @@ function HeroSection() {
       </div>
       <div className="w-full min-h-[400px] overflow-x-clip flex items-start justify-center relative">
         <div className="w-fit h-fit flex items-start justify-center overflow-x-clip gap-4">
-          <div className="h-[320px] w-[240px] overflow-hidden rounded-2xl">
+          <div className="h-[320px] w-[240px] overflow-hidden rounded-2xl translate-y-[75px]">
             <img src={updatedImages[12]} className={`${imageStyle}`} />
             {/* <span>{image.position}</span> */}
           </div>
@@ -140,7 +140,7 @@ function HeroSection() {
               </div>
             ))}
           </div>
-          <div className="h-[320px] w-[240px] overflow-hidden rounded-2xl">
+          <div className="h-[320px] w-[240px] overflow-hidden rounded-2xl translate-y-[75px]">
             <img src={updatedImages[12]} className={`${imageStyle}`} />
             {/* <span>{image.position}</span> */}
           </div>
