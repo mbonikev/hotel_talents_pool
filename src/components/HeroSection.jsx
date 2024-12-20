@@ -140,6 +140,10 @@ function HeroSection() {
               </div>
             ))}
           </div>
+          <div className="h-[320px] w-[240px] overflow-hidden rounded-2xl">
+            <img src={updatedImages[12]} className={`${imageStyle}`} />
+            {/* <span>{image.position}</span> */}
+          </div>
         </div>
         {/* white shadow */}
         <div className="absolute top-[83%] left-0 w-full h-[170px] border-t bg-body-color flex items-center justify-center gap-20">
