@@ -78,18 +78,25 @@ function Footer() {
                   About us
                 </Link>
                 <Link
-                  to={'/'}
+                  to={"/"}
                   target="_blank"
                   className="text-sm text-white/30 font-medium"
                 >
                   Support
                 </Link>
                 <Link
-                  to={'/'}
+                  to={"/"}
                   target="_blank"
                   className="text-sm text-white/30 font-medium"
                 >
-                  support
+                  Terms & conditions
+                </Link>
+                <Link
+                  to={"/"}
+                  target="_blank"
+                  className="text-sm text-white/30 font-medium"
+                >
+                  Privacy Policy
                 </Link>
               </div>
             </div>
