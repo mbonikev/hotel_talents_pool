@@ -37,7 +37,7 @@ const updatedImages = images.map((image, index) => ({
   img: imagePaths[index] || "/", // Use '/' as fallback if there are fewer images
 }));
 
-const imageStyle = `h-[300px] w-[240px] rounded-2xl bg-yellow-400 border-none outline-none shadow-xl`;
+const imageStyle = `h-[300px] w-[240px] rounded-2xl bg-yellow-400 border-none outline-none shadow-xl object-cover`;
 
 function HeroSection() {
   return (
