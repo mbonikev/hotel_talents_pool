@@ -69,7 +69,7 @@ function CenterDetails() {
         <h1 className="text-5xl font-bold w-fit text-main-color">
           {center_name}
         </h1>
-        <h1 className="max-w-[920px] text-left mt-3 ">
+        <h1 className="max-w-[1200px] text-[#626262] mt-3 text-justify ">
           {choosenCenter.introduction}
         </h1>
       </div>
