@@ -22,7 +22,7 @@ const images = [
   { position: "12", img: "/" },
 ];
 
-const imageStyle = `h-[300px] w-[240px] bg-yellow-400`;
+const imageStyle = `h-[300px] w-[240px] rounded-2xl bg-yellow-400 border-none outline-none`;
 
 function HeroSection() {
   return (
@@ -42,8 +42,8 @@ function HeroSection() {
           Trained over {HeroSectionContent.count} Students
         </h1>
       </div>
-      <div className="w-full min-h-[400px] bg-blue-500 overflow-clip flex items-start justify-center ">
-        <div className="w-fit flex items-start justify-center overflow-clip gap-4 bg-red-500">
+      <div className="w-full min-h-[400px] overflow-clip flex items-start justify-center ">
+        <div className="w-fit flex items-start justify-center overflow-clip gap-4">
           {/* 1 */}
           <div className="flex flex-col gap-4">
             {images.slice(0, 2).map((image, index) => (
