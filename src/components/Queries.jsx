@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaCaretDown } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { FAQSectionSection } from "../content/content";
+import { LuArrowRight } from "react-icons/lu";
 
 function Queries() {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -53,7 +54,7 @@ function Queries() {
                     onClick={() => toggleAnswer(index)}
                     className=" h-[30px] aspect-square rounded-full transition duration-150 active:scale-90 text-dark-text/50 hover:bg-card-bg hover:text-main-color flex items-center justify-center   "
                   >
-                    <FaCaretDown className="text-[20px] " />
+                    <LuArrowRight className="text-[20px] stroke-[3px] " />
                   </button>
                 </div>
               ))}
