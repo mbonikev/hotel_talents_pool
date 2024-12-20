@@ -30,9 +30,9 @@ function HireGraduate() {
   }, []);
   return (
     <div className="w-full">
-      <div className="w-full h-fit max-w-[1700px] mx-auto pb-[80px]">
+      <div className="w-full h-fit max-w-[1700px] px-16 max-md:px-5 mx-auto pb-[80px]">
         <Navbar />
-        <div className="w-full flex px-16 pt-24 pb-16 justify-between">
+        <div className="w-full flex pt-24 pb-16 justify-between">
           <div className="w-fit h-fit flex flex-col items-start justify-center gap-2">
             <h1 className="text-5xl font-bold w-fit text-dark-text/90">
               Graduate List
