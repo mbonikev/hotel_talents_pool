@@ -7,6 +7,7 @@ import "swiper/css/effect-fade";
 import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, EffectFade } from "swiper/modules";
+import { LuArrowLeft, LuArrowRight } from "react-icons/lu";
 
 function FewCourses() {
   return (
@@ -28,7 +29,41 @@ function FewCourses() {
       </div>
       {/* courses grid */}
       <div className="w-full max-w-[700px] gap-5 bg-emerald-300 min-h-[300px]">
-
+      <div className=" h-fit w-full relative">
+                  <Swiper
+                    slidesPerView={1}
+                    spaceBetween={10}
+                    effect={"fade"}
+                    speed={1000}
+                    autoplay={{
+                      delay: 12000,
+                      disableOnInteraction: false,
+                    }}
+                    modules={[Autoplay, EffectFade, Navigation]}
+                    navigation={{
+                      nextEl: ".swiper-button-next",
+                      prevEl: ".swiper-button-prev",
+                    }}
+                    className="mySwiper"
+                  >
+                    {CoursesSection.courses.map((course, index) => (
+                      <SwiperSlide>
+                        <div
+                          key={index}
+                          className="h-[470px] w-full relative overflow-hidden"
+                        >
+                          
+                        </div>
+                      </SwiperSlide>
+                    ))}
+                    <div className="swiper-button-next hero max-lg:hidden">
+                      <LuArrowRight />
+                    </div>
+                    <div className="swiper-button-prev hero max-lg:hidden">
+                      <LuArrowLeft />
+                    </div>
+                  </Swiper>
+                </div>
       </div>
     </div>
   );
