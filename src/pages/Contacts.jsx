@@ -38,12 +38,14 @@ function Contacts() {
               <div className="h-12 w-12 aspect-square rounded-full bg-[#ebebeb] text-2xl flex items-center justify-center">
                 <IoLocationOutline />
               </div>
-              <p className="text-xl font-medium max-w-[434px]">Our contact info</p>
-              <p className="text-base font-normal text-[#626262] max-w-[434px]">
-                City towel
+              <p className="text-xl font-medium max-w-[434px]">
+                Our contact info
               </p>
               <p className="text-base font-normal text-[#626262] max-w-[434px]">
-                234 STR
+                +250788888888
+              </p>
+              <p className="text-base font-normal text-[#626262] max-w-[434px]">
+                hoteltalentspool@gmail.com
               </p>
             </div>
           </div>
