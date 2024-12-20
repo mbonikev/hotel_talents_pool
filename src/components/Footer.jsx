@@ -32,8 +32,8 @@ function Footer() {
         </div>
       </div>
       <div className="bg-[#111111] w-full pt-[150px] ">
-        <div className="w-full min-h-[200px] flex items-center justify-center flex-col px-16 max-lg:px-5 max-w-[1700px] mx-auto">
-          <div className=" w-full h-full min-h-[400px] flex-1 px-12 py-6 mt-4 flex justify-between items-start">
+        <div className="w-full h-fit flex items-center justify-center flex-col px-16 max-lg:px-5 max-w-[1700px] mx-auto">
+          <div className=" w-full h-fit flex-1 px-12 py-6 mt-4 flex justify-between items-start">
             <div className="flex min-h-full bg-red-200 flex-col items-start justify-between">
               <h1 className="text-2xl leading-[45px] tracking-tight pb-3 font-bold w-fit text-white">
                 Hotel Talents pool
