@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import { LuSearch } from "react-icons/lu";
 import * as XLSX from "xlsx";
+import LazyImage from "../components/LazyImage";
 
 function HireGraduate() {
   const [graduates, setGraduates] = useState([]);
@@ -47,15 +48,15 @@ function HireGraduate() {
           </div>
         </div>
         {/* graduate */}
-        <div>
+        <div className="px-16">
           {graduates.length === 0 ? (
             <p>Loading...</p>
           ) : (
             <ul>
               {graduates.map((graduate, index) => (
-                <div key={index} className="w-full flex">
+                <div key={index} className="w-full flex bg-stone-300">
                     <div className="w-[90px] h-[90px] aspect-square overflow-hidden ">
-                        <img src={`/Graduates/profiles/${graduate["Profile Image"]}`} alt="" />
+                        <LazyImage image={`/Graduates/profiles/${graduate["Profile Image"]}`} />
                     </div>
                     <div className="flex flex-col"></div>
                 </div>
