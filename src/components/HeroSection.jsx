@@ -7,7 +7,8 @@ import { TiFlash } from "react-icons/ti";
 import { RiMedalFill } from "react-icons/ri";
 import { HeroSectionContent } from "../content/content";
 import { formUrl } from "../content/enrollForm";
-
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import LazyImage from "./LazyImage";
 // Import images
 const allImages = import.meta.glob("/public/images/Hero/*.{png,jpg,jpeg,svg}", {
   eager: true,
@@ -75,7 +76,8 @@ function HeroSection() {
                 key={index}
                 className="h-[320px] w-[240px] overflow-hidden rounded-2xl"
               >
-                <img src={image.img} className={`${imageStyle}`} />
+                <LazyImage image={image.img} />
+                {/* <img src={image.img} className={`${imageStyle}`} /> */}
                 {/* <span>{image.position}</span> */}
               </div>
             ))}
@@ -87,7 +89,8 @@ function HeroSection() {
                 key={index}
                 className="h-[320px] w-[240px] overflow-hidden rounded-2xl"
               >
-                <img src={image.img} className={`${imageStyle}`} />
+                <LazyImage image={image.img} />
+                {/* <img src={image.img} className={`${imageStyle}`} /> */}
                 {/* <span>{image.position}</span> */}
               </div>
             ))}
@@ -99,7 +102,8 @@ function HeroSection() {
                 key={index}
                 className="h-[320px] w-[240px] overflow-hidden rounded-2xl"
               >
-                <img src={image.img} className={`${imageStyle}`} />
+                <LazyImage image={image.img} />
+                {/* <img src={image.img} className={`${imageStyle}`} /> */}
                 {/* <span>{image.position}</span> */}
               </div>
             ))}
@@ -111,7 +115,8 @@ function HeroSection() {
                 key={index}
                 className="h-[320px] w-[240px] overflow-hidden rounded-2xl"
               >
-                <img src={image.img} className={`${imageStyle}`} />
+                <LazyLoadImage src={image.img} />
+                {/* <img src={image.img} className={`${imageStyle}`} /> */}
                 {/* <span>{image.position}</span> */}
               </div>
             ))}
@@ -123,7 +128,8 @@ function HeroSection() {
                 key={index}
                 className="h-[320px] w-[240px] overflow-hidden rounded-2xl"
               >
-                <img src={image.img} className={`${imageStyle}`} />
+                <LazyImage image={image.img} />
+                {/* <img src={image.img} className={`${imageStyle}`} /> */}
                 {/* <span>{image.position}</span> */}
               </div>
             ))}
@@ -135,7 +141,8 @@ function HeroSection() {
                 key={index}
                 className="h-[320px] w-[240px] overflow-hidden rounded-2xl"
               >
-                <img src={image.img} className={`${imageStyle}`} />
+                <LazyImage image={image.img} />
+                {/* <img src={image.img} className={`${imageStyle}`} /> */}
                 {/* <span>{image.position}</span> */}
               </div>
             ))}
@@ -147,7 +154,8 @@ function HeroSection() {
                 key={index}
                 className="h-[320px] w-[240px] overflow-hidden rounded-2xl"
               >
-                <img src={image.img} className={`${imageStyle}`} />
+                <LazyImage image={image.img} />
+                {/* <img src={image.img} className={`${imageStyle}`} /> */}
                 {/* <span>{image.position}</span> */}
               </div>
             ))}
@@ -159,7 +167,8 @@ function HeroSection() {
                 key={index}
                 className="h-[320px] w-[240px] overflow-hidden rounded-2xl"
               >
-                <img src={image.img} className={`${imageStyle}`} />
+                <LazyImage image={image.img} />
+                {/* <img src={image.img} className={`${imageStyle}`} /> */}
                 {/* <span>{image.position}</span> */}
               </div>
             ))}
