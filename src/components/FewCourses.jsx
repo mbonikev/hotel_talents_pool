@@ -9,7 +9,7 @@ function FewCourses() {
       <div className="w-full h-fit flex flex-col gap-1">
         <h1 className="text-lg font-medium ">{CoursesSection.sectionTitle}</h1>
         <h1 className="text-5xl font-bold w-fit max-w-[300px]">{CoursesSection.HeaderTitle}</h1>
-        <p className="text-base font-medium leading-6 max-w-[400px]">{CoursesSection.HeaderDesc}</p>
+        <p className="text-base font-medium leading-6 max-w-[400px] pt-5">{CoursesSection.HeaderDesc}</p>
       </div>
       {/* courses grid */}
       <div className="w-full gap-5">
