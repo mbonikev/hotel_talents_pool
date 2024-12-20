@@ -18,7 +18,7 @@ function Navbar({setLoading}) {
   };
 
   return (
-    <div className="w-full flex items-center justify-between px-5 py-2.5 text-dark-text bg-white sticky top-0 z-30">
+    <div className="w-full flex items-center justify-between px-5 py-2.5 text-dark-text bg-body-color sticky top-0 z-30">
       {/* logo */}
       <div className="w-[120px] max-w-[120px] flex justify-center overflow-hidden">
         <img src="./logo2.jpeg" className="h-16 w-[120px] block object-contain" />
