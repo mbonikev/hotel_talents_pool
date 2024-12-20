@@ -73,7 +73,7 @@ function CenterDetails() {
           {choosenCenter.introduction}
         </h1>
       </div>
-      <div className="w-full h-full px-16 max-lg:px-5 py-5">
+      <div className="w-full h-full px-16 max-lg:px-5 py-5 pb-10">
         {loading ? ( // Show loading spinner/message
           <div className="flex justify-center items-start min-h-[200px]">
             <Spin size="large" tip="Loading images..." />
