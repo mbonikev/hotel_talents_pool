@@ -54,7 +54,9 @@ function HireGraduate() {
             <ul>
               {graduates.map((graduate, index) => (
                 <div key={index} className="w-full flex">
-                    <div></div>
+                    <div>
+                        <img src={`/Geaduates/profiles/${graduate["Profile Image"]}`} alt="" />
+                    </div>
                     <div className="flex flex-col"></div>
                 </div>
               ))}
