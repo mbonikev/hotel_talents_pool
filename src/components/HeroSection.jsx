@@ -12,7 +12,10 @@ const allImages = import.meta.glob("/public/images/*/*.{png,jpg,jpeg,svg}", {
   eager: true,
 });
 
+// Convert imported images to an array of paths
+const imagePaths = Object.values(allImages).map((image) => image.default);
 
+// Assuming you want to map these images sequentially to the `images` array:
 const images = [
   { position: "1", img: "/" },
   { position: "2", img: "/" },
@@ -27,6 +30,12 @@ const images = [
   { position: "11", img: "/" },
   { position: "12", img: "/" },
 ];
+
+// Map imported images to the `img` field in the `images` array
+const updatedImages = images.map((image, index) => ({
+  ...image,
+  img: imagePaths[index] || "/", // Use '/' as fallback if there are fewer images
+}));
 
 const imageStyle = `h-[300px] w-[240px] rounded-2xl bg-yellow-400 border-none outline-none shadow-xl`;
 
