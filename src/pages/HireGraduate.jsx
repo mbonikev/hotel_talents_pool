@@ -9,13 +9,8 @@ function HireGraduate() {
         <div className="w-full flex px-16 py-24 justify-between">
           <div className="w-fit h-fit flex flex-col items-start justify-center gap-2">
             <h1 className="text-5xl font-bold w-fit text-dark-text/90">
-              Hire Graduate
+              Graduate List
             </h1>
-            <p className="text-base font-normal text-[#626262] max-w-[434px]">
-              We offer hands-on training for aspiring professionals and PWDs,
-              helping them gain the skills and confidence to build successful,
-              fulfilling careers in Rwanda’s growing hospitality industry.
-            </p>
           </div>
         </div>
       </div>
