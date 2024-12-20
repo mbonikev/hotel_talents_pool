@@ -41,12 +41,12 @@ function Courses() {
       <h1 className="text-sm font-bold mt-5 mb-2 max-w-[1150px] w-fit text-main-color px-20 max-lg:px-5">
         {CoursesSection.intro[2]}
       </h1>
-      <div className="w-full grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 px-16 pb-5 pt-3 max-lg:px-5 gap-5 rounded-xl">
+      <div className="w-full grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 px-16 pb-5 pt-3 max-lg:px-5 gap-7 rounded-xl">
         {CoursesSection.courses.map((course, index) => (
           <div
             key={index}
             onClick={() => courseDetails(course.id)}
-            className="group cursor-pointer flex flex-col p-3 max-lg:p-0 hover:bg-card-bg rounded-2xl"
+            className="group cursor-pointer flex flex-col max-lg:p-0 hover:bg-card-bg rounded-2xl"
           >
             {/* showcase */}
             <div className="w-full h-auto aspect-video overflow-hidden rounded-2xl mb-4 flex items-center justify-center">
@@ -60,12 +60,6 @@ function Courses() {
             </h1>
             <p className="px-1 max-md:px-3 text-dark-text/70 text-sm mt-1">
               {course.description}
-            </p>
-            <p className="px-1 max-md:px-3 pb-2 text-main-color text-base mt-4 flex items-center justify-between font-Poppins">
-              <span className="text-dark-text/80 font-medium text-sm">
-                {course.duration}
-              </span>
-              <span className="font-semibold">{course.price}</span>
             </p>
           </div>
         ))}
