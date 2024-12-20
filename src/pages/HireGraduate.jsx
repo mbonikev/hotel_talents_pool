@@ -53,9 +53,10 @@ function HireGraduate() {
           ) : (
             <ul>
               {graduates.map((graduate, index) => (
-                <li key={index}>
-                  {/* {graduate["Full Names"]} */}
-                </li>
+                <div key={index} className="w-full flex">
+                    <div></div>
+                    <div className="flex flex-col"></div>
+                </div>
               ))}
             </ul>
           )}
