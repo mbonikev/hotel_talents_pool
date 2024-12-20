@@ -32,10 +32,13 @@ function Footer() {
       </div>
       <div className="bg-[#111111] w-full pt-[150px] ">
         <div className="w-full min-h-[200px] flex items-center justify-center flex-col px-16 max-lg:px-5 max-w-[1700px] mx-auto">
-          <div className=" w-full h-full flex-1 p-5 mt-4 flex">
+          <div className=" w-full h-full flex-1 px-10 py-8 mt-4 flex">
+            <div className="flex flex-col items-start justify-between">
             <h1 className="text-2xl leading-[45px] tracking-tight pb-3 font-bold w-fit text-white">
               Hotel Talents pool
             </h1>
+            <p className="text-sm text-white/40">&copy; 2023 hoteltalentspool.com</p>
+            </div>
           </div>
         </div>
       </div>
