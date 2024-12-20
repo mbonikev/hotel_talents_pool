@@ -3,17 +3,17 @@ import { Link } from "react-router-dom";
 import { CoursesSection } from "../content/content";
 // Import Swiper
 import "swiper/css";
-import "swiper/css/effect-fade";
 import "swiper/css/pagination";
+import "swiper/css/navigation"; // Import navigation styles
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Navigation, EffectFade } from "swiper/modules";
+import { Navigation, Pagination } from "swiper/modules";
 import { LuArrowLeft, LuArrowRight } from "react-icons/lu";
 
 function FewCourses() {
   return (
     <div className="w-full py-20 px-16 max-lg:px-5 max-lg:pt-0 flex gap-5 items-start justify-between text-dark-text max-w-[1700px] mx-auto">
-      <div className="w-fit min-w-fit h-fit flex flex-col gap-1 ">
-        <h1 className="text-lg font-medium ">{CoursesSection.sectionTitle}</h1>
+      <div className="w-fit h-fit flex flex-col gap-1 ">
+        <h1 className="text-lg font-medium">{CoursesSection.sectionTitle}</h1>
         <h1 className="text-5xl font-bold w-fit max-w-[300px]">
           {CoursesSection.HeaderTitle}
         </h1>
@@ -27,40 +27,40 @@ function FewCourses() {
           View all
         </Link>
       </div>
-      {/* courses grid */}
-      <div className="w-full max-w-[700px] gap-5 bg-emerald-300 min-h-[300px]">
-        <div className=" h-fit w-full relative">
+      {/* courses swiper */}
+      <div className="w-full max-w-[700px] 2xl:max-w-[900px] gap-5 min-h-[300px]">
+        <div className="h-fit w-full relative">
           <Swiper
-            slidesPerView={1}
+            slidesPerView={1.5}
             spaceBetween={10}
-            effect={"fade"}
-            speed={1000}
-            autoplay={{
-              delay: 12000,
-              disableOnInteraction: false,
-            }}
-            modules={[Autoplay, EffectFade, Navigation]}
+            modules={[Navigation, Pagination]}
+            centeredSlides={true}
             navigation={{
-              nextEl: ".swiper-button-next",
-              prevEl: ".swiper-button-prev",
+              nextEl: ".custom-next",
+              prevEl: ".custom-prev",
             }}
-            className="mySwiper"
+            // pagination={{ clickable: true }}
           >
             {CoursesSection.courses.map((course, index) => (
-              <SwiperSlide>
-                <div
-                  key={index}
-                  className="h-[470px] w-full relative overflow-hidden"
-                ></div>
+              <SwiperSlide key={index}>
+                <div className="h-[300px] w-full relative overflow-hidden bg-white rounded-2xl flex items-center justify-center">
+                  <img src={course.img} className="h-fit min-h-full w-full object-cover" />
+                  <div className="absolute top-0 left-0 w-full h-full px-5 py-3 bg-gradient-to-t from-black/70 to-transparent flex flex-col items-start justify-end text-white">
+                  <h1 className="text-2xl font-bold w-full max-w-[300px] leading-7 text-left">{course.name}</h1>
+                  </div>
+                </div>
               </SwiperSlide>
             ))}
-            <div className="swiper-button-next hero max-lg:hidden">
-              <LuArrowRight />
-            </div>
-            <div className="swiper-button-prev hero max-lg:hidden">
-              <LuArrowLeft />
-            </div>
           </Swiper>
+          <div className="flex items-center justify-end gap-2 pt-3">
+            {/* Custom Navigation Buttons */}
+            <button className="custom-prev rounded-full shadow-md p-3 bg-[#7b6bb8] active:bg-opacity-90 transition active:scale-95 ">
+              <LuArrowLeft className="text-white text-sm stroke-[3px]" />
+            </button>
+            <button className="custom-next rounded-full shadow-md p-3 bg-[#7b6bb8] active:bg-opacity-90 transition active:scale-95 ">
+              <LuArrowRight className="text-white text-sm stroke-[3px]" />
+            </button>
+          </div>
         </div>
       </div>
     </div>
