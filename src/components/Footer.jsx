@@ -42,7 +42,11 @@ function Footer() {
               </p>
             </div>
             <div className="grid grid-cols-3">
-              
+              <div>
+              <p className="text-sm text-white/30 font-medium">
+                
+              </p>
+              </div>
             </div>
           </div>
         </div>
