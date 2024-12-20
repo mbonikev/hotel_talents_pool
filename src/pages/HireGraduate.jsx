@@ -60,11 +60,12 @@ function HireGraduate() {
                       image={`/Graduates/profiles/${graduate["Profile Image"]}`}
                     />
                   </div>
-                  <div className="flex-1 flex flex-col">
+                  <div className="flex-1 flex flex-col gap-1">
                     <h1 className="text-2xl font-medium">{graduate["Full Names"]}</h1>
-                    <h1 className="text-lg font-normal text-[#626262] flex items-center">
+                    <h1 className="text-lg font-normal text-[#626262] flex items-center gap-3">
                         <span>{graduate["Position"]}</span>
-                        <span>{graduate["Full Names"]}</span>
+                        |
+                        <span>{graduate[""]}</span>
                     </h1>
                   </div>
                   <button className="h-[45px] px-5 capitalize bg-main-color text-white font-medium rounded-full">view profile</button>
