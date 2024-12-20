@@ -13,7 +13,7 @@ function Queries() {
     setActiveIndex2(activeIndex2 === index ? null : index);
   };
   return (
-    <div className="w-full py-10 px-16 max-lg:px-5 max-lg:pt-0 flex flex-col text-dark-text">
+    <div className="w-full py-10 px-16 max-lg:px-5 max-lg:pt-0 flex text-dark-text">
       <div className="w-1/2 h-fit flex flex-col gap-1 ">
         <h1 className="text-lg font-medium">{FAQSectionSection.sectionTitle}</h1>
         <h1 className="text-5xl leading-[55px] font-bold w-full uppercase max-w-[450px] ">
@@ -21,14 +21,14 @@ function Queries() {
         </h1>
 
         <Link
-          className="text-sm mt-[10px] w-fit bg-[#7b6fb8] transition active:scale-90 text-white py-2.5 px-6 rounded-full max-lg:hidden"
-          to="/courses"
+          className="text-sm mt-[20px] w-fit bg-[#7b6fb8] transition active:scale-90 text-white py-2.5 px-6 rounded-full max-lg:hidden"
+          to="/"
         >
           Ask a question
         </Link>
       </div>
       {/* Questions grid */}
-      <div className="w-full grid grid-cols-1 mt-10 max-lg:mt-5 gap-10 max-lg:gap-5 rounded-xl">
+      <div className="w-1/2 grid grid-cols-1 mt-10 max-lg:mt-5 gap-10 max-lg:gap-5 rounded-xl">
         <div className="group w-full h-fit flex flex-col p-5 gap-4 bg-card-bg rounded-2xl">
           <div className="w-full h-fit flex flex-col items-center justify-start text-dark-text ">
             <div className="w-full h-fit flex flex-col items-center justify-start gap-2 max-w-[900px]">
