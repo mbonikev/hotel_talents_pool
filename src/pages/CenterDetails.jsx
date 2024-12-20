@@ -65,7 +65,7 @@ function CenterDetails() {
   return (
     <div className="w-full h-fit text-dark-text">
       <Navbar setLoading={setLoading} />
-      <div className="max-w-[1700px] mx-auto px-16 max-md:px-5">
+      <div className="px-16 max-md:px-5">
         <div className="w-full h-fit pt-20 pb-10 flex flex-col items-start justify-start gap-2">
           <h1 className="text-5xl font-bold w-fit text-main-color ">
             {center_name}
@@ -75,7 +75,7 @@ function CenterDetails() {
           </h1>
         </div>
       </div>
-      <div className="w-full h-full px-16 max-lg:px-5 py-5 pb-10 max-w-[1700px] mx-auto ">
+      <div className="w-full h-full px-16 max-lg:px-5 py-5 pb-10 ">
         {loading ? ( // Show loading spinner/message
           <div className="flex justify-center items-start min-h-[200px]">
             <Spin size="large" tip="Loading images..." />
@@ -116,7 +116,7 @@ function CenterDetails() {
               },
             }}
           >
-            <div className="w-full max-w-[1700px] mx-auto 2xl:columns-5 max-2xl:columns-4 max-lg:columns-3 max-md:columns-2 max-sm:columns-2 gap-3 space-y-2 auto-rows-auto">
+            <div className="w-full 2xl:columns-5 max-2xl:columns-4 max-lg:columns-3 max-md:columns-2 max-sm:columns-2 gap-3 space-y-2 auto-rows-auto">
               <Reveal
                 triggerOnce
                 // damping={0.06}
