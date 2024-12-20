@@ -54,7 +54,7 @@ function HireGraduate() {
             <ul>
               {graduates.map((graduate, index) => (
                 <li key={index}>
-                  {graduate["Full Names"]}
+                  {/* {graduate["Full Names"]} */}
                 </li>
               ))}
             </ul>
