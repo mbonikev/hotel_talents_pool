@@ -11,7 +11,7 @@ function HeroSection() {
   return (
     <div className="w-full h-fit max-lg:h-fit flex items-center justify-center flex-col gap-10 max-lg:gap-5 py-10 px-16 max-lg:px-5 text-dark-text">
       {/* texts */}
-      <div className="w-full max-lg:w-full h-fit flex flex-col items-center justify-start gap-6 min-h-[500px]">
+      <div className="w-full max-lg:w-full h-fit flex flex-col items-center justify-start gap-6">
         <h1 className="mt-[130px] text-6xl leading-[45px] font-bold tracking-tight text-center w-full">
           {HeroSectionContent.BigTitle}
         </h1>
