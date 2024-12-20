@@ -15,7 +15,7 @@ function FewCourses() {
         </p>
       </div>
       <Link
-        className="text-sm bg-main-color transition active:scale-90 text-white py-2.5 px-5 rounded-full max-lg:hidden"
+        className="text-sm w-fit bg-main-color transition active:scale-90 text-white py-2.5 px-6 rounded-full max-lg:hidden"
         to='/courses'
       >
         Enroll now
