@@ -20,7 +20,7 @@ function Footer() {
               </h1>
               <Link
                 className="text-sm mt-[20px] w-fit bg-[#111111] transition active:scale-90 text-white py-2.5 px-6 rounded-full max-lg:hidden"
-                to="/courses"
+                to={formUrl}
               >
                 Enroll now
               </Link>
