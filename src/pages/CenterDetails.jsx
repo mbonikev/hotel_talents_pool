@@ -35,7 +35,7 @@ function CenterDetails() {
   const [current, setCurrent] = useState(0);
   const [loading, setLoading] = useState(true); // Add loading state
   const [imageList, setImageList] = useState([]); // State for the images to render
-  const location = useLocation()
+  const location = useLocation();
   // Import images
   const allImages = import.meta.glob("/public/images/*/*.{png,jpg,jpeg,svg}", {
     eager: true,
@@ -46,7 +46,6 @@ function CenterDetails() {
   );
 
   useEffect(() => {
-  
     const timeout = setTimeout(() => {
       const mappedImages = filteredImages.map(([_, image], index) => (
         <Image
@@ -59,18 +58,18 @@ function CenterDetails() {
       setImageList(mappedImages);
       setLoading(false); // Set loading to false after delay
     }, 2000);
-  
+
     return () => clearTimeout(timeout); // Cleanup timeout on component unmount
   }, [filteredImages]);
 
   return (
     <div className="w-full h-fit text-dark-text">
       <Navbar setLoading={setLoading} />
-      <div className="w-full h-fit p-16 max-md:px-5 flex flex-col items-center justify-center max-md:items-start gap-2">
+      <div className="w-full h-fit pt-20 pb-14 px-16 max-md:px-5 flex flex-col items-start justify-start gap-2">
         <h1 className="text-5xl font-bold w-fit text-main-color">
           {center_name}
         </h1>
-        <h1 className="max-w-[920px] text-center max-md:text-left mt-3 mx-auto ">
+        <h1 className="max-w-[920px] text-left mt-3 ">
           {choosenCenter.introduction}
         </h1>
       </div>
