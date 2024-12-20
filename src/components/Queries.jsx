@@ -14,9 +14,9 @@ function Queries() {
   };
   return (
     <div className="w-full py-10 px-16 max-lg:px-5 max-lg:pt-0 flex flex-col text-dark-text">
-      <div className="w-fit h-fit flex flex-col gap-1 ">
+      <div className="w-1/2 h-fit flex flex-col gap-1 ">
         <h1 className="text-lg font-medium">{FAQSectionSection.sectionTitle}</h1>
-        <h1 className="text-5xl font-bold w-fit max-w-[300px] uppercase ">
+        <h1 className="text-5xl font-bold w-full uppercase ">
           {FAQSectionSection.HeaderTitle}
         </h1>
 
