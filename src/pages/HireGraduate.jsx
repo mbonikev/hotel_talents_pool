@@ -54,12 +54,11 @@ function HireGraduate() {
             <ul>
               {graduates.map((graduate, index) => (
                 <li key={index}>
-                  {/* {Object.entries(graduate).map(([key, value]) => (
+                  {Object.entries(graduate).map(([key, value]) => (
                     <div key={key}>
                       <strong>{key}:</strong> {value}
                     </div>
-                  ))} */}
-                  {Object.entries(graduate).map(([key, value]) => (value))}
+                  ))}
                 </li>
               ))}
             </ul>
