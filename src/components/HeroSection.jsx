@@ -51,7 +51,7 @@ function HeroSection() {
         <h1 className=" text-lg max-lg:mt-0 leading-6 font-medium tracking-tight text-center w-full max-w-[500px] opacity-65">
           {HeroSectionContent.SmallDesc}
         </h1>
-        <Link to={formUrl} target="_blank" className="min-w-[130px] h-[42px] bg-main-color hover:scale-110 transition active:scale-90 text-white font-medium text-sm flex items-center justify-center gap-1 rounded-full">
+        <Link to={formUrl} target="_blank" className="min-w-[130px] h-[42px] bg-main-color transition active:scale-90 text-white font-medium text-sm flex items-center justify-center gap-1 rounded-full">
           Enroll now
         </Link>
         <h1 className=" text-sm font-medium tracking-tight text-center w-full max-w-[500px] opacity-45">
