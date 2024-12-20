@@ -42,7 +42,15 @@ function Footer() {
               </p>
             </div>
             <div className="grid grid-cols-3">
-              <div>
+              {/* 1 */}
+              <div className="flex flex-col gap-2">
+                <p className="text-sm text-white/30 font-medium">
+                  Kigali, Rwanda
+                </p>
+                <p className="text-sm text-white/30 font-medium">+250788888888</p>
+              </div>
+              {/* 2 */}
+              <div className="flex flex-col gap-2">
                 <p className="text-sm text-white/30 font-medium">
                   Kigali, Rwanda
                 </p>
