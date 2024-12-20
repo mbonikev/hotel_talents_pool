@@ -32,7 +32,7 @@ function Queries() {
         <div className="group w-full h-fit flex flex-col p-5 gap-4 bg-card-bg rounded-2xl">
           <div className="w-full h-fit flex flex-col items-center justify-start text-dark-text ">
             <div className="w-full h-fit flex flex-col items-center justify-start gap-2 max-w-[900px]">
-              {FAQSectionSection.LeftQuestions.map((item, index) => (
+              {FAQSectionSection.Questions.map((item, index) => (
                 <div
                   key={index}
                   className=" py-4 px-5 bg-white text-dark-body-color border-b w-full flex justify-between items-start gap-5"
