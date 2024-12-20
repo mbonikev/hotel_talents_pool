@@ -35,7 +35,7 @@ function Queries() {
               {FAQSectionSection.LeftQuestions.map((item, index) => (
                 <div
                   key={index}
-                  className=" py-4 px-5 bg-white text-dark-body-color rounded-xl w-full flex justify-between items-start gap-5"
+                  className=" py-4 px-5 bg-white text-dark-body-color border-b w-full flex justify-between items-start gap-5"
                 >
                   <div className="flex flex-col items-start justify-start">
                     <h1 className="font-normal tracking-tight text-base leading-5 min-h-[30px] w-full flex items-center justify-start">
@@ -51,37 +51,6 @@ function Queries() {
                   </div>
                   <button
                     onClick={() => toggleAnswer(index)}
-                    className=" h-[30px] aspect-square rounded-full transition duration-150 active:scale-90 text-dark-text/50 hover:bg-card-bg hover:text-main-color flex items-center justify-center   "
-                  >
-                    <FaCaretDown className="text-[20px] " />
-                  </button>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-        <div className="group w-full h-fit flex flex-col p-5 gap-4 bg-card-bg rounded-2xl">
-          <div className="w-full h-fit flex flex-col items-center justify-start text-dark-text ">
-            <div className="w-full h-fit flex flex-col items-center justify-start gap-2 max-w-[900px]">
-              {FAQSectionSection.RightQuestions.map((item, index) => (
-                <div
-                  key={index}
-                  className=" py-4 px-5 bg-white text-dark-body-color rounded-xl w-full flex justify-between items-start gap-5"
-                >
-                  <div className="flex flex-col items-start justify-start">
-                    <h1 className="font-normal tracking-tight text-base leading-5 min-h-[30px] w-full flex items-center justify-start">
-                      {item.question}
-                    </h1>
-                    <p
-                      className={`text-sm text-black/50 leading-5 font-normal transition-all duration-500 ease-in-out overflow-hidden ${
-                        activeIndex2 === index ? "max-h-96" : "max-h-0"
-                      }`}
-                    >
-                      {item.answer}
-                    </p>
-                  </div>
-                  <button
-                    onClick={() => toggleAnswer2(index)}
                     className=" h-[30px] aspect-square rounded-full transition duration-150 active:scale-90 text-dark-text/50 hover:bg-card-bg hover:text-main-color flex items-center justify-center   "
                   >
                     <FaCaretDown className="text-[20px] " />
