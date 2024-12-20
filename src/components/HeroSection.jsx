@@ -7,6 +7,8 @@ import { TiFlash } from "react-icons/ti";
 import { RiMedalFill } from "react-icons/ri";
 import { HeroSectionContent } from "../content/content";
 
+const images = ["","","","","","","","","","","",""]
+
 function HeroSection() {
   return (
     <div className="w-full h-fit max-lg:h-fit flex items-center justify-center flex-col gap-10 max-lg:gap-5 py-10 px-0 max-lg:px-5 text-dark-text">
