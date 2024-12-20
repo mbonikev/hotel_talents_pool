@@ -15,7 +15,7 @@ function Trainers() {
             We offer hands-on training for aspiring
           </p>
           <div className="w-full items-center justify-center gap-2">
-            <div></div>
+            <div className="flex flex-col"></div>
           </div>
         </div>
       </div>
