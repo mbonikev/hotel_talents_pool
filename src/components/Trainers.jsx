@@ -14,10 +14,10 @@ function Trainers() {
           <p className="text-lg font-medium max-w-[490px] pt-3 opacity-65">
             We offer hands-on training for aspiring
           </p>
-          <div className="w-full flex items-center justify-center gap-2 bg-red-400">
+          <div className="w-full flex items-center justify-center gap-2">
             <div className="flex flex-col items-center justify-center w-fit gap-2">
                 <img src="https://cdn.lucidpic.com/cdn-cgi/image/w=600,format=auto,metadata=none/66c43abe18502.png" className="h-[50px] w-[50px] min-w-fit aspect-square rounded-full" />
-                <h1 className="text-sm font-medium tracking-tight">James Karekare</h1>
+                <h1 className="text-sm font-medium tracking-tight max-w-[50px] text-center leading-4">James Karekare</h1>
             </div>
           </div>
         </div>
