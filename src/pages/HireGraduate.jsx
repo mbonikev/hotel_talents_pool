@@ -6,6 +6,8 @@ import LazyImage from "../components/LazyImage";
 
 function HireGraduate() {
   const [graduates, setGraduates] = useState([]);
+  const [filteredGraduates, setFilteredGraduates] = useState([]);
+  const [searchQuery, setSearchQuery] = useState("");
   useEffect(() => {
     const fetchExcelData = async () => {
       try {
