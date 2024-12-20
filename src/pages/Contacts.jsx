@@ -10,6 +10,7 @@ function Contacts() {
       <Navbar />
       <div className="w-full h-fit p-20 flex flex-col items-start justify-center gap-2">
         <h1 className="text-5xl font-bold w-fit text-dark-text/90">Contacts</h1>
+        <p className="text-base font-normal">Email</p>
       </div>
       {/* Content */}
       <div className="h-fit w-full pb-10">
