@@ -25,7 +25,7 @@ function HeroSection() {
           Trained over {HeroSectionContent.count} Students
         </h1>
       </div>
-
+      <div className=""></div>
     </div>
   );
 }
