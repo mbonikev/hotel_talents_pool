@@ -21,7 +21,7 @@ function Courses() {
 
   return (
     <div>
-      <div className="w-full h-fit relative">
+      <div className="w-full h-fit relative max-w-[1700px] mx-auto">
         {/* course details */}
         {showCourseDetails && (
           <CourseDetails Id={courseId} Hide={HideCourseDetails} />
@@ -65,10 +65,10 @@ function Courses() {
             </div>
           ))}
         </div>
-        <h1 className="max-w-[870px] text-left px-16 max-md:px-5 w-full mt-[40px] font-normal">
+        <h1 className="max-w-[870px] text-left px-16 max-md:px-5 w-full mt-[40px] font-normal text-[#626262]">
           {CoursesSection.outro[0]}
         </h1>
-        <h1 className="max-w-[870px] text-left px-16 max-md:px-5 w-full mb-[220px] font-normal">
+        <h1 className="max-w-[870px] text-left px-16 max-md:px-5 w-full mb-[220px] font-normal text-[#626262]">
           {CoursesSection.outro[1]}
         </h1>
       </div>
