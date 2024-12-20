@@ -66,6 +66,8 @@ function HireGraduate() {
                         <span>{graduate["Position"]}</span>
                         |
                         <span>{graduate["Experience"]}</span>
+                        |
+                        <span>{graduate["Available"]}</span>
                     </h1>
                   </div>
                   <button className="h-[45px] px-5 capitalize bg-main-color text-white font-medium rounded-full">view profile</button>
