@@ -48,7 +48,7 @@ function HireGraduate() {
           </div>
         </div>
         {/* graduate */}
-        <div className="px-16 max-md:px-5 bg-white">
+        <div className="px-5 bg-white">
           {graduates.length === 0 ? (
             <p>Loading...</p>
           ) : (
