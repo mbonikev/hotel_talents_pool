@@ -17,7 +17,7 @@ function FewCourses() {
           className="text-sm mt-[20px] w-fit bg-[#7b6fb8] transition active:scale-90 text-white py-2.5 px-6 rounded-full max-lg:hidden"
           to="/courses"
         >
-          Enroll now
+          View all
         </Link>
       </div>
       {/* courses grid */}
