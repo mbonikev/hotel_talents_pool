@@ -14,7 +14,7 @@ function Footer() {
                 Apply today and <br /> kick start your hospitality <br /> Career
               </h1>
             </div>
-            <div className="w-[200px] min-w-fit flex flex-col justify-between items-end">
+            <div className="w-[200px] h-full flex flex-col justify-between items-end">
               <h1 className="text-sm font-medium text-[#111111]">
                 Hotel Talents Pool
               </h1>
@@ -22,7 +22,7 @@ function Footer() {
                 className="text-sm mt-[20px] w-fit bg-[#111111] transition active:scale-90 text-white py-2.5 px-6 rounded-full max-lg:hidden"
                 to="/courses"
               >
-                View all
+                Enroll now
               </Link>
             </div>
           </div>
