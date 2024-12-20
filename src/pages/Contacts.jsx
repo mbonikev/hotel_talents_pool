@@ -10,8 +10,8 @@ function Contacts() {
     <div className="w-full">
       <div className="w-full h-fit max-w-[1700px] mx-auto pb-[80px]">
         <Navbar />
-        <div className="w-full flex justify-between">
-          <div className="w-fit h-fit p-20 flex flex-col items-start justify-center gap-2">
+        <div className="w-full flex p-20 justify-between">
+          <div className="w-fit h-fit flex flex-col items-start justify-center gap-2">
             <h1 className="text-5xl font-bold w-fit text-dark-text/90">
               Contacts
             </h1>
@@ -26,6 +26,7 @@ function Contacts() {
               <div className="h-12 aspect-square rounded-full bg-[#ebebeb] text-2xl flex items-center justify-center">
                 <IoLocationOutline/>
               </div>
+              <p className="text-base font-normal text-[#626262] max-w-[434px]"></p>
             </div>
           </div>
         </div>
