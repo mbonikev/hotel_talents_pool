@@ -110,7 +110,7 @@ function Navbar({setLoading}) {
       </div>
       <div className="flex items-center justify-end gap-1.5">
         <Link
-          className="text-sm bg-main-color text-white py-2.5 px-5 rounded-full max-lg:hidden"
+          className="text-sm bg-main-color transition active:scale-90 text-white py-2.5 px-5 rounded-full max-lg:hidden"
           target="_blank"
           to={formUrl}
         >
