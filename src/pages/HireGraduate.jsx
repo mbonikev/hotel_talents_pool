@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import { LuSearch } from "react-icons/lu";
 
 function HireGraduate() {
   return (
@@ -12,7 +13,10 @@ function HireGraduate() {
               Graduate List
             </h1>
           </div>
-          <div className="flex items-center justify-start gap-2"></div>
+          <div className="flex items-center justify-start gap-2">
+            <LuSearch className="text-2xl" />
+            <input type="text" className="h-[30px]" />
+          </div>
         </div>
       </div>
     </div>
