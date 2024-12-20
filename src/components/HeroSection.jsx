@@ -30,6 +30,10 @@ const images = [
   { position: "10", img: "/" },
   { position: "11", img: "/" },
   { position: "12", img: "/" },
+  { position: "13", img: "/" },
+  { position: "14", img: "/" },
+  { position: "15", img: "/" },
+  { position: "16", img: "/" },
 ];
 
 // Map imported images to the `img` field in the `images` array
