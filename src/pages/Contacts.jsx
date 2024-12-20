@@ -8,7 +8,7 @@ function Contacts() {
   return (
     <div className="w-full h-fit ">
       <Navbar />
-      <div className="w-full h-fit p-16 flex flex-col items-center justify-center gap-2">
+      <div className="w-full h-fit p-20 flex flex-col items-start justify-center gap-2">
         <h1 className="text-5xl font-bold w-fit text-dark-text/90">Contacts</h1>
       </div>
       {/* Content */}
