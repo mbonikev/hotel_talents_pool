@@ -15,7 +15,7 @@ function Testimonials() {
         <h1 className="text-lg font-bold text-main-color">
           {TestimonialsSection.sectionTitle}
         </h1>
-        <h1 className="text-5xl leading-[55px] font-bold w-full uppercase max-w-[450px] ">
+        <h1 className="text-5xl font-bold w-fit max-w-[300px]">
           {TestimonialsSection.sectionDescription}
         </h1>
       </div>
