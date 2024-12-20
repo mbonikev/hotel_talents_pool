@@ -116,7 +116,7 @@ function HeroSection() {
           </div>
         </div>
         {/* white shadow */}
-        <div className="absolute top-[83%] left-0 w-full h-[170px] border-t bg-body-color flex items-center justify-center gap-9">
+        <div className="absolute top-[83%] left-0 w-full h-[170px] border-t bg-body-color flex items-center justify-center gap-20">
           <img src="https://upload.wikimedia.org/wikipedia/en/e/e4/National_Bank_of_Rwanda_logo.png" className="h-[40px] saturate-0 opacity-70" />
           <img src="https://seeklogo.com/images/E/Equity_Bank-logo-88F49E17E2-seeklogo.com.png" className="h-[40px] saturate-0 opacity-70 py-[5px]" />
           <img src="https://www.mineduc.gov.rw/index.php?eID=dumpFile&t=f&f=435&token=795108a09af0455f218944c43b044c38ca9da5ac" className="h-[40px] saturate-0 opacity-70 py-[5px]" />
