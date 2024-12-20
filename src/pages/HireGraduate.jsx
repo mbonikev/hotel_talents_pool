@@ -76,16 +76,16 @@ function HireGraduate() {
                       key={index}
                       className="w-full flex items-center justify-between gap-6 mt-5 cursor-pointer transition rounded-xl"
                     >
-                      <div className="w-14 h-14 aspect-square overflow-hidden rounded-full ">
+                      <div className="w-16 h-16 aspect-square overflow-hidden rounded-full ">
                         <LazyImage
                           image={`/Graduates/profiles/${graduate["Profile Image"]}`}
                         />
                       </div>
                       <div className="flex-1 flex flex-col gap-1">
-                        <h1 className="text-2xl font-medium">
+                        <h1 className="text-xl font-medium">
                           {graduate["Full Names"]}
                         </h1>
-                        <h1 className="text-lg font-normal text-[#626262] flex items-center gap-3">
+                        <h1 className="text-base font-normal text-[#6e6e6e] flex items-center gap-3">
                           <span>{graduate["Position"]}</span>|
                           <span>{graduate["Experience"]}</span>|
                           <span>Available: {graduate["Available"]}</span>
