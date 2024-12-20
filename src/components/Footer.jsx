@@ -42,7 +42,7 @@ function Footer() {
                 &copy; 2023 hoteltalentspool.com
               </p>
             </div>
-            <div className="grid grid-cols-3 gap-7 bg-green-500">
+            <div className="grid grid-cols-3 gap-7">
               {/* 1 */}
               <div className="flex flex-col gap-2">
                 <p className={`${linkStyle}`}>
