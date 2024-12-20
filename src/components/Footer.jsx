@@ -47,14 +47,21 @@ function Footer() {
                 <p className="text-sm text-white/30 font-medium">
                   Kigali, Rwanda
                 </p>
-                <p className="text-sm text-white/30 font-medium">+250788888888</p>
+                <p className="text-sm text-white/30 font-medium">
+                  +250788888888
+                </p>
               </div>
               {/* 2 */}
               <div className="flex flex-col gap-2">
-                <p className="text-sm text-white/30 font-medium">
-                  Kigali, Rwanda
-                </p>
-                <p className="text-sm text-white/30 font-medium">+250788888888</p>
+                <Link
+                  to={"/hireGraduate"}
+                  className="text-sm text-white/30 font-medium"
+                >
+                  Hire Graduate
+                </Link>
+                <Link to={formUrl} target="_blank" className="text-sm text-white/30 font-medium">
+                  +250788888888
+                </Link>
               </div>
             </div>
           </div>
