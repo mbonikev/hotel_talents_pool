@@ -11,12 +11,12 @@ import { TestimonialsSection } from "../content/content";
 function Testimonials() {
   return (
     <div className="w-full py-10 px-16 max-lg:px-5 max-lg:pt-0 flex flex-col text-dark-text">
-      <div className="w-full h-fit grid grid-cols-2 max-lg:grid-cols-1 gap-10 mb-7 max-lg:gap-3">
-        <h1 className="text-3xl font-medium ">
+      <div className="w-1/2 h-fit flex flex-col gap-1 ">
+        <h1 className="text-lg font-bold text-main-color">
           {TestimonialsSection.sectionTitle}
         </h1>
-        <h1 className="text-sm text-dark-text/70 flex gap-4 flex-col">
-          <span>{TestimonialsSection.sectionDescription}</span>
+        <h1 className="text-5xl leading-[55px] font-bold w-full uppercase max-w-[450px] ">
+          {TestimonialsSection.sectionDescription}
         </h1>
       </div>
       <div className="w-full">
