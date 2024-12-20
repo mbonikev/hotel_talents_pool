@@ -7,6 +7,7 @@ import FewCourses from "../components/FewCourses";
 import Queries from "../components/Queries";
 import Testimonials from "../components/Testimonials";
 import Footer from "../components/Footer";
+import Trainers from "../components/Trainers";
 
 function Home() {
   const courses = [
@@ -19,6 +20,7 @@ function Home() {
       <Navbar />
       <HeroSection />
       <FewCourses />
+      <Trainers />
       <Queries />
       <Testimonials />
       <Footer />
