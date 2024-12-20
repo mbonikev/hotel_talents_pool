@@ -61,7 +61,7 @@ function HireGraduate() {
                     />
                   </div>
                   <div className="flex-1 flex flex-col"></div>
-                  <button className="">view profile</button>
+                  <button className="px-5 py-2.5 ring-1">view profile</button>
                 </div>
               ))}
             </ul>
