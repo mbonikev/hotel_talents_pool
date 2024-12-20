@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="w-full">
-      <div className="w-full bg-red-300 flex flex-col items-start justify-between max-md:flex-col mt-[160px] max-md:gap-3 text-dark-text relative max-w-[1700px] mx-auto">
+      <div className="w-full flex flex-col items-start justify-between max-md:flex-col mt-[160px] max-md:gap-3 text-dark-text relative max-w-[1700px] mx-auto">
         <div className="w-full h-[300px] px-16 max-lg:px-5 absolute top-[-150px] ">
-          <div className="w-full h-full bg-[#b2c3ec8e] ">
+          <div className="w-full h-full bg-[#b2c3ec] rounded-[30px] ">
             s
           </div>
         </div>
