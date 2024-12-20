@@ -103,7 +103,7 @@ function Navbar({ setLoading }) {
           </Link>
           <Link
             className="text-sm hover:text-main-color whitespace-nowrap px-1.5"
-            to="/"
+            to="/hireGraduate"
           >
             Hire Graduate
           </Link>
