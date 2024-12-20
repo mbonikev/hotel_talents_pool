@@ -4,7 +4,8 @@ import { TiFlash } from "react-icons/ti";
 // Hero section
 export const HeroSectionContent = {
   // left side
-  BigTitle: "Hotel Talents Pool: Shaping Hospitality Excellence",
+  BigTitle: "Shaping Hospitality Excellence",
+  SmallDesc: "Training Rwanda's hotel professionals to excel and achieve lasting career success.",
   miniSectionTitle: "Popular Courses",
   // Popular Courses
   popularCourses: [

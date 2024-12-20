@@ -49,12 +49,6 @@ function Navbar({setLoading}) {
         </Link>
         <Link
           className="text-sm hover:text-main-color whitespace-nowrap px-1.5"
-          to="/about"
-        >
-          About
-        </Link>
-        <Link
-          className="text-sm hover:text-main-color whitespace-nowrap px-1.5"
           to="/courses"
         >
           Courses
@@ -91,21 +85,15 @@ function Navbar({setLoading}) {
         </div>
         <Link
           className="text-sm hover:text-main-color whitespace-nowrap px-1.5"
-          to="/services"
+          to="/about"
         >
-          Services
-        </Link>
-        <Link
-          className="text-sm hover:text-main-color whitespace-nowrap px-1.5"
-          to="/partners"
-        >
-          Partners
+          About us
         </Link>
         <Link
           className="text-sm hover:text-main-color whitespace-nowrap px-1.5"
           to="/contacts"
         >
-          Contacts
+          Contact
         </Link>
         <Link
           className="text-sm hover:text-main-color whitespace-nowrap px-1.5"

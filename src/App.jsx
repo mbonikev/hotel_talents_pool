@@ -7,8 +7,6 @@ import ScrollToTop from './components/ScrollTop'
 import About from './pages/About'
 import Centers from './pages/Centers'
 import CenterDetails from './pages/CenterDetails'
-import Services from './pages/Services'
-import Partners from './pages/Partners'
 import Contacts from './pages/Contacts'
 
 function App() {
@@ -23,8 +21,6 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/centers' element={<Centers />} />
         <Route path='/center-details/:center_name' element={<CenterDetails />} />
-        <Route path='/services' element={<Services />} />
-        <Route path='/partners' element={<Partners />} />
         <Route path='/contacts' element={<Contacts />} />
       </Routes>
     </HashRouter>
