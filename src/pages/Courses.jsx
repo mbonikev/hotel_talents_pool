@@ -30,7 +30,7 @@ function Courses() {
         <h1 className="text-5xl font-bold w-fit text-main-color">
           {CoursesSection.sectionTitle}
         </h1>
-        <h1 className="bg-red-300 max-w-[620px] text-left mt-3">
+        <h1 className=" max-w-[820px] text-left mt-3">
           {CoursesSection.intro[0]}
         </h1>
       </div>
