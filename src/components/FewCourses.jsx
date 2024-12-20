@@ -1,6 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { CoursesSection } from "../content/content";
+// Import Swiper
+import "swiper/css";
+import "swiper/css/effect-fade";
+import "swiper/css/pagination";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Navigation, EffectFade } from "swiper/modules";
 
 function FewCourses() {
   return (
@@ -22,7 +28,7 @@ function FewCourses() {
       </div>
       {/* courses grid */}
       <div className="w-full max-w-[700px] gap-5 bg-emerald-300 min-h-[300px]">
-        
+
       </div>
     </div>
   );
