@@ -15,9 +15,9 @@ function Trainers() {
             We offer hands-on training for aspiring
           </p>
           <div className="w-full flex items-center justify-center gap-2 bg-red-400">
-            <div className="flex flex-col w-fit">
-                <img src="https://cdn.lucidpic.com/cdn-cgi/image/w=600,format=auto,metadata=none/66c43abe18502.png" className="h-[50px] w-auto min-w-fit aspect-square rounded-full" />
-                <h1 className="">James Karekare</h1>
+            <div className="flex flex-col items-center justify-center w-fit gap-2">
+                <img src="https://cdn.lucidpic.com/cdn-cgi/image/w=600,format=auto,metadata=none/66c43abe18502.png" className="h-[50px] w-[50px] min-w-fit aspect-square rounded-full" />
+                <h1 className="text-sm font-medium tracking-tight">James Karekare</h1>
             </div>
           </div>
         </div>
