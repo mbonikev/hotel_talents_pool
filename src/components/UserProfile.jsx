@@ -52,7 +52,7 @@ function UserProfile({ Hide, data }) {
                 {data["Full Names"]}
               </h1>
               <div className="flex items-center justify-start gap-2 mt-4 text-dark-text ">
-                <PiUserBold />
+                <PiUserBold className="opacity-40" />
                 <h1 className="text-base">Personal information</h1>
               </div>
               <div className="flex-1 flex flex-col w-full h-full gap-3 py-3 pl-[23px] overscroll-contain overflow-y-auto custom_scrollbar">
