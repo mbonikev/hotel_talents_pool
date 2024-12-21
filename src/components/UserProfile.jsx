@@ -51,7 +51,7 @@ function UserProfile({ Hide, data }) {
                 {data["Full Names"]}
               </h1>
               <div className="flex items-center justify-start gap-2 mt-2 ">
-                <div className="h-2 w-auto aspect-square rounded-full bg-green-500 animate-pulse"></div>
+                
                 <h1 className="text-sm">Spots available</h1>
               </div>
               <h1 className=" mt-2">
