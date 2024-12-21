@@ -50,7 +50,7 @@ function HeroSection() {
     <div className="w-full h-fit max-lg:h-fit flex items-center justify-center flex-col gap-10 max-lg:gap-5 py-10 px-0  text-dark-text">
       {/* texts */}
       <div className="mt-[90px] max-lg:mt-0 mb-[40px] w-full max-lg:w-full h-fit flex flex-col items-center justify-start gap-6 px-16 max-lg:px-5">
-        <h1 className=" text-6xl leading-[75px] font-bold max-sm:text-4xl tracking-tight text-center w-full">
+        <h1 className=" text-6xl leading-[75px] font-bold max-sm:text-4xl max-md:text-left tracking-tight text-center w-full">
           {HeroSectionContent.BigTitle}
         </h1>
         <h1 className=" text-lg max-lg:mt-0 leading-6 font-medium tracking-tight text-center w-full max-w-[500px] opacity-65">
