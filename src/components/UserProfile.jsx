@@ -8,6 +8,7 @@ import { CoursesSection } from "../content/content";
 import { TbHexagonFilled, TbMichelinStar } from "react-icons/tb";
 import { formUrl } from "../content/enrollForm";
 import LazyImage from "./LazyImage";
+import { PiUser } from "react-icons/pi";
 
 function UserProfile({ Hide, data }) {
   const [animate, setAnimate] = useState(true);
@@ -51,7 +52,7 @@ function UserProfile({ Hide, data }) {
                 {data["Full Names"]}
               </h1>
               <div className="flex items-center justify-start gap-2 mt-2 ">
-                
+                <PiUser />
                 <h1 className="text-sm">Spots available</h1>
               </div>
               <h1 className=" mt-2">
