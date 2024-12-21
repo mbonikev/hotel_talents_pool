@@ -8,7 +8,7 @@ import { CoursesSection } from "../content/content";
 import { TbHexagonFilled, TbMichelinStar } from "react-icons/tb";
 import { formUrl } from "../content/enrollForm";
 import LazyImage from "./LazyImage";
-import { PiUser } from "react-icons/pi";
+import { PiUser, PiUserBold } from "react-icons/pi";
 
 function UserProfile({ Hide, data }) {
   const [animate, setAnimate] = useState(true);
@@ -51,8 +51,8 @@ function UserProfile({ Hide, data }) {
               <h1 className="text-[35px] mt-2 leading-[39px] tracking-tight font-extrabold ">
                 {data["Full Names"]}
               </h1>
-              <div className="flex items-center justify-start gap-2 mt-2 ">
-                <PiUser />
+              <div className="flex items-center justify-start gap-2 mt-2 text-dark-text/20 ">
+                <PiUserBold />
                 <h1 className="text-sm">Spots available</h1>
               </div>
               <h1 className=" mt-2">
