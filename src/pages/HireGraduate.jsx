@@ -19,9 +19,11 @@ function HireGraduate() {
   const handleShowProfile = (graduate) => {
     setShowProfile(graduate);
   };
+
   useEffect(() => {
     console.log(showProfile); // Logs the updated value of showProfile
   }, [showProfile]);
+
   useEffect(() => {
     const fetchExcelData = async () => {
       try {
@@ -56,6 +58,7 @@ function HireGraduate() {
     );
     setFilteredGraduates(filtered);
   };
+  
   return (
     <div className="w-full">
       <div className="w-full h-fit max-w-[1700px] px-16 max-md:px-5 mx-auto pb-[80px]">
