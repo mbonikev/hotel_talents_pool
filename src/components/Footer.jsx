@@ -44,7 +44,7 @@ function Footer() {
                 &copy; 2023 hoteltalentspool.com
               </p>
             </div>
-            <div className="grid grid-cols-3 gap-7">
+            <div className="grid grid-cols-3 gap-7 max-md:grid-cols-2 max-md:pb-7">
               {/* 1 */}
               <div className="flex flex-col gap-2">
                 <p className={`text-sm w-fit text-[#969696] font-medium`}>
