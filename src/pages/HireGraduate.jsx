@@ -9,11 +9,7 @@ function HireGraduate() {
   const [graduates, setGraduates] = useState([]);
   const [filteredGraduates, setFilteredGraduates] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
-  const [showProfile, setShowProfile] = useState(false);
-  const courseDetails = (id) => {
-    setCourseId(id);
-    setShowCourseDetails(true);
-  };
+  const [showProfile, setShowProfile] = useState([]);
 
   const HideCourseDetails = () => {
     setCourseId("");
