@@ -14,7 +14,7 @@ function Queries() {
     setActiveIndex2(activeIndex2 === index ? null : index);
   };
   return (
-    <div className="w-full py-10 px-16 max-lg:px-5 max-lg:pt-0 flex max-lg:flex-col text-dark-text max-w-[1700px] mx-auto">
+    <div className="w-full py-10 px-16 max-lg:px-5 max-lg:pt-0 flex max-lg:flex-col max-lg:gap-5 text-dark-text max-w-[1700px] mx-auto">
       <div className="w-1/2 max-lg:w-full h-fit flex flex-col gap-1 ">
         <h1 className="text-lg font-bold text-main-color">{FAQSectionSection.sectionTitle}</h1>
         <h1 className="text-5xl leading-[55px] max-lg:text-3xl font-bold w-full uppercase max-w-[450px] ">
@@ -29,7 +29,7 @@ function Queries() {
         </Link>
       </div>
       {/* Questions grid */}
-      <div className="w-1/2 grid grid-cols-1 gap-10 max-lg:gap-5 rounded-xl">
+      <div className="w-1/2 max-lg:w-full grid grid-cols-1 gap-10 max-lg:gap-5 rounded-xl">
         <div className="group w-full h-fit flex flex-col">
           <div className="w-full h-fit flex flex-col items-center justify-start text-dark-text ">
             <div className="w-full h-fit flex flex-col items-center justify-start gap-0 max-w-[900px]">
