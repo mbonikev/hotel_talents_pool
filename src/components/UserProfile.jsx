@@ -7,6 +7,7 @@ import LoadingScreen from "./LoadingScreen";
 import { CoursesSection } from "../content/content";
 import { TbHexagonFilled, TbMichelinStar } from "react-icons/tb";
 import { formUrl } from "../content/enrollForm";
+import LazyImage from "./LazyImage";
 
 function UserProfile({ Hide, data }) {
   const [animate, setAnimate] = useState(true);
@@ -41,7 +42,11 @@ function UserProfile({ Hide, data }) {
               >
                 <LuX />
               </button>
-              <div className=""></div>
+              <div className="w-16 h-16 aspect-square overflow-hidden rounded-full cursor-pointer ">
+                <LazyImage
+                  image={`/Graduates/profiles/${data["Profile Image"]}`}
+                />
+              </div>
               <h1 className="text-[35px] px-7 leading-[39px] tracking-tight font-extrabold ">
                 {data["Full Names"]}
               </h1>
