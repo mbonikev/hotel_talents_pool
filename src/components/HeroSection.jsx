@@ -74,7 +74,7 @@ function HeroSection() {
             {updatedImages.slice(0, 2).map((image, index) => (
               <div
                 key={index}
-                className="h-[320px] w-[240px] max-lg:h-[260px] max-lg:w-[180px] max-md:h-[200px] max-md:w-[120px] overflow-hidden rounded-2xl"
+                className="h-[320px] w-[240px] max-lg:h-[260px] max-lg:w-[180px] max-md:h-[200px] max-md:w-[140px] overflow-hidden rounded-2xl"
               >
                 <LazyImage image={image.img} />
                 {/* <img src={image.img} className={`${imageStyle}`} /> */}
@@ -87,7 +87,7 @@ function HeroSection() {
             {updatedImages.slice(2, 4).map((image, index) => (
               <div
                 key={index}
-                className="h-[320px] w-[240px] max-lg:h-[260px] max-lg:w-[180px] max-md:h-[200px] max-md:w-[120px] overflow-hidden rounded-2xl"
+                className="h-[320px] w-[240px] max-lg:h-[260px] max-lg:w-[180px] max-md:h-[200px] max-md:w-[140px] overflow-hidden rounded-2xl"
               >
                 <LazyImage image={image.img} />
                 {/* <img src={image.img} className={`${imageStyle}`} /> */}
@@ -100,7 +100,7 @@ function HeroSection() {
             {updatedImages.slice(4, 6).map((image, index) => (
               <div
                 key={index}
-                className="h-[320px] w-[240px] max-lg:h-[260px] max-lg:w-[180px] max-md:h-[200px] max-md:w-[120px] overflow-hidden rounded-2xl"
+                className="h-[320px] w-[240px] max-lg:h-[260px] max-lg:w-[180px] max-md:h-[200px] max-md:w-[140px] overflow-hidden rounded-2xl"
               >
                 <LazyImage image={image.img} />
                 {/* <img src={image.img} className={`${imageStyle}`} /> */}
@@ -113,7 +113,7 @@ function HeroSection() {
             {updatedImages.slice(6, 8).map((image, index) => (
               <div
                 key={index}
-                className="h-[320px] w-[240px] max-lg:h-[260px] max-lg:w-[180px] max-md:h-[200px] max-md:w-[120px] overflow-hidden rounded-2xl"
+                className="h-[320px] w-[240px] max-lg:h-[260px] max-lg:w-[180px] max-md:h-[200px] max-md:w-[140px] overflow-hidden rounded-2xl"
               >
                 <LazyLoadImage src={image.img} />
                 {/* <img src={image.img} className={`${imageStyle}`} /> */}
@@ -126,7 +126,7 @@ function HeroSection() {
             {updatedImages.slice(8, 10).map((image, index) => (
               <div
                 key={index}
-                className="h-[320px] w-[240px] max-lg:h-[260px] max-lg:w-[180px] max-md:h-[200px] max-md:w-[120px] overflow-hidden rounded-2xl"
+                className="h-[320px] w-[240px] max-lg:h-[260px] max-lg:w-[180px] max-md:h-[200px] max-md:w-[140px] overflow-hidden rounded-2xl"
               >
                 <LazyImage image={image.img} />
                 {/* <img src={image.img} className={`${imageStyle}`} /> */}
@@ -139,7 +139,7 @@ function HeroSection() {
             {updatedImages.slice(10, 12).map((image, index) => (
               <div
                 key={index}
-                className="h-[320px] w-[240px] max-lg:h-[260px] max-lg:w-[180px] max-md:h-[200px] max-md:w-[120px] overflow-hidden rounded-2xl"
+                className="h-[320px] w-[240px] max-lg:h-[260px] max-lg:w-[180px] max-md:h-[200px] max-md:w-[140px] overflow-hidden rounded-2xl"
               >
                 <LazyImage image={image.img} />
                 {/* <img src={image.img} className={`${imageStyle}`} /> */}
@@ -152,7 +152,7 @@ function HeroSection() {
             {updatedImages.slice(12, 14).map((image, index) => (
               <div
                 key={index}
-                className="h-[320px] w-[240px] max-lg:h-[260px] max-lg:w-[180px] max-md:h-[200px] max-md:w-[120px] overflow-hidden rounded-2xl"
+                className="h-[320px] w-[240px] max-lg:h-[260px] max-lg:w-[180px] max-md:h-[200px] max-md:w-[140px] overflow-hidden rounded-2xl"
               >
                 <LazyImage image={image.img} />
                 {/* <img src={image.img} className={`${imageStyle}`} /> */}
@@ -165,7 +165,7 @@ function HeroSection() {
             {updatedImages.slice(14, 16).map((image, index) => (
               <div
                 key={index}
-                className="h-[320px] w-[240px] max-lg:h-[260px] max-lg:w-[180px] max-md:h-[200px] max-md:w-[120px] overflow-hidden rounded-2xl"
+                className="h-[320px] w-[240px] max-lg:h-[260px] max-lg:w-[180px] max-md:h-[200px] max-md:w-[140px] overflow-hidden rounded-2xl"
               >
                 <LazyImage image={image.img} />
                 {/* <img src={image.img} className={`${imageStyle}`} /> */}
