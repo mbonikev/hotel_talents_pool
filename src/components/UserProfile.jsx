@@ -42,13 +42,13 @@ function UserProfile({ Hide, data }) {
                 <LuX />
               </button>
               <h1 className="text-[35px] px-7 leading-[39px] tracking-tight font-extrabold ">
-                Course: {Course.name}
+                Course: 
               </h1>
               <div className="flex items-center justify-start gap-2 px-7 mt-2 ">
                 <div className="h-2 w-auto aspect-square rounded-full bg-green-500 animate-pulse"></div>
                 <h1 className="text-sm">Spots available</h1>
               </div>
-              <h1 className=" px-7 mt-2">{Course.description}</h1>
+              <h1 className=" px-7 mt-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam possimus </h1>
               <div className="flex-1 flex flex-col w-full h-full gap-3 py-3 px-7 overscroll-contain overflow-y-auto custom_scrollbar">
                 {Course.outcome.map((outcome, index) => (
                   <div
