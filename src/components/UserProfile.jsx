@@ -91,7 +91,7 @@ function UserProfile({ Hide, data }) {
                   target="_blank"
                   to={formUrl}
                 >
-                  Enroll now
+                  Hire
                 </Link>
               </div>
             </div>
