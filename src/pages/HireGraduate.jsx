@@ -92,7 +92,7 @@ function HireGraduate() {
                           <span>Available: {graduate["Available"]}</span>
                         </h1>
                       </div>
-                      <button className="h-[45px] px-5 capitalize bg-main-color text-white font-medium rounded-full transition-none active:scale-95">
+                      <button className="h-[45px] px-5 capitalize outline-none bg-main-color text-white font-medium rounded-full transition-none active:scale-95">
                         view profile
                       </button>
                     </div>
