@@ -2,12 +2,12 @@ import React from "react";
 
 function Trainers() {
   return (
-    <div className="w-full h-fit bg-red-300 py-20 px-16 max-lg:px-5 max-lg:pt-0 flex gap-5 flex-col items-start justify-between text-dark-text max-w-[1700px] mx-auto">
+    <div className="w-full h-fit min-h-[400px] bg-red-300 py-10 px-16 max-lg:px-5 max-lg:pt-0 flex gap-5 flex-col items-start justify-between text-dark-text max-w-[1700px] mx-auto">
       <div className="w-full flex-1 h-full flex flex-col bg-[#EBEBEB] rounded-3xl relative overflow-clip">
         {/* lights */}
         <div className="w-[40%] rounded-full -z-0 blur-[100px] aspect-square absolute top-[-150px] right-[-160px] bg-[#7FA2CA]/60"></div>
         <div className="w-[40%] rounded-full -z-0 blur-[100px] aspect-square absolute bottom-[-150px] left-[-160px] bg-[#4D61BA]/35"></div>
-        <div className="w-full h-full absolute top-0 z-10 flex flex-col items-center justify-center gap-1">
+        <div className="w-full flex-1 h-full absolute top-0 z-10 flex flex-col items-center justify-center gap-1">
           <h1 className="text-6xl font-bold w-fit text-center tracking-tight">
             Trained by professionals
           </h1>
