@@ -59,7 +59,7 @@ function UserProfile({ Hide, data }) {
                 <div className="flex items-start justify-start w-full gap-2">
                   <TbHexagonFilled className="text-main-color text-sm mt-[3px] min-w-fit" />
                   <h1 className="text-sm text-dark-text/70">
-                  <strong className="text-dark-text"></strong>
+                  <strong className="text-dark-text">Full Names</strong>
                   </h1>
                 </div>
               </div>
