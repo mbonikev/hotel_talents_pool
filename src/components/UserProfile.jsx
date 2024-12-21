@@ -80,7 +80,7 @@ function UserProfile({ Hide, data }) {
             </div>
             <div className="w-full h-fit py-4 px-4">
               <Link
-                className="w-full h-full flex items-center justify-center bg-main-color transition hover:opacity-90 text-sm text-white py-2.5 px-2 rounded-full"
+                className="w-fit h-full flex items-center justify-center bg-main-color transition hover:opacity-90 text-sm text-white py-2.5 px-8 rounded-full"
                 target="_blank"
                 to={formUrl}
               >
