@@ -27,7 +27,7 @@ function UserProfile({ Hide, data }) {
           ${animate ? "opacity-0" : "opacity-100"}`}
       ></div>
       <div
-        className={`fixed z-40 top-0 bottom-0 left-0 right-0 m-auto w-[90%] h-[90%] max-w-[750px] max-h-[550px] bg-white rounded-3xl shadow-xl flex flex-col overflow-hidden transition duration-200 ease-in-out 
+        className={`fixed z-40 top-0 bottom-0 left-0 right-0 m-auto w-[90%] h-[90%] max-w-[650px] max-h-[500px] bg-white rounded-3xl shadow-xl flex flex-col overflow-hidden transition duration-200 ease-in-out 
         ${animate ? "opacity-0 translate-y-5" : "opacity-100"}`}
       >
         {fetching ? (
