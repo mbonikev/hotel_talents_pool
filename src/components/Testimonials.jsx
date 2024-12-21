@@ -15,7 +15,7 @@ function Testimonials() {
         <h1 className="text-lg font-bold text-main-color max-lg:mb-1">
           {TestimonialsSection.sectionTitle}
         </h1>
-        <h1 className="text-5xl max-lg:text-3xl pb-3 font-bold w-fit max-w-[380px]">
+        <h1 className="text-5xl max-lg:text-3xl text-left pb-3 font-bold w-fit max-w-[380px]">
           {TestimonialsSection.sectionDescription}
         </h1>
       </div>
@@ -35,8 +35,8 @@ function Testimonials() {
                   />
                 </div>
                 <div className="flex flex-col items-start justify-start">
-                  <h1 className="font-medium tracking-tight">{person.name}</h1>
-                  <h1 className="text-sm text-dark-text/70">{person.role}</h1>
+                  <h1 className="font-medium tracking-tight text-left">{person.name}</h1>
+                  <h1 className="text-sm text-dark-text/70 text-left">{person.role}</h1>
                 </div>
               </div>
               <h1 className="text-sm text-dark-text p-1 text-justify font-medium">{person.comment}</h1>
