@@ -37,7 +37,7 @@ function UserProfile({ Hide, data }) {
             <div className="w-1/2 max-md:w-full h-full flex flex-col gap-1 pt-7 text-dark-text relative">
               <button
                 onClick={Hide}
-                className="absolute top-4 right-4 z-10 transition active:scale-95 bg-white h-10 rounded-full outline-none max-md:flex items-center justify-center aspect-square text-xl text-dark-text hidden"
+                className="absolute top-4 right-4 z-10 transition active:scale-95 bg-main-color text-white h-10 rounded-full outline-none max-md:flex items-center justify-center aspect-square text-xl  hidden"
               >
                 <LuX />
               </button>
