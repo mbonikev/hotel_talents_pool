@@ -19,6 +19,9 @@ function HireGraduate() {
 
   const handleShowProfile = (graduate) => {
     setUserData(graduate);
+    setTimeout(() => {
+      setShowProfile(true);
+    }, 100);
   };
 
   useEffect(() => {
