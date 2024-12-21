@@ -11,6 +11,7 @@ import { formUrl } from "../content/enrollForm";
 function CourseDetails({ Hide, Id }) {
   const [animate, setAnimate] = useState(true);
   const [fetching, setFetching] = useState(true);
+
   useEffect(() => {
     setTimeout(() => {
       setAnimate(false);
@@ -19,6 +20,13 @@ function CourseDetails({ Hide, Id }) {
       setFetching(false);
     }, 1200);
   }, []);
+
+  useEffect(() => {
+    const handleKeyDown = (event) => event.key === "Escape" && Hide();
+    document.addEventListener("keydown", handleKeyDown);
+    return () => document.removeEventListener("keydown", handleKeyDown);
+  }, [Hide]);
+
   const Course = CoursesSection.courses.find((course) => course.id === Id);
   return (
     <>
