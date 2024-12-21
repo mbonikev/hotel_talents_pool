@@ -14,7 +14,8 @@ function Navbar({ setLoading }) {
 
   const handleLinkClick = () => {
     setLoading(true);
-    setDropdownVisible(false); // Close the dropdown when a link is clicked
+    setDropdownVisible(false); 
+    setShowMenu(false)
   };
 
   return (
