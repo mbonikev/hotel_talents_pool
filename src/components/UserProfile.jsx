@@ -27,7 +27,7 @@ function UserProfile({ Hide, data }) {
           ${animate ? "opacity-0" : "opacity-100"}`}
       ></div>
       <div
-        className={`fixed z-40 top-0 bottom-0 left-0 right-0 m-auto w-[90%] h-[90%] max-w-[750px] max-h-[550px] bg-body-color rounded-3xl shadow-xl flex flex-col overflow-hidden transition duration-200 ease-in-out 
+        className={`fixed z-40 top-0 bottom-0 left-0 right-0 m-auto w-[90%] h-[90%] max-w-[750px] max-h-[550px] bg-white rounded-3xl shadow-xl flex flex-col overflow-hidden transition duration-200 ease-in-out 
         ${animate ? "opacity-0 translate-y-5" : "opacity-100"}`}
       >
         {fetching ? (
@@ -37,7 +37,7 @@ function UserProfile({ Hide, data }) {
             <div className="w-full max-md:w-full h-full flex flex-col gap-1 pt-7 text-dark-text relative">
               <button
                 onClick={Hide}
-                className="absolute top-4 right-4 z-10 transition active:scale-95 bg-main-color text-white h-10 rounded-full outline-none flex items-center justify-center aspect-square text-xl"
+                className="absolute top-4 right-4 z-10 transition active:scale-95 bg-body-color text-dark-text h-10 rounded-full outline-none flex items-center justify-center aspect-square text-xl"
               >
                 <LuX />
               </button>
