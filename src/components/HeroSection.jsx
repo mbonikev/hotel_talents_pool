@@ -122,7 +122,7 @@ function HeroSection() {
             ))}
           </div>
           {/* 5 */}
-          <div className="flex flex-col gap-4 max-md:translate-y-[-45px] ">
+          <div className="flex flex-col gap-4 max-md:translate-y-[-35px] ">
             {updatedImages.slice(8, 10).map((image, index) => (
               <div
                 key={index}
