@@ -44,7 +44,7 @@ function UserProfile({ Hide, data }) {
           <LoadingScreen />
         ) : (
           <div className="w-full h-full flex-1 flex flex-col overscroll-contain overflow-y-auto custom_scrollbar">
-            <div className="w-full max-md:w-full h-full flex flex-col gap-1 pt-7 px-7 text-dark-text relative">
+            <div className="w-full max-md:w-full h-full flex flex-col gap-1 p-7 text-dark-text relative">
               <button
                 onClick={Hide}
                 className="absolute top-4 right-4 z-10 transition active:scale-95 bg-body-color text-dark-text h-10 rounded-full outline-none flex items-center justify-center aspect-square text-xl"
@@ -85,8 +85,6 @@ function UserProfile({ Hide, data }) {
                   </div>
                 ))}
               </div>
-            </div>
-            <div className="w-full h-fit py-4 px-4 flex items-center justify-end">
               <Link
                 className="w-fit h-full flex items-center justify-center bg-main-color transition hover:opacity-90 text-sm text-white py-2.5 px-8 rounded-full"
                 target="_blank"
