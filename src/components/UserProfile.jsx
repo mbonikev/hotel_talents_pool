@@ -19,7 +19,6 @@ function UserProfile({ Hide, data }) {
       setFetching(false);
     }, 1200);
   }, []);
-  const Course = CoursesSection.courses.find((course) => course.id === Id);
   return (
     <>
       <div
