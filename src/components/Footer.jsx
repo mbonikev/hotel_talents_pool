@@ -8,11 +8,12 @@ function Footer() {
   const linkStyle = `text-sm w-fit cursor-pointer text-[#969696] hover:text-main-color font-medium`
   return (
     <div className="w-full">
+      {/* floating */}
       <div className="w-full flex flex-col items-start justify-between max-md:flex-col mt-[160px] max-md:gap-3 text-dark-text relative max-w-[1700px] mx-auto">
         <div className="w-full h-[300px] px-16 max-lg:px-5 absolute top-[-150px] ">
           <div className="w-full h-full bg-[#b2c3ec] rounded-[35px] p-10 flex items-start justify-between">
             <div className="w-full flex-1">
-              <h1 className="text-4xl leading-[45px] tracking-tight pb-3 font-extrabold w-fit text-[#111111]">
+              <h1 className="text-4xl leading-[45px] max-lg:text-2xl tracking-tight pb-3 font-extrabold w-fit text-[#111111]">
                 Apply today and <br /> kick start your hospitality <br /> Career
               </h1>
             </div>
@@ -21,7 +22,7 @@ function Footer() {
                 Hotel Talents Pool
               </h1>
               <Link
-                className="text-sm mt-[20px] w-fit bg-[#111111] transition active:scale-90 text-white py-2.5 px-6 rounded-full max-lg:hidden"
+                className="text-sm mt-[20px] w-fit bg-[#111111] transition active:scale-90 text-white py-2.5 px-6 rounded-full"
                 to={formUrl}
                 target="_blank"
               >
@@ -31,6 +32,7 @@ function Footer() {
           </div>
         </div>
       </div>
+      {/* bottom part */}
       <div className="bg-[#111111] w-full pt-[150px] ">
         <div className="w-full h-fit flex items-center justify-center flex-col px-16 max-lg:px-5 max-w-[1700px] mx-auto">
           <div className=" w-full h-fit flex-1 px-12 py-12 mt-4 flex justify-between items-start">
