@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { formUrl } from "../content/enrollForm";
 
 function Footer() {
-  const linkStyle = `text-sm text-[#969696] hover:text-main-color font-medium`
+  const linkStyle = `text-sm w-fit cursor-pointer text-[#969696] hover:text-main-color font-medium`
   return (
     <div className="w-full">
       <div className="w-full flex flex-col items-start justify-between max-md:flex-col mt-[160px] max-md:gap-3 text-dark-text relative max-w-[1700px] mx-auto">
