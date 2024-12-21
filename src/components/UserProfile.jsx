@@ -51,9 +51,9 @@ function UserProfile({ Hide, data }) {
               <h1 className="text-[35px] mt-2 leading-[39px] tracking-tight font-extrabold ">
                 {data["Full Names"]}
               </h1>
-              <div className="flex items-center justify-start gap-2 mt-2 text-dark-text/20 ">
+              <div className="flex items-center justify-start gap-2 mt-2 text-dark-text/70 ">
                 <PiUserBold />
-                <h1 className="text-sm">Spots available</h1>
+                <h1 className="text-base">Personal information</h1>
               </div>
               <h1 className=" mt-2">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
