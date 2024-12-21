@@ -51,14 +51,10 @@ function UserProfile({ Hide, data }) {
               <h1 className="text-[35px] mt-2 leading-[39px] tracking-tight font-extrabold ">
                 {data["Full Names"]}
               </h1>
-              <div className="flex items-center justify-start gap-2 mt-2 text-dark-text/70 ">
+              <div className="flex items-center justify-start gap-2 mt-4 text-dark-text ">
                 <PiUserBold />
                 <h1 className="text-base">Personal information</h1>
               </div>
-              <h1 className=" mt-2">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Quibusdam possimus{" "}
-              </h1>
               <div className="flex-1 flex flex-col w-full h-full gap-3 py-3 overscroll-contain overflow-y-auto custom_scrollbar">
                 <div className="flex items-start justify-start w-full gap-2">
                   <TbHexagonFilled className="text-purple-600 text-sm mt-[3px] min-w-fit" />
