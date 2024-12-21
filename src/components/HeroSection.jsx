@@ -135,7 +135,7 @@ function HeroSection() {
             ))}
           </div>
           {/* 6 */}
-          <div className="flex flex-col gap-4 translate-y-[-80px]">
+          <div className="flex flex-col gap-4 translate-y-[-80px] max-md:translate-y-[-45px]">
             {updatedImages.slice(10, 12).map((image, index) => (
               <div
                 key={index}
@@ -148,7 +148,7 @@ function HeroSection() {
             ))}
           </div>
           {/* 7 */}
-          <div className="flex flex-col gap-4 translate-y-[-130px]">
+          <div className="flex flex-col gap-4 translate-y-[-130px] max-md:translate-y-[-55px]">
             {updatedImages.slice(12, 14).map((image, index) => (
               <div
                 key={index}
@@ -161,7 +161,7 @@ function HeroSection() {
             ))}
           </div>
           {/* 8 */}
-          <div className="flex flex-col gap-4 translate-y-[-35px]">
+          <div className="flex flex-col gap-4 translate-y-[-35px] max-md:translate-y-[-65px]">
             {updatedImages.slice(14, 16).map((image, index) => (
               <div
                 key={index}
