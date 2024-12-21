@@ -58,9 +58,11 @@ function UserProfile({ Hide, data }) {
               <div className="flex-1 flex flex-col w-full h-full gap-3 py-3 overscroll-contain overflow-y-auto custom_scrollbar">
                 <div className="flex items-start justify-start w-full gap-2">
                   <TbHexagonFilled className="text-main-color text-sm mt-[3px] min-w-fit" />
-                  <h1 className="text-sm text-dark-text/70">
-                  <strong className="text-dark-text">Full Names</strong>
-                  </h1>
+                  {data.map((column, index) => (
+                    <h1 className="text-sm text-dark-text/70">
+                      <strong className="text-dark-text">Full Names</strong>
+                    </h1>
+                  ))}
                 </div>
               </div>
             </div>
