@@ -29,7 +29,7 @@ function FewCourses() {
       </div>
       {/* courses swiper */}
       <div className="w-full max-w-[700px] max-md:max-w-full 2xl:max-w-[900px] gap-5 min-h-[300px]">
-        <div className="h-fit w-full bg-red-400 relative">
+        <div className="h-fit w-full relative">
           <Swiper
             slidesPerView={1}
             spaceBetween={10}
