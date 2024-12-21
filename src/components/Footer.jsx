@@ -17,12 +17,12 @@ function Footer() {
                 Apply today and <br /> kick start your hospitality <br /> Career
               </h1>
             </div>
-            <div className="w-[200px] h-full flex flex-col justify-between items-end">
+            <div className="w-[200px] h-full max-md:h-fit flex flex-col justify-between items-end">
               <h1 className="text-sm font-medium text-[#111111] max-md:hidden">
                 Hotel Talents Pool
               </h1>
               <Link
-                className="text-sm mt-[20px] w-fit bg-[#111111] transition active:scale-90 text-white py-2.5 px-6 rounded-full"
+                className="text-sm w-fit bg-[#111111] transition active:scale-90 text-white py-2.5 px-6 rounded-full"
                 to={formUrl}
                 target="_blank"
               >
