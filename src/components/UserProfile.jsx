@@ -35,7 +35,7 @@ function UserProfile({ Hide, data }) {
           <LoadingScreen />
         ) : (
           <div className="w-full h-full flex-1 flex">
-            <div className="w-full max-md:w-full h-full flex flex-col gap-1 pt-7 text-dark-text relative">
+            <div className="w-full max-md:w-full h-full flex flex-col gap-1 pt-7 px-7 text-dark-text relative">
               <button
                 onClick={Hide}
                 className="absolute top-4 right-4 z-10 transition active:scale-95 bg-body-color text-dark-text h-10 rounded-full outline-none flex items-center justify-center aspect-square text-xl"
@@ -47,18 +47,18 @@ function UserProfile({ Hide, data }) {
                   image={`/Graduates/profiles/${data["Profile Image"]}`}
                 />
               </div>
-              <h1 className="text-[35px] px-7 leading-[39px] tracking-tight font-extrabold ">
+              <h1 className="text-[35px] leading-[39px] tracking-tight font-extrabold ">
                 {data["Full Names"]}
               </h1>
-              <div className="flex items-center justify-start gap-2 px-7 mt-2 ">
+              <div className="flex items-center justify-start gap-2 mt-2 ">
                 <div className="h-2 w-auto aspect-square rounded-full bg-green-500 animate-pulse"></div>
                 <h1 className="text-sm">Spots available</h1>
               </div>
-              <h1 className=" px-7 mt-2">
+              <h1 className=" mt-2">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Quibusdam possimus{" "}
               </h1>
-              <div className="flex-1 flex flex-col w-full h-full gap-3 py-3 px-7 overscroll-contain overflow-y-auto custom_scrollbar">
+              <div className="flex-1 flex flex-col w-full h-full gap-3 py-3 overscroll-contain overflow-y-auto custom_scrollbar">
                 <div className="flex items-start justify-start w-full gap-2">
                   <TbHexagonFilled className="text-purple-600 text-sm mt-[3px] min-w-fit" />
                   <h1 className="text-sm text-dark-text/70">Lorem</h1>
