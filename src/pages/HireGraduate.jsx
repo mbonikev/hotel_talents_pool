@@ -10,20 +10,17 @@ function HireGraduate() {
   const [graduates, setGraduates] = useState([]);
   const [filteredGraduates, setFilteredGraduates] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
-  const [showProfile, setShowProfile] = useState("");
+  const [showProfile, setShowProfile] = useState(false);
+  const [userData, setUserData] = useState("")
 
-  const HideCourseDetails = () => {
+  const Hideprofile = () => {
     setCourseId("");
     setShowCourseDetails(false);
   };
 
   const handleShowProfile = (graduate) => {
-    setShowProfile(graduate);
+    setUserData(graduate);
   };
-
-  useEffect(() => {
-    console.log(showProfile); // Logs the updated value of showProfile
-  }, [showProfile]);
 
   useEffect(() => {
     const fetchExcelData = async () => {
