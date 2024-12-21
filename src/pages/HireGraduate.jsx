@@ -9,7 +9,7 @@ function HireGraduate() {
   const [graduates, setGraduates] = useState([]);
   const [filteredGraduates, setFilteredGraduates] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
-  const [showProfile, setShowProfile] = useState([]);
+  const [showProfile, setShowProfile] = useState("");
 
   const HideCourseDetails = () => {
     setCourseId("");
@@ -17,7 +17,7 @@ function HireGraduate() {
   };
 
   const handleShowProfile = (graduate) => {
-    setShowProfile(graduate);
+    setShowProfile(JSON.stringify(graduate));
     console.log(showProfile);
   };
   useEffect(() => {
