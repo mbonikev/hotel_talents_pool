@@ -47,7 +47,7 @@ function UserProfile({ Hide, data }) {
                   image={`/Graduates/profiles/${data["Profile Image"]}`}
                 />
               </div>
-              <h1 className="text-[35px] leading-[39px] tracking-tight font-extrabold ">
+              <h1 className="text-[35px] mt-2 leading-[39px] tracking-tight font-extrabold ">
                 {data["Full Names"]}
               </h1>
               <div className="flex items-center justify-start gap-2 mt-2 ">
