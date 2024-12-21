@@ -68,7 +68,7 @@ function UserProfile({ Hide, data }) {
                     className="flex items-start justify-start w-full gap-2"
                   >
                     <TbHexagonFilled className="text-main-color text-sm mt-[3px] min-w-fit" />
-                    <h1 className="text-sm text-dark-text/70">
+                    <h1 className="text-sm text-dark-text/80">
                       <strong className="text-dark-text">
                         {label}: &nbsp;
                       </strong>
