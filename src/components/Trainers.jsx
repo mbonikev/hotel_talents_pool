@@ -3,7 +3,7 @@ import React from "react";
 function Trainers() {
   return (
     <div className="w-full py-20 px-16 max-lg:px-5 max-lg:pt-0 flex gap-5 items-start justify-between text-dark-text max-w-[1700px] mx-auto">
-      <div className="w-full h-[400px] max-lg:h-fit bg-[#EBEBEB] rounded-3xl relative overflow-clip">
+      <div className="w-full h-[400px] max-lg:h-fit flex flex-col bg-[#EBEBEB] rounded-3xl relative overflow-clip">
         {/* lights */}
         <div className="w-[40%] rounded-full -z-0 blur-[100px] aspect-square absolute top-[-150px] right-[-160px] bg-[#7FA2CA]/60"></div>
         <div className="w-[40%] rounded-full -z-0 blur-[100px] aspect-square absolute bottom-[-150px] left-[-160px] bg-[#4D61BA]/35"></div>
@@ -14,7 +14,7 @@ function Trainers() {
           <p className="text-lg font-medium max-w-[490px] pt-3 opacity-65">
             We offer hands-on training for aspiring
           </p>
-          <div className="w-full flex items-center justify-center flex-wrap gap-2 mt-7">
+          <div className="w-full h-fit flex items-center justify-center flex-wrap gap-2 mt-7">
             {[...Array(7)].map((_, index) => (
               <>
                 {/* person */}
