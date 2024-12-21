@@ -45,10 +45,10 @@ function Footer() {
             <div className="grid grid-cols-3 gap-7">
               {/* 1 */}
               <div className="flex flex-col gap-2">
-                <p className={`${linkStyle}`}>
+                <p className={`text-sm w-fit text-[#969696] font-medium`}>
                   Kigali, Rwanda
                 </p>
-                <p className={`${linkStyle}`}>
+                <p className={`text-sm w-fit text-[#969696] font-medium`}>
                   +250788888888
                 </p>
               </div>
