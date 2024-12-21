@@ -16,8 +16,8 @@ function HireGraduate() {
     setShowCourseDetails(false);
   };
 
-  const handleShowProfile = () => {
-
+  const handleShowProfile = (graduate) => {
+    setShowProfile(graduate);
   };
   useEffect(() => {
     const fetchExcelData = async () => {
