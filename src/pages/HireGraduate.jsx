@@ -17,7 +17,7 @@ function HireGraduate() {
   };
 
   const handleShowProfile = (graduate) => {
-    setShowProfile(JSON.stringify(graduate));
+    setShowProfile(graduate);
     console.log(showProfile);
   };
   useEffect(() => {
