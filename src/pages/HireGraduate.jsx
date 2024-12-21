@@ -11,11 +11,10 @@ function HireGraduate() {
   const [filteredGraduates, setFilteredGraduates] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
   const [showProfile, setShowProfile] = useState(false);
-  const [userData, setUserData] = useState("")
+  const [userData, setUserData] = useState("");
 
-  const Hideprofile = () => {
-    setCourseId("");
-    setShowCourseDetails(false);
+  const HideProfile = () => {
+    setShowProfile(false);
   };
 
   const handleShowProfile = (graduate) => {
@@ -60,9 +59,7 @@ function HireGraduate() {
   return (
     <div className="w-full relative">
       {/* course details */}
-      {showProfile && (
-        <CourseDetails Id={courseId} Hide={HideCourseDetails} />
-      )}
+      {showProfile && <CourseDetails Id={courseId} Hide={HideCourseDetails} />}
       <div className="w-full h-fit max-w-[1700px] px-16 max-md:px-5 mx-auto pb-[80px]">
         <Navbar />
         <div className="w-full flex pt-24 pb-16 justify-between">
