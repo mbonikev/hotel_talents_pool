@@ -9,6 +9,19 @@ function HireGraduate() {
   const [graduates, setGraduates] = useState([]);
   const [filteredGraduates, setFilteredGraduates] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
+  const [showCourseDetails, setShowCourseDetails] = useState(false);
+  const [courseId, setCourseId] = useState("");
+
+  const courseDetails = (id) => {
+    setCourseId(id);
+    setShowCourseDetails(true);
+  };
+
+  const HideCourseDetails = () => {
+    setCourseId("");
+    setShowCourseDetails(false);
+  };
+
   const handleShowProfile = () => {};
   useEffect(() => {
     const fetchExcelData = async () => {
