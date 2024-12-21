@@ -56,47 +56,26 @@ function UserProfile({ Hide, data }) {
                 <h1 className="text-base">Personal information</h1>
               </div>
               <div className="flex-1 flex flex-col w-full h-full gap-3 py-3 overscroll-contain overflow-y-auto custom_scrollbar">
-                <div className="flex items-start justify-start w-full gap-2">
-                  <TbHexagonFilled className="text-main-color text-sm mt-[3px] min-w-fit" />
-                  <h1 className="text-sm text-dark-text/70">
-                    <strong className="text-dark-text">
-                      Full Names: &nbsp;
-                    </strong>
-                    {data["Full Names"]}
-                  </h1>
-                </div>
-                <div className="flex items-start justify-start w-full gap-2">
-                  <TbHexagonFilled className="text-main-color text-sm mt-[3px] min-w-fit" />
-                  <h1 className="text-sm text-dark-text/70">
-                    <strong className="text-dark-text">Gender: &nbsp;</strong>
-                    {data["Gender"]}
-                  </h1>
-                </div>
-                <div className="flex items-start justify-start w-full gap-2">
-                  <TbHexagonFilled className="text-main-color text-sm mt-[3px] min-w-fit" />
-                  <h1 className="text-sm text-dark-text/70">
-                    <strong className="text-dark-text">Position: &nbsp;</strong>
-                    {data["Position"]}
-                  </h1>
-                </div>
-                <div className="flex items-start justify-start w-full gap-2">
-                  <TbHexagonFilled className="text-main-color text-sm mt-[3px] min-w-fit" />
-                  <h1 className="text-sm text-dark-text/70">
-                    <strong className="text-dark-text">
-                      Experience: &nbsp;
-                    </strong>
-                    {data["Experience"]}
-                  </h1>
-                </div>
-                <div className="flex items-start justify-start w-full gap-2">
-                  <TbHexagonFilled className="text-main-color text-sm mt-[3px] min-w-fit" />
-                  <h1 className="text-sm text-dark-text/70">
-                    <strong className="text-dark-text">
-                      Available: &nbsp;
-                    </strong>
-                    {data["Available"]}
-                  </h1>
-                </div>
+                {[
+                  { label: "Full Names", key: "Full Names" },
+                  { label: "Gender", key: "Gender" },
+                  { label: "Position", key: "Position" },
+                  { label: "Experience", key: "Experience" },
+                  { label: "Available", key: "Available" },
+                ].map(({ label, key }) => (
+                  <div
+                    key={key}
+                    className="flex items-start justify-start w-full gap-2"
+                  >
+                    <TbHexagonFilled className="text-main-color text-sm mt-[3px] min-w-fit" />
+                    <h1 className="text-sm text-dark-text/70">
+                      <strong className="text-dark-text">
+                        {label}: &nbsp;
+                      </strong>
+                      {data[key]}
+                    </h1>
+                  </div>
+                ))}
               </div>
             </div>
             <div className="w-full h-fit py-4 px-4">
