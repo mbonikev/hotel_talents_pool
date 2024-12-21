@@ -19,7 +19,7 @@ function Testimonials() {
           {TestimonialsSection.sectionDescription}
         </h1>
       </div>
-      <div className="w-full columns-3">
+      <div className="w-full columns-3 max-lg:columns-2 max-md:columns-1 space-y-5">
         {/* testimonial */}
         {TestimonialsSection.testimonials.map((person, index) => (
           <div className="flex flex-col gap-4 items-center justify-center text-center break-inside-avoid bg-[#ebebeb] relative p-5 rounded-2xl overflow-hidden ring-1 ring-stone-200">
