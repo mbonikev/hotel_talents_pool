@@ -42,7 +42,7 @@ function UserProfile({ Hide, data }) {
                 <LuX />
               </button>
               <h1 className="text-[35px] px-7 leading-[39px] tracking-tight font-extrabold ">
-                Course:
+                {data["Full Names"]}
               </h1>
               <div className="flex items-center justify-start gap-2 px-7 mt-2 ">
                 <div className="h-2 w-auto aspect-square rounded-full bg-green-500 animate-pulse"></div>
