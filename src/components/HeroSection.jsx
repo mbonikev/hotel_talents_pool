@@ -47,9 +47,9 @@ const imageStyle = `h-fit min-h-full w-full bg-stone-100 border-none outline-non
 
 function HeroSection() {
   return (
-    <div className="w-full h-fit max-lg:h-fit flex items-center justify-center flex-col gap-10 max-lg:gap-5 py-10 px-0  text-dark-text">
+    <div className="w-full h-fit max-lg:h-fit flex items-center justify-center flex-col gap-10 max-lg:gap-5 max-md:gap-2 py-10 px-0  text-dark-text">
       {/* texts */}
-      <div className="mt-[90px] max-lg:mt-0 mb-[40px] max-md:mb-[0px] w-full max-lg:w-full h-fit flex flex-col items-center justify-start gap-6 px-16 max-lg:px-5">
+      <div className="mt-[90px] max-lg:mt-0 mb-[40px] w-full max-lg:w-full h-fit flex flex-col items-center justify-start gap-6 px-16 max-lg:px-5">
         <h1 className=" text-6xl leading-[75px] font-bold max-sm:text-4xl max-md:text-left max-md:pr-10 tracking-tight text-center w-full">
           {HeroSectionContent.BigTitle}
         </h1>
