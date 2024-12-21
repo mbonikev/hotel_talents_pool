@@ -83,7 +83,7 @@ function HireGraduate() {
             ) : (
               <ul>
                 {filteredGraduates.map((graduate, index) => (
-                  <div className="flex flex-col w-full gap-5">
+                  <div key={index} className="flex flex-col w-full gap-5">
                     <div
                       key={index}
                       className="w-full flex items-center justify-between gap-6 mt-5 transition rounded-xl"
