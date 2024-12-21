@@ -14,7 +14,7 @@ function FewCourses() {
     <div className="w-full mt-20 px-16 py-5 max-lg:px-5 max-lg:pt-0 flex max-lg:flex-col gap-5 max-lg:gap-10 items-start justify-between text-dark-text max-w-[1700px] mx-auto">
       <div className="w-fit h-fit flex flex-col gap-1 ">
         <h1 className="text-lg font-bold text-main-color">{CoursesSection.sectionTitle}</h1>
-        <h1 className="text-5xl font-bold w-fit max-w-[300px]">
+        <h1 className="text-5xl max-lg:text-3xl font-bold w-fit max-w-[300px]">
           {CoursesSection.HeaderTitle}
         </h1>
         <p className="text-base font-medium leading-6 max-w-[490px] pt-5 opacity-65">
