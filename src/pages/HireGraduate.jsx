@@ -18,8 +18,10 @@ function HireGraduate() {
 
   const handleShowProfile = (graduate) => {
     setShowProfile(graduate);
-    console.log(showProfile);
   };
+  useEffect(() => {
+    console.log(showProfile); // Logs the updated value of showProfile
+  }, [showProfile]);
   useEffect(() => {
     const fetchExcelData = async () => {
       try {
