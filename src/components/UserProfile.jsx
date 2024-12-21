@@ -42,7 +42,7 @@ function UserProfile({ Hide, data }) {
               >
                 <LuX />
               </button>
-              <div className="w-16 h-16 aspect-square overflow-hidden rounded-full cursor-pointer ">
+              <div className="w-28 h-28 aspect-square overflow-hidden rounded-full cursor-pointer ">
                 <LazyImage
                   image={`/Graduates/profiles/${data["Profile Image"]}`}
                 />
