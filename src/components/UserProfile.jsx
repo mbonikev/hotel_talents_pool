@@ -13,6 +13,13 @@ import { PiUser, PiUserBold } from "react-icons/pi";
 function UserProfile({ Hide, data }) {
   const [animate, setAnimate] = useState(true);
   const [fetching, setFetching] = useState(true);
+
+  useEffect(() => {
+    const handleKeyDown = (event) => event.key === "Escape" && Hide();
+    document.addEventListener("keydown", handleKeyDown);
+    return () => document.removeEventListener("keydown", handleKeyDown);
+  }, [Hide]);
+
   useEffect(() => {
     setTimeout(() => {
       setAnimate(false);
@@ -21,6 +28,7 @@ function UserProfile({ Hide, data }) {
       setFetching(false);
     }, 1200);
   }, []);
+
   return (
     <>
       <div
