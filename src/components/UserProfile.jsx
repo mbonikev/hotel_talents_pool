@@ -44,7 +44,7 @@ function UserProfile({ Hide, data }) {
           <LoadingScreen />
         ) : (
           <div className="w-full h-full flex-1 flex flex-col">
-            <div className="w-full max-md:w-full h-full flex flex-col gap-1 pt-7 px-7 text-dark-text relative">
+            <div className="w-full max-md:w-full h-full flex flex-col gap-1 pt-7 px-7 text-dark-text relative overscroll-contain overflow-y-auto custom_scrollbar">
               <button
                 onClick={Hide}
                 className="absolute top-4 right-4 z-10 transition active:scale-95 bg-body-color text-dark-text h-10 rounded-full outline-none flex items-center justify-center aspect-square text-xl"
@@ -63,7 +63,7 @@ function UserProfile({ Hide, data }) {
                 <PiUserBold className="text-dark-text/50" />
                 <h1 className="text-base">Personal information</h1>
               </div>
-              <div className="flex-1 flex flex-col w-full h-full gap-3 py-3 pl-[23px] overscroll-contain overflow-y-auto custom_scrollbar">
+              <div className="flex-1 flex flex-col w-full h-full gap-3 py-3 pl-[23px] ">
                 {[
                   { label: "Full Names", key: "Full Names" },
                   { label: "Gender", key: "Gender" },
