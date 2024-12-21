@@ -8,7 +8,7 @@ function Trainers() {
         <div className="w-[40%] rounded-full -z-0 blur-[100px] aspect-square absolute top-[-150px] right-[-160px] bg-[#7FA2CA]/60"></div>
         <div className="w-[40%] rounded-full -z-0 blur-[100px] aspect-square absolute bottom-[-150px] left-[-160px] bg-[#4D61BA]/35"></div>
         <div className="w-full flex-1 h-full absolute top-0 z-10 flex flex-col items-center justify-center gap-1">
-          <h1 className="bg-orange-500 text-6xl font-bold w-fit text-center tracking-tight">
+          <h1 className="bg-orange-500 min-h-fit text-6xl font-bold w-fit text-center tracking-tight">
             Trained by professionals
           </h1>
           <p className="text-lg font-medium max-w-[490px] pt-3 opacity-65">
