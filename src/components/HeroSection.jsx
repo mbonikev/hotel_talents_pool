@@ -175,22 +175,22 @@ function HeroSection() {
           </div>
         </div>
         {/* white shadow */}
-        <div className="absolute top-[83%] left-0 w-full h-[170px] border-t bg-body-color flex items-center justify-center gap-20">
+        <div className="absolute top-[83%] left-0 w-full h-[170px] border-t bg-body-color flex items-center justify-center gap-20 max-md:gap-10">
           <img
             src="https://upload.wikimedia.org/wikipedia/en/e/e4/National_Bank_of_Rwanda_logo.png"
-            className="h-[60px] saturate-0 opacity-70"
+            className="h-[60px] max-md:h-[35px] saturate-0 opacity-70"
           />
           <img
             src="https://seeklogo.com/images/E/Equity_Bank-logo-88F49E17E2-seeklogo.com.png"
-            className="h-[60px] saturate-0 opacity-70 py-[5px]"
+            className="h-[60px] max-md:h-[35px] saturate-0 opacity-70 py-[5px]"
           />
           <img
             src="https://www.mineduc.gov.rw/index.php?eID=dumpFile&t=f&f=435&token=795108a09af0455f218944c43b044c38ca9da5ac"
-            className="h-[60px] saturate-0 opacity-70 py-[5px]"
+            className="h-[60px] max-md:h-[35px] saturate-0 opacity-70 py-[5px]"
           />
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS4kbc2fdM1LZgPP7T1i7SAp-MpJg2AFcU7A&s"
-            className="h-[60px] saturate-0 opacity-70 py-[5px]"
+            className="h-[60px] max-md:h-[35px] saturate-0 opacity-70 py-[5px]"
           />
         </div>
       </div>
