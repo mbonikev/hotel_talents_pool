@@ -55,7 +55,7 @@ function UserProfile({ Hide, data }) {
                 <PiUserBold />
                 <h1 className="text-base">Personal information</h1>
               </div>
-              <div className="flex-1 flex flex-col w-full h-full gap-3 py-3 overscroll-contain overflow-y-auto custom_scrollbar">
+              <div className="flex-1 flex flex-col w-full h-full gap-3 py-3 pl-[23px] overscroll-contain overflow-y-auto custom_scrollbar">
                 {[
                   { label: "Full Names", key: "Full Names" },
                   { label: "Gender", key: "Gender" },
