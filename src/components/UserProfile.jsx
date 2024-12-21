@@ -23,7 +23,7 @@ function UserProfile({ Hide, data }) {
     <>
       <div
         onClick={Hide}
-        className={`fixed top-0 left-0 w-full h-full bg-black/45 z-40 flex items-center justify-center transition duration-200 ease-in-out
+        className={`fixed top-0 left-0 w-full h-full bg-black/45 z-50 flex items-center justify-center transition duration-200 ease-in-out
           ${animate ? "opacity-0" : "opacity-100"}`}
       ></div>
       <div
