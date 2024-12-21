@@ -38,7 +38,7 @@ function Footer() {
               <h1 className="text-2xl leading-[45px] tracking-tight pb-3 font-bold w-fit text-white">
                 Hotel Talents pool
               </h1>
-              <p className={`${linkStyle} mt-7`}>
+              <p className={`text-sm w-fit text-[#969696] font-medium mt-7`}>
                 &copy; 2023 hoteltalentspool.com
               </p>
             </div>
