@@ -35,12 +35,12 @@ function Footer() {
       {/* bottom part */}
       <div className="bg-[#111111] w-full pt-[150px] ">
         <div className="w-full h-fit flex items-center justify-center flex-col px-16 max-lg:px-5 max-w-[1700px] mx-auto">
-          <div className=" w-full h-fit flex-1 px-12 py-12 max-md:px-0 max-md:py-0 mt-4 flex justify-between items-start max-lg:flex-col">
+          <div className=" w-full h-fit flex-1 px-12 py-12 max-md:px-0 max-md:py-0 mt-4 flex justify-between items-start max-lg:flex-col max-md:gap-10">
             <div className="flex h-full flex-col items-start justify-between">
-              <h1 className="text-2xl leading-[45px] tracking-tight pb-3 font-bold w-fit text-white">
+              <h1 className="text-2xl leading-[45px] tracking-tight pb-3 max-md:pb-0 font-bold w-fit text-white">
                 Hotel Talents pool
               </h1>
-              <p className={`text-sm w-fit text-[#969696] font-medium mt-7`}>
+              <p className={`text-sm w-fit text-[#969696] font-medium mt-7 max-md:mt-0`}>
                 &copy; 2023 hoteltalentspool.com
               </p>
             </div>
