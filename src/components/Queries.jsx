@@ -16,7 +16,7 @@ function Queries() {
   return (
     <div className="w-full py-10 px-16 max-lg:px-5 max-lg:pt-0 flex max-lg:flex-col max-lg:gap-5 text-dark-text max-w-[1700px] mx-auto">
       <div className="w-1/2 max-lg:w-full h-fit flex flex-col gap-1 ">
-        <h1 className="text-lg font-bold text-main-color">{FAQSectionSection.sectionTitle}</h1>
+        <h1 className="text-lg font-bold text-main-color max-lg:mb-1">{FAQSectionSection.sectionTitle}</h1>
         <h1 className="text-5xl leading-[55px] max-lg:text-3xl font-bold w-full uppercase max-w-[450px] ">
           {FAQSectionSection.HeaderTitle}
         </h1>
