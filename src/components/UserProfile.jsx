@@ -43,15 +43,15 @@ function UserProfile({ Hide, data }) {
         {fetching ? (
           <LoadingScreen />
         ) : (
-          <div className="w-full h-full flex-1 flex flex-col">
-            <div className="w-full max-md:w-full h-full flex flex-col gap-1 pt-7 px-7 text-dark-text relative overscroll-contain overflow-y-auto custom_scrollbar">
+          <div className="w-full h-full flex-1 flex flex-col overscroll-contain overflow-y-auto custom_scrollbar">
+            <div className="w-full max-md:w-full h-full flex flex-col gap-1 pt-7 px-7 text-dark-text relative">
               <button
                 onClick={Hide}
                 className="absolute top-4 right-4 z-10 transition active:scale-95 bg-body-color text-dark-text h-10 rounded-full outline-none flex items-center justify-center aspect-square text-xl"
               >
                 <LuX />
               </button>
-              <div className="w-28 h-28 aspect-square overflow-hidden rounded-full cursor-pointer ">
+              <div className="w-28 h-28 min-h-fit aspect-square overflow-hidden rounded-full cursor-pointer ">
                 <LazyImage
                   image={`/Graduates/profiles/${data["Profile Image"]}`}
                 />
