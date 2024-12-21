@@ -4,7 +4,7 @@ import { LuSearch } from "react-icons/lu";
 import * as XLSX from "xlsx";
 import LazyImage from "../components/LazyImage";
 import Footer from "../components/Footer";
-import CourseDetails from "../components/CourseDetails";
+import UserProfile from "../components/UserProfile";
 
 function HireGraduate() {
   const [graduates, setGraduates] = useState([]);
@@ -59,7 +59,7 @@ function HireGraduate() {
   return (
     <div className="w-full relative">
       {/* course details */}
-      {showProfile && <CourseDetails Id={courseId} Hide={HideCourseDetails} />}
+      {showProfile && <UserProfile data={userData} Hide={HideProfile} />}
       <div className="w-full h-fit max-w-[1700px] px-16 max-md:px-5 mx-auto pb-[80px]">
         <Navbar />
         <div className="w-full flex pt-24 pb-16 justify-between">
