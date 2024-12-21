@@ -21,6 +21,9 @@ function UserProfile({ Hide, data }) {
       setFetching(false);
     }, 1200);
   }, []);
+  useEffect(() => {
+    console.log(data);
+  }, []);
   return (
     <>
       <div
