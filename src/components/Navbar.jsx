@@ -24,6 +24,7 @@ function Navbar({ setLoading }) {
         <Link
           to="/"
           className="w-fit min-w-fit flex justify-center overflow-hidden"
+          onClick={handleLinkClick}
         >
           <img src="./logo.png" className="h-9 w-fit block object-contain" />
         </Link>
@@ -48,12 +49,14 @@ function Navbar({ setLoading }) {
           <Link
             className="text-sm hover:text-main-color whitespace-nowrap px-1.5"
             to="/"
+            onClick={handleLinkClick}
           >
             Home
           </Link>
           <Link
             className="text-sm hover:text-main-color whitespace-nowrap px-1.5"
             to="/courses"
+            onClick={handleLinkClick}
           >
             Courses
           </Link>
