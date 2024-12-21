@@ -112,7 +112,7 @@ function HireGraduate() {
                       </div>
                       <button
                         onClick={() => handleShowProfile(graduate)}
-                        className="text-sm h-[45px] px-5 capitalize outline-none bg-main-color text-white font-medium rounded-full transition-none active:scale-95"
+                        className="text-sm h-[40px] px-5 capitalize outline-none bg-main-color text-white font-normal rounded-full transition-none active:scale-95"
                       >
                         view profile
                       </button>
