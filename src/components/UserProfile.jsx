@@ -8,7 +8,7 @@ import { CoursesSection } from "../content/content";
 import { TbHexagonFilled, TbMichelinStar } from "react-icons/tb";
 import { formUrl } from "../content/enrollForm";
 
-function CourseDetails({ Hide, Id }) {
+function UserProfile({ Hide, data }) {
   const [animate, setAnimate] = useState(true);
   const [fetching, setFetching] = useState(true);
   useEffect(() => {
@@ -103,4 +103,4 @@ function CourseDetails({ Hide, Id }) {
   );
 }
 
-export default CourseDetails;
+export default UserProfile;
