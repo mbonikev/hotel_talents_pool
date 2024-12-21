@@ -11,7 +11,7 @@ import { LuArrowLeft, LuArrowRight } from "react-icons/lu";
 
 function FewCourses() {
   return (
-    <div className="w-full mt-20 px-16 py-5 max-lg:px-5 max-lg:pt-0 flex gap-5 items-start justify-between text-dark-text max-w-[1700px] mx-auto">
+    <div className="w-full mt-20 px-16 py-5 max-lg:px-5 max-lg:pt-0 flex max-lg:flex-col gap-5 items-start justify-between text-dark-text max-w-[1700px] mx-auto">
       <div className="w-fit h-fit flex flex-col gap-1 ">
         <h1 className="text-lg font-bold text-main-color">{CoursesSection.sectionTitle}</h1>
         <h1 className="text-5xl font-bold w-fit max-w-[300px]">
