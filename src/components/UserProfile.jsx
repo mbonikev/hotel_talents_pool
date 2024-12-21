@@ -42,23 +42,21 @@ function UserProfile({ Hide, data }) {
                 <LuX />
               </button>
               <h1 className="text-[35px] px-7 leading-[39px] tracking-tight font-extrabold ">
-                Course: 
+                Course:
               </h1>
               <div className="flex items-center justify-start gap-2 px-7 mt-2 ">
                 <div className="h-2 w-auto aspect-square rounded-full bg-green-500 animate-pulse"></div>
                 <h1 className="text-sm">Spots available</h1>
               </div>
-              <h1 className=" px-7 mt-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam possimus </h1>
+              <h1 className=" px-7 mt-2">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Quibusdam possimus{" "}
+              </h1>
               <div className="flex-1 flex flex-col w-full h-full gap-3 py-3 px-7 overscroll-contain overflow-y-auto custom_scrollbar">
-                {Course.outcome.map((outcome, index) => (
-                  <div
-                    key={index}
-                    className="flex items-start justify-start w-full gap-2"
-                  >
-                    <TbHexagonFilled className="text-purple-600 text-sm mt-[3px] min-w-fit" />
-                    <h1 className="text-sm text-dark-text/70">{outcome}</h1>
-                  </div>
-                ))}
+                <div className="flex items-start justify-start w-full gap-2">
+                  <TbHexagonFilled className="text-purple-600 text-sm mt-[3px] min-w-fit" />
+                  <h1 className="text-sm text-dark-text/70">Lorem</h1>
+                </div>
               </div>
               <div className="w-full h-fit py-4 px-4">
                 <Link
@@ -77,23 +75,6 @@ function UserProfile({ Hide, data }) {
               >
                 <LuX />
               </button>
-              <Carousel
-                autoplay="true"
-                dotPosition="top"
-                draggable="true"
-                pauseOnHover="false"
-              >
-                {Course.gallery.map((img, index) => (
-                  <div key={index} className="w-full h-[550px]">
-                    <div className="w-full h-full flex items-center justify-center select-none">
-                      <img
-                        src={img.img}
-                        className="w-full min-h-full object-cover"
-                      />
-                    </div>
-                  </div>
-                ))}
-              </Carousel>
             </div>
           </div>
         )}
