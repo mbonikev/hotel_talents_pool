@@ -10,7 +10,6 @@ import Footer from "../components/Footer";
 import Trainers from "../components/Trainers";
 
 function Home() {
-  const courses = [{}];
   return (
     <div className="w-full h-fit bg-body-color">
       <Navbar />
