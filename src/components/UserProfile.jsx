@@ -41,6 +41,7 @@ function UserProfile({ Hide, data }) {
               >
                 <LuX />
               </button>
+              <div className=""></div>
               <h1 className="text-[35px] px-7 leading-[39px] tracking-tight font-extrabold ">
                 {data["Full Names"]}
               </h1>
