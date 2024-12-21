@@ -34,10 +34,10 @@ function UserProfile({ Hide, data }) {
           <LoadingScreen />
         ) : (
           <div className="w-full h-full flex-1 flex">
-            <div className="w-1/2 max-md:w-full h-full flex flex-col gap-1 pt-7 text-dark-text relative">
+            <div className="w-full max-md:w-full h-full flex flex-col gap-1 pt-7 text-dark-text relative">
               <button
                 onClick={Hide}
-                className="absolute top-4 right-4 z-10 transition active:scale-95 bg-main-color text-white h-10 rounded-full outline-none max-md:flex items-center justify-center aspect-square text-xl  hidden"
+                className="absolute top-4 right-4 z-10 transition active:scale-95 bg-main-color text-white h-10 rounded-full outline-none max-md:flex items-center justify-center aspect-square text-xl"
               >
                 <LuX />
               </button>
@@ -67,14 +67,6 @@ function UserProfile({ Hide, data }) {
                   Enroll now
                 </Link>
               </div>
-            </div>
-            <div className="w-1/2 max-md:hidden h-full relative">
-              <button
-                onClick={Hide}
-                className="absolute top-4 right-4 z-10 transition active:scale-95 bg-white h-10 rounded-full outline-none flex items-center justify-center aspect-square text-xl text-dark-text"
-              >
-                <LuX />
-              </button>
             </div>
           </div>
         )}
