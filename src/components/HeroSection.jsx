@@ -49,7 +49,7 @@ function HeroSection() {
   return (
     <div className="w-full h-fit max-lg:h-fit flex items-center justify-center flex-col gap-10 max-lg:gap-5 py-10 px-0  text-dark-text">
       {/* texts */}
-      <div className="mt-[90px] max-lg:mt-0 mb-[40px] w-full max-lg:w-full h-fit flex flex-col items-center justify-start gap-6 max-md:gap-3 max-md:items-start px-16 max-lg:px-5">
+      <div className="mt-[90px] max-lg:mt-0 mb-[40px] w-full max-lg:w-full h-fit flex flex-col items-center justify-start gap-6 max-md:gap-4 max-md:items-start px-16 max-lg:px-5">
         <h1 className=" text-6xl leading-[75px] font-bold max-sm:text-4xl max-md:text-left max-md:pr-10 tracking-tight text-center w-full">
           {HeroSectionContent.BigTitle}
         </h1>
@@ -63,7 +63,7 @@ function HeroSection() {
         >
           Enroll now
         </Link>
-        <h1 className=" text-sm font-medium tracking-tight text-center w-full max-w-[500px] opacity-45">
+        <h1 className=" text-sm font-medium tracking-tight text-center  max-md:text-left w-full max-w-[500px] opacity-45">
           Trained over {HeroSectionContent.count} Students
         </h1>
       </div>
