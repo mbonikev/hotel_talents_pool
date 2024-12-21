@@ -34,7 +34,7 @@ function UserProfile({ Hide, data }) {
         {fetching ? (
           <LoadingScreen />
         ) : (
-          <div className="w-full h-full flex-1 flex">
+          <div className="w-full h-full flex-1 flex flex-col">
             <div className="w-full max-md:w-full h-full flex flex-col gap-1 pt-7 px-7 text-dark-text relative">
               <button
                 onClick={Hide}
@@ -64,15 +64,15 @@ function UserProfile({ Hide, data }) {
                   <h1 className="text-sm text-dark-text/70">Lorem</h1>
                 </div>
               </div>
-              <div className="w-full h-fit py-4 px-4">
-                <Link
-                  className="w-full h-full flex items-center justify-center bg-main-color transition hover:opacity-90 text-sm text-white py-2.5 px-2 rounded-full"
-                  target="_blank"
-                  to={formUrl}
-                >
-                  Enroll now
-                </Link>
-              </div>
+            </div>
+            <div className="w-full h-fit py-4 px-4">
+              <Link
+                className="w-full h-full flex items-center justify-center bg-main-color transition hover:opacity-90 text-sm text-white py-2.5 px-2 rounded-full"
+                target="_blank"
+                to={formUrl}
+              >
+                Enroll now
+              </Link>
             </div>
           </div>
         )}
