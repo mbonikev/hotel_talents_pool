@@ -85,7 +85,7 @@ function About() {
             {/* leaders */}
             <div className="w-1/2 h-fit flex flex-col gap-1 px-16 max-md:px-5 ">
               <h1 className="text-lg font-bold text-main-color">Leaders</h1>
-              <h1 className="text-5xl font-bold w-fit">Meet The Leaders</h1>
+              <h1 className="text-5xl max-lg:text-4xl font-bold w-fit">Meet The Leaders</h1>
               <div className="flex items-start justify-start gap-5 mt-8">
                 <div className="flex items-center justify-center flex-col">
                   <div className="h-[250px] w-auto aspect-square relative overflow-hidden bg-white rounded-2xl mb-4 flex items-center justify-center">
