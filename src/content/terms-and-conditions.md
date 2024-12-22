@@ -1,5 +1,4 @@
-# *Terms and Conditions*
-<br>
+# *Terms and Conditions*<br>
 
 Welcome to the Hotel Talents Pool (HTP) website. By accessing or using our website, you agree to comply with and be bound by the following terms and conditions. Please read them carefully. If you do not agree with these terms, please refrain from using our website.
 
