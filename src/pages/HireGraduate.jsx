@@ -65,13 +65,13 @@ function HireGraduate() {
       {showProfile && <UserProfile data={userData} Hide={HideProfile} />}
       <div className="w-full h-fit max-w-[1700px] px-16 max-md:px-5 mx-auto pb-[80px]">
         <Navbar />
-        <div className="w-full flex pt-24 max-lg:pt-10 pb-16 justify-between flex-wrap gap-6">
+        <div className="w-full flex pt-24 max-lg:pt-10 pb-16 max-lg:pb-5 justify-between flex-wrap gap-6">
           <div className="w-fit h-fit flex flex-col items-start justify-center gap-2">
             <h1 className="text-5xl max-lg:text-4xl font-bold w-fit text-dark-text/90">
               Graduate List
             </h1>
           </div>
-          <div className="flex items-center justify-start gap-2 border-b-[1px] border-[#b8b8b8]">
+          <div className="flex items-center justify-start gap-2 border-b-[1px] max-lg:w-full max-lg:justify-end border-[#b8b8b8]">
             <LuSearch className="text-xl text-[#626262]" />
             <input
               value={searchQuery}
