@@ -9,6 +9,7 @@ import Centers from "./pages/Centers";
 import CenterDetails from "./pages/CenterDetails";
 import Contacts from "./pages/Contacts";
 import HireGraduate from "./pages/HireGraduate";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 function App() {
   return (
