@@ -1,19 +1,23 @@
-import React, { useEffect, useState } from 'react';
-import ReactMarkdown from 'react-markdown';
+import React, { useEffect, useState } from "react";
+import ReactMarkdown from "react-markdown";
+import Navbar from "../components/Navbar";
 
 const PrivacyPolicy = () => {
-  const [content, setContent] = useState('');
+  const [content, setContent] = useState("");
 
   useEffect(() => {
-    fetch('/src/content/privacy-policy.md')
+    fetch("/src/content/privacy-policy.md")
       .then((response) => response.text())
       .then((text) => setContent(text));
   }, []);
 
   return (
-    <div className='markdown-container'>
-      <ReactMarkdown>{content}</ReactMarkdown>
-    </div>
+    <>
+      <Navbar />
+      <div className="markdown-container">
+        <ReactMarkdown>{content}</ReactMarkdown>
+      </div>
+    </>
   );
 };
 
