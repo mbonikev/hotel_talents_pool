@@ -7,7 +7,7 @@ import { TiFlash } from "react-icons/ti";
 import { RiMedalFill } from "react-icons/ri";
 import { HeroSectionContent } from "../content/content";
 import { formUrl } from "../content/enrollForm";
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import LazyImage from "./LazyImage";
 // Import images
 const allImages = import.meta.glob("/public/images/Hero/*.{png,jpg,jpeg,svg}", {
@@ -47,9 +47,9 @@ const imageStyle = `h-fit min-h-full w-full bg-stone-100 border-none outline-non
 
 function HeroSection() {
   return (
-    <div className="w-full h-fit max-lg:h-fit flex items-center justify-center flex-col gap-10 max-lg:gap-5 py-10 px-0  text-dark-text">
+    <div className="w-full h-fit max-lg:h-fit flex items-center justify-center flex-col py-10 px-0  text-dark-text">
       {/* texts */}
-      <div className="mt-[90px] max-lg:mt-10 mb-[40px] max-lg:mb-24 w-full max-lg:w-full h-fit flex flex-col items-center justify-start gap-6 max-md:gap-4 max-md:items-start px-16 max-lg:px-5">
+      <div className="mt-[80px] max-lg:mt-10 mb-[60px] max-lg:mb-10 w-full max-lg:w-full h-fit flex flex-col items-center justify-start gap-6 max-md:gap-4 max-md:items-start px-16 max-lg:px-5">
         <h1 className=" text-6xl leading-[75px] font-bold max-sm:text-4xl max-md:text-left max-md:pr-10 tracking-tight text-center w-full">
           {HeroSectionContent.BigTitle}
         </h1>
@@ -67,132 +67,38 @@ function HeroSection() {
           Trained over {HeroSectionContent.count} Students
         </h1>
       </div>
-      <div className="w-full min-h-[400px] overflow-x-clip flex items-start justify-center relative">
-        <div className="w-fit h-fit flex items-start justify-center overflow-x-clip gap-4">
-          {/* 1 */}
-          <div className="flex flex-col gap-4 translate-y-[35px] max-md:translate-y-0">
-            {updatedImages.slice(0, 2).map((image, index) => (
-              <div
-                key={index}
-                className="h-[320px] w-[240px] max-lg:h-[260px] max-lg:w-[180px] max-md:h-[200px] max-md:w-[140px] overflow-hidden rounded-2xl"
-              >
-                <LazyImage image={image.img} />
-                {/* <img src={image.img} className={`${imageStyle}`} /> */}
-                {/* <span>{image.position}</span> */}
-              </div>
-            ))}
-          </div>
-          {/* 2 */}
-          <div className="flex flex-col gap-4 translate-y-[-130px] max-md:translate-y-0">
-            {updatedImages.slice(2, 4).map((image, index) => (
-              <div
-                key={index}
-                className="h-[320px] w-[240px] max-lg:h-[260px] max-lg:w-[180px] max-md:h-[200px] max-md:w-[140px] overflow-hidden rounded-2xl"
-              >
-                <LazyImage image={image.img} />
-                {/* <img src={image.img} className={`${imageStyle}`} /> */}
-                {/* <span>{image.position}</span> */}
-              </div>
-            ))}
-          </div>
-          {/* 3 */}
-          <div className="flex flex-col gap-4 translate-y-[-80px] max-md:translate-y-[-15px]">
-            {updatedImages.slice(4, 6).map((image, index) => (
-              <div
-                key={index}
-                className="h-[320px] w-[240px] max-lg:h-[260px] max-lg:w-[180px] max-md:h-[200px] max-md:w-[140px] overflow-hidden rounded-2xl"
-              >
-                <LazyImage image={image.img} />
-                {/* <img src={image.img} className={`${imageStyle}`} /> */}
-                {/* <span>{image.position}</span> */}
-              </div>
-            ))}
-          </div>
-          {/* 4 */}
-          <div className="flex flex-col gap-4 max-md:translate-y-[-35px]">
-            {updatedImages.slice(6, 8).map((image, index) => (
-              <div
-                key={index}
-                className="h-[320px] w-[240px] max-lg:h-[260px] max-lg:w-[180px] max-md:h-[200px] max-md:w-[140px] overflow-hidden rounded-2xl"
-              >
-                <LazyLoadImage src={image.img} />
-                {/* <img src={image.img} className={`${imageStyle}`} /> */}
-                {/* <span>{image.position}</span> */}
-              </div>
-            ))}
-          </div>
-          {/* 5 */}
-          <div className="flex flex-col gap-4 max-md:translate-y-[-55px] ">
-            {updatedImages.slice(8, 10).map((image, index) => (
-              <div
-                key={index}
-                className="h-[320px] w-[240px] max-lg:h-[260px] max-lg:w-[180px] max-md:h-[200px] max-md:w-[140px] overflow-hidden rounded-2xl"
-              >
-                <LazyImage image={image.img} />
-                {/* <img src={image.img} className={`${imageStyle}`} /> */}
-                {/* <span>{image.position}</span> */}
-              </div>
-            ))}
-          </div>
-          {/* 6 */}
-          <div className="flex flex-col gap-4 translate-y-[-80px] max-md:translate-y-[-65px]">
-            {updatedImages.slice(10, 12).map((image, index) => (
-              <div
-                key={index}
-                className="h-[320px] w-[240px] max-lg:h-[260px] max-lg:w-[180px] max-md:h-[200px] max-md:w-[140px] overflow-hidden rounded-2xl"
-              >
-                <LazyImage image={image.img} />
-                {/* <img src={image.img} className={`${imageStyle}`} /> */}
-                {/* <span>{image.position}</span> */}
-              </div>
-            ))}
-          </div>
-          {/* 7 */}
-          <div className="flex flex-col gap-4 translate-y-[-130px] max-md:translate-y-[-85px]">
-            {updatedImages.slice(12, 14).map((image, index) => (
-              <div
-                key={index}
-                className="h-[320px] w-[240px] max-lg:h-[260px] max-lg:w-[180px] max-md:h-[200px] max-md:w-[140px] overflow-hidden rounded-2xl"
-              >
-                <LazyImage image={image.img} />
-                {/* <img src={image.img} className={`${imageStyle}`} /> */}
-                {/* <span>{image.position}</span> */}
-              </div>
-            ))}
-          </div>
-          {/* 8 */}
-          <div className="flex flex-col gap-4 translate-y-[-35px] max-md:translate-y-[-105px]">
-            {updatedImages.slice(14, 16).map((image, index) => (
-              <div
-                key={index}
-                className="h-[320px] w-[240px] max-lg:h-[260px] max-lg:w-[180px] max-md:h-[200px] max-md:w-[140px] overflow-hidden rounded-2xl"
-              >
-                <LazyImage image={image.img} />
-                {/* <img src={image.img} className={`${imageStyle}`} /> */}
-                {/* <span>{image.position}</span> */}
-              </div>
-            ))}
-          </div>
+      <div className="w-full min-h-[400px] max-h-[820px] overflow-y-clip flex items-start justify-start flex-col relative">
+        <div className="w-full h-fit columns-6 max-xl:columns-5 max-lg:columns-3 max-md:columns-2 space-y-5 px-5 gap-4">
+          {updatedImages.map((image, index) => (
+            <div
+              key={index}
+              className="h-auto w-full overflow-hidden rounded-2xl"
+            >
+              <LazyImage image={image.img} />
+              {/* <img src={image.img} className={`${imageStyle}`} /> */}
+              {/* <span>{image.position}</span> */}
+            </div>
+          ))}
         </div>
-        {/* white shadow */}
-        <div className="absolute top-[83%] left-0 w-full h-[170px] border-t bg-body-color flex items-center justify-center gap-20 max-md:gap-10">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/en/e/e4/National_Bank_of_Rwanda_logo.png"
-            className="h-[60px] max-md:h-[35px] saturate-0 opacity-70"
-          />
-          <img
-            src="https://seeklogo.com/images/E/Equity_Bank-logo-88F49E17E2-seeklogo.com.png"
-            className="h-[60px] max-md:h-[35px] saturate-0 opacity-70 py-[5px]"
-          />
-          <img
-            src="https://www.mineduc.gov.rw/index.php?eID=dumpFile&t=f&f=435&token=795108a09af0455f218944c43b044c38ca9da5ac"
-            className="h-[60px] max-md:h-[35px] saturate-0 opacity-70 py-[5px]"
-          />
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS4kbc2fdM1LZgPP7T1i7SAp-MpJg2AFcU7A&s"
-            className="h-[60px] max-md:h-[35px] saturate-0 opacity-70 py-[5px]"
-          />
-        </div>
+      </div>
+      {/* white shadow */}
+      <div className=" w-full h-[170px] border-t bg-body-color flex items-center justify-center gap-20 max-md:gap-10">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/en/e/e4/National_Bank_of_Rwanda_logo.png"
+          className="h-[60px] max-md:h-[35px] saturate-0 opacity-70"
+        />
+        <img
+          src="https://seeklogo.com/images/E/Equity_Bank-logo-88F49E17E2-seeklogo.com.png"
+          className="h-[60px] max-md:h-[35px] saturate-0 opacity-70 py-[5px]"
+        />
+        <img
+          src="https://www.mineduc.gov.rw/index.php?eID=dumpFile&t=f&f=435&token=795108a09af0455f218944c43b044c38ca9da5ac"
+          className="h-[60px] max-md:h-[35px] saturate-0 opacity-70 py-[5px]"
+        />
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS4kbc2fdM1LZgPP7T1i7SAp-MpJg2AFcU7A&s"
+          className="h-[60px] max-md:h-[35px] saturate-0 opacity-70 py-[5px]"
+        />
       </div>
     </div>
   );
