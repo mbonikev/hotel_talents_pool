@@ -111,12 +111,12 @@ function HireGraduate() {
                       </div>
                       <div className="flex-1 flex items-start justify-between gap-3 max-md:flex-col">
                         <div className="flex-1 flex flex-col gap-1">
-                          <h1 className="text-xl font-medium cursor-pointer">
+                          <h1 className="text-lg font-medium cursor-pointer">
                             {graduate["Full Names"]}
                           </h1>
-                          <h1 className="text-base font-normal text-[#6e6e6e] flex items-center flex-wrap gap-3">
-                            <span>{graduate["Position"]} </span>
-                            <span>{graduate["Experience"]}</span>
+                          <h1 className="text-sm font-normal text-[#6e6e6e] flex items-center flex-wrap gap-3">
+                            <span>{graduate["Position"]} - </span>
+                            <span>{graduate["Experience"]}</span> -
                             <span>Available: {graduate["Available"]}</span>
                           </h1>
                         </div>
