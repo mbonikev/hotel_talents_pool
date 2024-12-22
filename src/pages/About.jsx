@@ -45,7 +45,7 @@ function About() {
                 </p>
               </div>
               {/* image */}
-              <div className="w-1/2">
+              <div className="w-1/2 max-lg:w-full">
                 <div className="h-fit w-full relative">
                   <div className="h-[350px] w-full relative overflow-hidden bg-white rounded-2xl flex items-center justify-center">
                     <img
