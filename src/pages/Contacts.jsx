@@ -12,9 +12,9 @@ function Contacts() {
     <div className="w-full">
       <div className="w-full h-fit max-w-[1700px] mx-auto pb-[80px]">
         <Navbar />
-        <div className="w-full flex px-16 max-lg:px-5 py-24 gap-8 justify-between max-lg:flex-col">
+        <div className="w-full flex px-16 max-lg:px-5 py-24 max-lg:py-14 gap-8 justify-between max-lg:flex-col">
           <div className="w-fit h-fit flex flex-col items-start justify-center gap-2">
-            <h1 className="text-5xl font-bold w-fit text-dark-text/90">
+            <h1 className="text-5xl max-lg:text-4xl font-bold w-fit text-dark-text/90">
               Contact us
             </h1>
             <p className="text-base font-normal text-[#626262] max-w-[434px]">
