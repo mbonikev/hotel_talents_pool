@@ -71,7 +71,12 @@ function HireGraduate() {
             <h1 className="text-5xl max-lg:text-4xl font-bold w-fit text-dark-text/90">
               Graduate List
             </h1>
-            <Link to={'/graduatesGallery'} className="text-sm font-normal text-main-color px-1 my-1">Graduates Gallery</Link>
+            <Link
+              to={"/graduatesGallery"}
+              className="text-sm font-normal text-main-color px-1 my-1"
+            >
+              Graduates Gallery
+            </Link>
           </div>
           <div className="flex items-center justify-start gap-2 w-full max-lg:justify-end">
             <div className="flex items-center justify-start gap-2 border-b-[1px] border-[#b8b8b8]">
@@ -104,23 +109,24 @@ function HireGraduate() {
                           image={`/Graduates/profiles/${graduate["Profile Image"]}`}
                         />
                       </div>
-                      <div className="flex-1 flex items-start justify-between gap-3"></div>
-                      <div className="flex-1 flex flex-col gap-1">
-                        <h1 className="text-xl font-medium cursor-pointer">
-                          {graduate["Full Names"]}
-                        </h1>
-                        <h1 className="text-base font-normal text-[#6e6e6e] flex items-center flex-wrap gap-3">
-                          <span>{graduate["Position"]}</span>-
-                          <span>{graduate["Experience"]}</span>-
-                          <span>Available: {graduate["Available"]}</span>
-                        </h1>
+                      <div className="flex-1 flex items-start justify-between gap-3 max-md:flex-col">
+                        <div className="flex-1 flex flex-col gap-1">
+                          <h1 className="text-xl font-medium cursor-pointer">
+                            {graduate["Full Names"]}
+                          </h1>
+                          <h1 className="text-base font-normal text-[#6e6e6e] flex items-center flex-wrap gap-3">
+                            <span>{graduate["Position"]}</span>-
+                            <span>{graduate["Experience"]}</span>-
+                            <span>Available: {graduate["Available"]}</span>
+                          </h1>
+                        </div>
+                        <button
+                          onClick={() => handleShowProfile(graduate)}
+                          className="text-sm h-[40px] px-5 capitalize outline-none bg-main-color text-white font-normal rounded-full transition-none active:scale-95"
+                        >
+                          view profile
+                        </button>
                       </div>
-                      <button
-                        onClick={() => handleShowProfile(graduate)}
-                        className="text-sm h-[40px] px-5 capitalize outline-none bg-main-color text-white font-normal rounded-full transition-none active:scale-95"
-                      >
-                        view profile
-                      </button>
                     </div>
                     <div className="w-full h-[1px] bg-[#ebebeb]"></div>
                   </div>
