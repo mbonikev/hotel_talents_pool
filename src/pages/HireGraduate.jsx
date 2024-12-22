@@ -78,7 +78,7 @@ function HireGraduate() {
                 value={searchQuery}
                 onChange={handleSearch}
                 type="text"
-                className="h-[40px] outline-none border-none bg-transparent text-base placeholder:text-[#626262] text-[#111111]"
+                className="h-[45px] outline-none border-none bg-transparent text-base placeholder:text-[#626262] text-[#111111]"
                 placeholder="search graduate..."
               />
             </div>
