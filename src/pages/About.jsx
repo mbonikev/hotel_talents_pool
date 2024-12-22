@@ -8,7 +8,7 @@ function About() {
     <div className="w-full">
       <div className="w-full h-fit max-w-[1700px] mx-auto pb-[80px]">
         <Navbar />
-        <div className="w-full h-fit px-5 max-lg:px-0 flex flex-col pb-5">
+        <div className="w-full h-fit px-5 flex flex-col pb-5">
           <div className="w-full h-fit min-h-[383px] rounded-3xl p-16 flex flex-col items-center justify-center gap-2 relative overflow-hidden">
             <img
               src="/images/About_us/banner.jpg"
@@ -22,7 +22,7 @@ function About() {
           </div>
           {/* content */}
           <div className="min-h-[990px]">
-            <div className="w-full mt-20 px-16 py-5 max-lg:px-5 max-lg:pt-0 flex gap-10 items-center justify-between max-lg:flex-col text-dark-text max-w-[1700px] mx-auto">
+            <div className="w-full mt-20 px-16 py-5 max-lg:px-0 max-lg:pt-0 flex gap-10 items-center justify-between max-lg:flex-col text-dark-text max-w-[1700px] mx-auto">
               <div className="w-1/2 max-lg:w-full h-fit flex flex-col gap-1 ">
                 <h1 className="text-lg font-bold text-main-color">
                   Get to know us
