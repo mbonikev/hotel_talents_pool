@@ -59,11 +59,11 @@ function About() {
 
             {/* values */}
             <div className="flex flex-col items-center justify-center gap-3 py-20 mt-[120px] mb-[70px]">
-              <h1 className="text-6xl font-bold w-fit max-w-[800px] tracking-tight leading-[60px] text-center">
+              <h1 className="text-6xl max-lg:text-4xl max-lg:px-2 font-bold w-fit max-w-[800px] tracking-tight leading-[60px] text-center">
                 The fundamental principles guiding our team
               </h1>
               {/* value grid */}
-              <div className="w-fit grid grid-cols-2 gap-4 mt-[50px]">
+              <div className="w-fit grid grid-cols-2 max-lg:grid-cols-1 gap-4 mt-[50px]">
                 {[
                   { color: "bg-main-color/30", value: "Everyone Belongs" },
                   { color: "bg-yellow-500/30", value: "We Get Things Done" },
