@@ -157,8 +157,7 @@
 
 /* Style for emphasis */
 .markdown-container em {
-  font-style: italic;
-  color: #555;
+  color: #2e2e2e;
 }
 
 /* Style for links */
