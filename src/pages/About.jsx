@@ -63,7 +63,7 @@ function About() {
                 The fundamental principles guiding our team
               </h1>
               {/* value grid */}
-              <div className="w-fit grid grid-cols-2 max-lg:flex max-lg:flex-col gap-4 mt-[50px]">
+              <div className="w-fit grid grid-cols-2 max-lg:flex max-lg:flex-wrap max-lg:items-center max-lg:justify-center gap-4 mt-[50px]">
                 {[
                   { color: "bg-main-color/30", value: "Everyone Belongs" },
                   { color: "bg-yellow-500/30", value: "We Get Things Done" },
