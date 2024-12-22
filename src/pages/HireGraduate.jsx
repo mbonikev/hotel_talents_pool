@@ -5,6 +5,7 @@ import * as XLSX from "xlsx";
 import LazyImage from "../components/LazyImage";
 import Footer from "../components/Footer";
 import UserProfile from "../components/UserProfile";
+import { Link } from "react-router-dom";
 
 function HireGraduate() {
   const [graduates, setGraduates] = useState([]);
@@ -70,6 +71,7 @@ function HireGraduate() {
             <h1 className="text-5xl max-lg:text-4xl font-bold w-fit text-dark-text/90">
               Graduate List
             </h1>
+            <Link to={'/graduatesGallery'}k></Link>
           </div>
           <div className="flex items-center justify-start gap-2 w-full max-lg:justify-end">
             <div className="flex items-center justify-start gap-2 border-b-[1px] border-[#b8b8b8]">
