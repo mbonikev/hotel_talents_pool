@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const PrivacyPolicy = () => {
   const [content, setContent] = useState("");
@@ -17,6 +18,7 @@ const PrivacyPolicy = () => {
       <div className="markdown-container">
         <ReactMarkdown>{content}</ReactMarkdown>
       </div>
+      <Footer />
     </>
   );
 };
