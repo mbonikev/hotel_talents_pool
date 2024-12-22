@@ -87,7 +87,7 @@ function HireGraduate() {
           </div>
         </div>
         {/* graduate */}
-        <div className="bg-white p-7 rounded-3xl">
+        <div className="bg-white p-7 max-lg:p-2 rounded-3xl">
           <div className="px-5 ">
             {filteredGraduates.length === 0 ? (
               <p></p>
