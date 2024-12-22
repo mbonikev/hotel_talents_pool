@@ -25,7 +25,7 @@ function Contacts() {
           </div>
           <div className="w-fit min-w-fit flex items-start justify-end gap-20">
             <div className="flex flex-col gap-1">
-              <div className="h-12 w-12 aspect-square rounded-full bg-[#ebebeb] text-2xl flex items-center justify-center">
+              <div className="h-12 w-12 aspect-square rounded-full bg-main-color text-white text-2xl flex items-center justify-center">
                 <IoLocationOutline />
               </div>
               <p className="text-xl font-medium max-w-[434px]">Our Address</p>
@@ -37,7 +37,7 @@ function Contacts() {
               </p>
             </div>
             <div className="flex flex-col gap-1">
-              <div className="h-12 w-12 aspect-square rounded-full bg-[#ebebeb] text-2xl flex items-center justify-center">
+              <div className="h-12 w-12 aspect-square rounded-full bg-main-color text-white text-2xl flex items-center justify-center">
                 <HiOutlinePhone />
               </div>
               <p className="text-xl font-medium max-w-[434px]">
