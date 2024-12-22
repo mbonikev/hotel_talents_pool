@@ -21,8 +21,8 @@ function About() {
             </div>
           </div>
           {/* content */}
-          <div className="min-h-[990px]">
-            <div className="w-full mt-20 px-16 py-5 max-lg:px-0 max-lg:pt-0 flex gap-10 items-center justify-between max-lg:flex-col text-dark-text max-w-[1700px] mx-auto">
+          <div className="min-h-[990px] ">
+            <div className="w-full mt-20 max-lg:mt-8 px-16 py-5 max-lg:px-0 max-lg:pt-0 flex gap-10 items-center justify-between max-lg:flex-col text-dark-text max-w-[1700px] mx-auto">
               <div className="w-1/2 max-lg:w-full h-fit flex flex-col gap-1 ">
                 <h1 className="text-lg font-bold text-main-color">
                   Get to know us
