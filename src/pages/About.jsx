@@ -59,7 +59,7 @@ function About() {
 
             {/* values */}
             <div className="flex flex-col items-center justify-center gap-3 py-20 mt-[120px] mb-[70px]">
-              <h1 className="text-6xl max-lg:text-4xl max-lg:px-2 font-bold w-fit max-w-[800px] tracking-tight leading-[60px] text-center">
+              <h1 className="text-6xl max-lg:text-4xl max-lg:max-w-[500px] max-lg:px-2 font-bold w-fit max-w-[800px] tracking-tight leading-[60px] text-center">
                 The fundamental principles guiding our team
               </h1>
               {/* value grid */}
