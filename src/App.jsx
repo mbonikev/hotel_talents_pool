@@ -10,6 +10,7 @@ import CenterDetails from "./pages/CenterDetails";
 import Contacts from "./pages/Contacts";
 import HireGraduate from "./pages/HireGraduate";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsAndConditions from "./pages/TermsAndConditions";
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/hireGraduate" element={<HireGraduate />} />
           <Route path="/privacyPolicy" element={<PrivacyPolicy />} />
-          <Route path="/TermsAndConditions" element={<TermsAndCondi />} />
+          <Route path="/TermsAndConditions" element={<TermsAndConditions />} />
         </Routes>
       </HashRouter>
     </>
