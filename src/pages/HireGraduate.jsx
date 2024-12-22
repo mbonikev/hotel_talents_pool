@@ -104,6 +104,7 @@ function HireGraduate() {
                           image={`/Graduates/profiles/${graduate["Profile Image"]}`}
                         />
                       </div>
+                      <div className="flex-1 flex items-start justify-between gap-3"></div>
                       <div className="flex-1 flex flex-col gap-1">
                         <h1 className="text-xl font-medium cursor-pointer">
                           {graduate["Full Names"]}
