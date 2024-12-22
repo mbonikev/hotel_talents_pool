@@ -88,7 +88,7 @@ function Footer() {
                   Support
                 </Link>
                 <Link
-                  to={"/"}
+                  to={"/TermsAndConditions"}
                   target="_blank"
                   className={`${linkStyle}`}
                 >
