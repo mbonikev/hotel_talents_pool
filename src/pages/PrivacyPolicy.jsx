@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
+import 'github-markdown-css';
 
 const PrivacyPolicy = () => {
   const [content, setContent] = useState('');
@@ -11,7 +12,7 @@ const PrivacyPolicy = () => {
   }, []);
 
   return (
-    <div style={{ padding: '20px', lineHeight: '1.6', fontFamily: 'Arial, sans-serif' }}>
+    <div className='markdown-body'>
       <ReactMarkdown>{content}</ReactMarkdown>
     </div>
   );
