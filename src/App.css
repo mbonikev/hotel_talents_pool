@@ -103,37 +103,65 @@
   max-width: 800px;
   margin: 0 auto;
   font-family: 'Arial', sans-serif;
-  line-height: 1.6;
   color: #333;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* Style for main headings */
 .markdown-container h1 {
   font-size: 2rem;
+  font-weight: bold;
   margin-bottom: 1rem;
   color: #222;
+  text-align: center;
 }
 
-.markdown-container h2 {
+/* Style for subheadings */
+.markdown-container h2,
+.markdown-container h3 {
   font-size: 1.5rem;
-  margin-top: 2rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
   margin-bottom: 1rem;
   color: #444;
 }
 
+/* Style for paragraphs */
 .markdown-container p {
   font-size: 1rem;
+  line-height: 1.8;
   margin-bottom: 1rem;
 }
 
+/* Style for bullet points */
 .markdown-container ul {
   list-style-type: disc;
   margin-left: 20px;
+  padding-left: 20px;
 }
 
-.markdown-container li {
+.markdown-container ul li {
   margin-bottom: 0.5rem;
+  font-size: 1rem;
 }
 
+/* Style for horizontal rules */
+.markdown-container hr {
+  border: 0;
+  height: 1px;
+  background: #ddd;
+  margin: 20px 0;
+}
+
+/* Style for emphasis */
+.markdown-container em {
+  font-style: italic;
+  color: #555;
+}
+
+/* Style for links */
 .markdown-container a {
   color: #007bff;
   text-decoration: none;
@@ -141,4 +169,14 @@
 
 .markdown-container a:hover {
   text-decoration: underline;
+}
+
+/* Style for blockquotes (optional) */
+.markdown-container blockquote {
+  border-left: 4px solid #ddd;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  font-style: italic;
+  color: #666;
+  background: #f8f8f8;
 }
