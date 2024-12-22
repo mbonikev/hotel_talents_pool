@@ -9,7 +9,7 @@ function About() {
       <div className="w-full h-fit max-w-[1700px] mx-auto pb-[80px]">
         <Navbar />
         <div className="w-full h-fit px-5 flex flex-col pb-5">
-          <div className="w-full h-fit min-h-[383px] rounded-3xl p-16 flex flex-col items-center justify-center gap-2 relative overflow-hidden">
+          <div className="w-full h-fit min-h-[383px] max-lg:min-h-[230px] rounded-3xl p-16 flex flex-col items-center justify-center gap-2 relative overflow-hidden">
             <img
               src="/images/About_us/banner.jpg"
               className="w-full h-full absolute top-0 left-0 z-10 object-cover"
