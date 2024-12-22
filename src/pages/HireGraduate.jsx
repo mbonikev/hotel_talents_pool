@@ -78,7 +78,7 @@ function HireGraduate() {
               Graduates Gallery
             </Link>
           </div>
-          <div className="flex items-center justify-start gap-2 w-full max-lg:justify-end">
+          <div className="flex items-center justify-end gap-2 w-full ">
             <div className="flex items-center justify-start gap-2 border-b-[1px] border-[#b8b8b8] max-md:w-full">
               <LuSearch className="text-xl text-[#626262]" />
               <input
