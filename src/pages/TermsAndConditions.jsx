@@ -15,7 +15,7 @@ const TermsAndConditions = () => {
   return (
     <>
       <Navbar />
-      <div className="markdown-container">
+      <div className="markdown-container p-14 max-lg:p-5">
         <ReactMarkdown>{content}</ReactMarkdown>
       </div>
       <Footer />
