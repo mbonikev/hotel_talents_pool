@@ -110,9 +110,9 @@ function Navbar({ setLoading }) {
           </Link>
           <Link
             className="text-sm text-main-color px-1.5 hidden max-lg:flex"
-            to="/"
+            to={formUrl}
           >
-            Register
+            Enroll now
           </Link>
         </div>
         <div className="flex items-center justify-end gap-1.5">
