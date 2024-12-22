@@ -5,7 +5,7 @@ const TermsAndConditions = () => {
   const [content, setContent] = useState('');
 
   useEffect(() => {
-    fetch('/src/content/privacy-policy.md')
+    fetch('/src/content/terms-and-conditions.md')
       .then((response) => response.text())
       .then((text) => setContent(text));
   }, []);
