@@ -1,19 +1,23 @@
-import React, { useEffect, useState } from 'react';
-import ReactMarkdown from 'react-markdown';
+import React, { useEffect, useState } from "react";
+import ReactMarkdown from "react-markdown";
+import Navbar from "../components/Navbar";
 
 const TermsAndConditions = () => {
-  const [content, setContent] = useState('');
+  const [content, setContent] = useState("");
 
   useEffect(() => {
-    fetch('/src/content/terms-and-conditions.md')
+    fetch("/src/content/terms-and-conditions.md")
       .then((response) => response.text())
       .then((text) => setContent(text));
   }, []);
 
   return (
-    <div className='markdown-container'>
-      <ReactMarkdown>{content}</ReactMarkdown>
-    </div>
+    <>
+      <Navbar />
+      <div className="markdown-container">
+        <ReactMarkdown>{content}</ReactMarkdown>
+      </div>
+    </>
   );
 };
 
