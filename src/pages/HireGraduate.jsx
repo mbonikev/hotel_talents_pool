@@ -67,7 +67,7 @@ function HireGraduate() {
         <Navbar />
         <div className="w-full flex pt-24 pb-16 justify-between">
           <div className="w-fit h-fit flex flex-col items-start justify-center gap-2">
-            <h1 className="text-5xl font-bold w-fit text-dark-text/90">
+            <h1 className="text-5xl max-lg:text-4xl font-bold w-fit text-dark-text/90">
               Graduate List
             </h1>
           </div>
