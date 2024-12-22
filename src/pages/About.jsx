@@ -87,7 +87,7 @@ function About() {
               <h1 className="text-lg font-bold text-main-color">Leaders</h1>
               <h1 className="text-5xl max-lg:text-4xl font-bold w-fit">Meet The Leaders</h1>
               <div className="w-full flex items-start justify-start flex-wrap bg-red-200 p-2 gap-5 mt-8">
-                <div className="flex items-center justify-center w-fit break-inside-avoid flex-col">
+                <div className="flex items-center justify-center w-fit max-sm:w-full break-inside-avoid flex-col">
                   <div className="h-[250px] w-auto max-lg:w-full aspect-square relative overflow-hidden bg-white rounded-2xl mb-4 flex items-center justify-center">
                     <img
                       src="/images/Leaders/1.jpg"
@@ -97,7 +97,7 @@ function About() {
                   <h1 className="text-xl font-bold">President</h1>
                   <h1 className="text-lg">President</h1>
                 </div>
-                <div className="flex items-center justify-center w-fit break-inside-avoid flex-col">
+                <div className="flex items-center justify-center w-fit max-sm:w-full break-inside-avoid flex-col">
                   <div className="h-[250px] w-auto max-lg:w-full aspect-square relative overflow-hidden bg-white rounded-2xl mb-4 flex items-center justify-center">
                     <img
                       src="/images/Leaders/2.jpg"
