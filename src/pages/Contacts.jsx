@@ -23,7 +23,7 @@ function Contacts() {
               fulfilling careers in Rwanda’s growing hospitality industry.
             </p>
           </div>
-          <div className="w-fit min-w-fit flex items-start justify-end gap-20">
+          <div className="w-fit min-w-fit flex items-start justify-end max-md:flex-wrap gap-20 max-md:gap-5 max-lg:justify-between">
             <div className="flex flex-col gap-1">
               <div className="h-12 w-12 aspect-square rounded-full bg-main-color text-white text-2xl flex items-center justify-center">
                 <IoLocationOutline />
