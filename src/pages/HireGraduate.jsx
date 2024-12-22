@@ -102,7 +102,7 @@ function HireGraduate() {
                   <div key={index} className="flex flex-col w-full gap-5">
                     <div
                       key={index}
-                      className="w-full flex items-center justify-between gap-6 mt-5 transition rounded-xl"
+                      className="w-full flex items-center max-md:items-start justify-between gap-6 mt-5 transition rounded-xl"
                     >
                       <div className="w-16 h-16 aspect-square overflow-hidden rounded-full cursor-pointer ">
                         <LazyImage
