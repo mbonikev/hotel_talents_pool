@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
-import 'github-markdown-css';
 
 const PrivacyPolicy = () => {
   const [content, setContent] = useState('');
@@ -12,7 +11,7 @@ const PrivacyPolicy = () => {
   }, []);
 
   return (
-    <div className='markdown-body'>
+    <div className='markdown-container'>
       <ReactMarkdown>{content}</ReactMarkdown>
     </div>
   );
