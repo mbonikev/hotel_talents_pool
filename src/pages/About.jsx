@@ -74,7 +74,7 @@ function About() {
                   { color: "bg-violet-500/30", value: "We Make a Difference" },
                 ].map((value, index) => (
                   <div
-                    className={`${value.color} flex items-center justify-center p-7 text-xl rounded-full`}
+                    className={`${value.color} max-lg:min-w-[240px] flex items-center justify-center p-7 text-xl rounded-full`}
                   >
                     {value.value}
                   </div>
