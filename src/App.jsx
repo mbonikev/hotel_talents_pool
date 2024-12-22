@@ -26,6 +26,7 @@ function App() {
           />
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/hireGraduate" element={<HireGraduate />} />
+          <Route path="/privacyPolicy" element={<PrivacyPolicy />} />
         </Routes>
       </HashRouter>
     </>
