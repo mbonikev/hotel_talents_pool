@@ -14,7 +14,7 @@ function About() {
               src="/images/About_us/banner.jpg"
               className="w-full h-full absolute top-0 left-0 z-10 object-cover"
             />
-            <div className="w-full h-full absolute top-0 left-0 z-20 flex flex-col items-start justify-end px-16 pb-12 bg-gradient-to-tr from-black/80 to-transparent">
+            <div className="w-full h-full absolute top-0 left-0 z-20 flex flex-col items-start justify-end px-16 max-lg:px-8 pb-12 max-lg:pb-8 bg-gradient-to-tr from-black/80 to-transparent">
               <h1 className="text-5xl max-lg:text-4xl tracking-tight font-extrabold w-fit text-white rounded-2xl">
                 About us
               </h1>
