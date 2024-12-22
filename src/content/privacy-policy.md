@@ -1,4 +1,6 @@
-_Privacy Policy_
+# Privacy Policy
+
+&nbsp;
 
 Welcome to the Hotel Talents Pool (HTP) website. Protecting your personal information is a priority for us. This Privacy Policy outlines how we collect, use, and safeguard your data when you use our services. By accessing or using this website, you agree to the terms outlined below. If you do not agree, please refrain from using our services.
 
