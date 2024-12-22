@@ -115,8 +115,8 @@ function HireGraduate() {
                             {graduate["Full Names"]}
                           </h1>
                           <h1 className="text-base font-normal text-[#6e6e6e] flex items-center flex-wrap gap-3">
-                            <span>{graduate["Position"]}</span>-
-                            <span>{graduate["Experience"]}</span>-
+                            <span>{graduate["Position"]} </span>
+                            <span>{graduate["Experience"]}</span>
                             <span>Available: {graduate["Available"]}</span>
                           </h1>
                         </div>
