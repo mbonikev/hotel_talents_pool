@@ -107,6 +107,97 @@ function About() {
                   <h1 className="text-xl font-bold">Name</h1>
                   <h1 className="text-lg">President</h1>
                 </div>
+                
+                <div className="flex items-center justify-center w-fit max-sm:w-full break-inside-avoid flex-col">
+                  <div className="h-[180px] max-sm:h-fit w-auto max-lg:w-full aspect-square relative overflow-hidden bg-white rounded-full mb-4 flex items-center justify-center">
+                    <img
+                      src="/images/Leaders/2.jpg"
+                      className="h-fit min-h-full w-full object-cover brightness-90"
+                    />
+                  </div>
+                  <h1 className="text-xl font-bold">Name</h1>
+                  <h1 className="text-lg">President</h1>
+                </div>
+                <div className="flex items-center justify-center w-fit max-sm:w-full break-inside-avoid flex-col">
+                  <div className="h-[180px] max-sm:h-fit w-auto max-lg:w-full aspect-square relative overflow-hidden bg-white rounded-full mb-4 flex items-center justify-center">
+                    <img
+                      src="/images/Leaders/2.jpg"
+                      className="h-fit min-h-full w-full object-cover brightness-90"
+                    />
+                  </div>
+                  <h1 className="text-xl font-bold">Name</h1>
+                  <h1 className="text-lg">President</h1>
+                </div>
+                <div className="flex items-center justify-center w-fit max-sm:w-full break-inside-avoid flex-col">
+                  <div className="h-[180px] max-sm:h-fit w-auto max-lg:w-full aspect-square relative overflow-hidden bg-white rounded-full mb-4 flex items-center justify-center">
+                    <img
+                      src="/images/Leaders/2.jpg"
+                      className="h-fit min-h-full w-full object-cover brightness-90"
+                    />
+                  </div>
+                  <h1 className="text-xl font-bold">Name</h1>
+                  <h1 className="text-lg">President</h1>
+                </div>
+                <div className="flex items-center justify-center w-fit max-sm:w-full break-inside-avoid flex-col">
+                  <div className="h-[180px] max-sm:h-fit w-auto max-lg:w-full aspect-square relative overflow-hidden bg-white rounded-full mb-4 flex items-center justify-center">
+                    <img
+                      src="/images/Leaders/2.jpg"
+                      className="h-fit min-h-full w-full object-cover brightness-90"
+                    />
+                  </div>
+                  <h1 className="text-xl font-bold">Name</h1>
+                  <h1 className="text-lg">President</h1>
+                </div>
+                <div className="flex items-center justify-center w-fit max-sm:w-full break-inside-avoid flex-col">
+                  <div className="h-[180px] max-sm:h-fit w-auto max-lg:w-full aspect-square relative overflow-hidden bg-white rounded-full mb-4 flex items-center justify-center">
+                    <img
+                      src="/images/Leaders/2.jpg"
+                      className="h-fit min-h-full w-full object-cover brightness-90"
+                    />
+                  </div>
+                  <h1 className="text-xl font-bold">Name</h1>
+                  <h1 className="text-lg">President</h1>
+                </div>
+                <div className="flex items-center justify-center w-fit max-sm:w-full break-inside-avoid flex-col">
+                  <div className="h-[180px] max-sm:h-fit w-auto max-lg:w-full aspect-square relative overflow-hidden bg-white rounded-full mb-4 flex items-center justify-center">
+                    <img
+                      src="/images/Leaders/2.jpg"
+                      className="h-fit min-h-full w-full object-cover brightness-90"
+                    />
+                  </div>
+                  <h1 className="text-xl font-bold">Name</h1>
+                  <h1 className="text-lg">President</h1>
+                </div>
+                <div className="flex items-center justify-center w-fit max-sm:w-full break-inside-avoid flex-col">
+                  <div className="h-[180px] max-sm:h-fit w-auto max-lg:w-full aspect-square relative overflow-hidden bg-white rounded-full mb-4 flex items-center justify-center">
+                    <img
+                      src="/images/Leaders/2.jpg"
+                      className="h-fit min-h-full w-full object-cover brightness-90"
+                    />
+                  </div>
+                  <h1 className="text-xl font-bold">Name</h1>
+                  <h1 className="text-lg">President</h1>
+                </div>
+                <div className="flex items-center justify-center w-fit max-sm:w-full break-inside-avoid flex-col">
+                  <div className="h-[180px] max-sm:h-fit w-auto max-lg:w-full aspect-square relative overflow-hidden bg-white rounded-full mb-4 flex items-center justify-center">
+                    <img
+                      src="/images/Leaders/2.jpg"
+                      className="h-fit min-h-full w-full object-cover brightness-90"
+                    />
+                  </div>
+                  <h1 className="text-xl font-bold">Name</h1>
+                  <h1 className="text-lg">President</h1>
+                </div>
+                <div className="flex items-center justify-center w-fit max-sm:w-full break-inside-avoid flex-col">
+                  <div className="h-[180px] max-sm:h-fit w-auto max-lg:w-full aspect-square relative overflow-hidden bg-white rounded-full mb-4 flex items-center justify-center">
+                    <img
+                      src="/images/Leaders/2.jpg"
+                      className="h-fit min-h-full w-full object-cover brightness-90"
+                    />
+                  </div>
+                  <h1 className="text-xl font-bold">Name</h1>
+                  <h1 className="text-lg">President</h1>
+                </div>
               </div>
             </div>
           </div>
