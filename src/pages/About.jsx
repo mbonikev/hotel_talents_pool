@@ -86,7 +86,7 @@ function About() {
             <div className="w-1/2 h-fit flex flex-col gap-1 px-16 max-md:px-5 ">
               <h1 className="text-lg font-bold text-main-color">Leaders</h1>
               <h1 className="text-5xl max-lg:text-4xl font-bold w-fit">Meet The Leaders</h1>
-              <div className="max-lg:w-full flex items-start justify-start flex-wrap gap-5 mt-8">
+              <div className="max-lg:w-full columns-4 gap-5 mt-8">
                 <div className="flex items-center justify-center w-fit flex-col">
                   <div className="h-[250px] w-auto max-lg:w-full aspect-square relative overflow-hidden bg-white rounded-2xl mb-4 flex items-center justify-center">
                     <img
