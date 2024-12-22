@@ -95,7 +95,7 @@ function Footer() {
                   Terms & conditions
                 </Link>
                 <Link
-                  to={"/"}
+                  to={"/privacyPolicy"}
                   target="_blank"
                   className={`${linkStyle}`}
                 >
