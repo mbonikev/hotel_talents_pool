@@ -97,3 +97,48 @@
   border-radius: 10px;
   border: 5px solid #fff;
 }
+
+.markdown-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.markdown-container h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.markdown-container h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.markdown-container p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.markdown-container ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.markdown-container li {
+  margin-bottom: 0.5rem;
+}
+
+.markdown-container a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.markdown-container a:hover {
+  text-decoration: underline;
+}
