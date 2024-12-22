@@ -99,12 +99,11 @@
 }
 
 .markdown-container {
-  padding: 20px;
-  max-width: 800px;
+  padding: 80px;
+  max-width: 900px;
   margin: 0 auto;
   font-family: 'Arial', sans-serif;
   color: #333;
-  background-color: #f9f9f9;
 }
 
 /* Style for main headings */
