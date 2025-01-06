@@ -79,13 +79,13 @@ function CenterDetails() {
           {center_name === "Nyamasheke Center" && (
             <div className="mt-5">
             <h1 className="mb-2">Sponsored by</h1>
-              <div className="w-fit min-w-fit h-[70px]">
+              <a href="https://sangira.ch/" target="_blank" className="w-fit min-w-fit h-[70px]">
                 <img
                   src={SangiraLogo}
                   alt="Sangira Logo"
                   className="w-fit h-full"
                 />
-              </div>
+              </a>
             </div>
           )}
         </div>
