@@ -3,6 +3,7 @@ import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 import { LuMail } from "react-icons/lu";
 import { Link } from "react-router-dom";
 import { formUrl } from "../content/enrollForm";
+import { SupportFormUrl } from "../content/supportForm"
 
 function Footer() {
   const linkStyle = `text-sm w-fit cursor-pointer text-[#969696] hover:text-main-color font-medium`
@@ -81,7 +82,7 @@ function Footer() {
                   About us
                 </Link>
                 <Link
-                  to={"/"}
+                  to={SupportFormUrl}
                   target="_blank"
                   className={`${linkStyle}`}
                 >

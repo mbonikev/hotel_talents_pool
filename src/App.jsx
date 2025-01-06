@@ -11,6 +11,7 @@ import Contacts from "./pages/Contacts";
 import HireGraduate from "./pages/HireGraduate";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsAndConditions from "./pages/TermsAndConditions";
+import Graduates from "./pages/Graduates";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           />
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/hireGraduate" element={<HireGraduate />} />
+          <Route path="/graduates" element={<Graduates />} />
           <Route path="/privacyPolicy" element={<PrivacyPolicy />} />
           <Route path="/TermsAndConditions" element={<TermsAndConditions />} />
         </Routes>

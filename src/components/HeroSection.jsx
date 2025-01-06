@@ -33,8 +33,8 @@ const images = [
   { position: "12", img: "/" },
   { position: "13", img: "/" },
   { position: "14", img: "/" },
-  { position: "15", img: "/" },
-  { position: "16", img: "/" },
+  // { position: "15", img: "/" },
+  // { position: "16", img: "/" },
 ];
 
 // Map imported images to the `img` field in the `images` array
@@ -68,7 +68,7 @@ function HeroSection() {
         </h1>
       </div>
       <div className="w-full min-h-[400px] max-h-[820px] overflow-y-clip flex items-start justify-start flex-col relative">
-        <div className="w-full h-fit columns-6 max-xl:columns-5 max-lg:columns-3 max-md:columns-2 space-y-5 px-5 gap-4">
+        <div className="w-full h-fit columns-6 max-xl:columns-5 max-lg:columns-3 max-md:columns-2 space-y-2 px-5 gap-2">
           {updatedImages.map((image, index) => (
             <div
               key={index}

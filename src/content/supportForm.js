@@ -1,0 +1,1 @@
+export const SupportFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLScJIo_LaHCjTczy29XIQ0JlYKhFtkq4eb8jqH5n7bDfAn3cXA/viewform?usp=dialog"

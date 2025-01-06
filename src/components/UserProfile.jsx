@@ -29,6 +29,25 @@ function UserProfile({ Hide, data }) {
     }, 1200);
   }, []);
 
+  const formUrl =
+    "https://docs.google.com/forms/d/e/1FAIpQLSdkFx0HSXoOBlLWXgljwT9VnlLgUZKAkAUFWhpRaktiv-u5hw/viewform?usp=dialog";
+  const generateFormUrl = (params) => {
+    const url = new URL(formUrl);
+    Object.keys(params).forEach((key) => {
+      url.searchParams.append(key, params[key]);
+    });
+    return url.toString();
+  };
+
+  // Example usage:
+  const params = {
+    "entry.992133961": `Unique ID: ${data["ID"]}
+Full Names: ${data["Full Names"]}
+Gender: ${data["Gender"]}
+Experience: ${data["Experience"]}`,
+  };
+  const prefilledUrl = generateFormUrl(params);
+
   return (
     <>
       <div
@@ -89,7 +108,7 @@ function UserProfile({ Hide, data }) {
                 <Link
                   className="w-fit h-full flex items-center justify-center bg-main-color transition hover:opacity-90 text-sm text-white py-2.5 px-8 rounded-full"
                   target="_blank"
-                  to={formUrl}
+                  to={prefilledUrl}
                 >
                   Hire
                 </Link>

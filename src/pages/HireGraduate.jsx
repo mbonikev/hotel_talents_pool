@@ -65,15 +65,15 @@ function HireGraduate() {
       <Navbar />
 
       {/* course details */}
-      {showProfile && <UserProfile data={userData} Hide={HideProfile} />}
+      {showProfile && <UserProfile data={userData} Hide={HideProfile}/>}
       <div className="w-full h-fit max-w-[1700px] px-16 max-md:px-5 mx-auto pb-[80px]">
-        <div className="w-full flex pt-24 max-lg:pt-10 pb-16 max-lg:pb-5 justify-between flex-wrap gap-6">
+        <div className="w-full flex pt-24 max-lg:pt-10 pb-5 justify-between flex-wrap gap-1 max-lg:gap-6">
           <div className="w-fit h-fit flex flex-col items-start justify-center gap-2">
             <h1 className="text-5xl max-lg:text-4xl font-bold w-fit text-dark-text/90">
               Graduate List
             </h1>
             <Link
-              to={"/graduatesGallery"}
+              to={"/graduates"}
               className="text-sm font-normal text-main-color px-1 my-1"
             >
               Graduates Gallery
@@ -87,7 +87,7 @@ function HireGraduate() {
                 onChange={handleSearch}
                 type="text"
                 className="h-[45px] outline-none border-none bg-transparent text-base placeholder:text-[#626262] text-[#111111]"
-                placeholder="search graduate..."
+                placeholder="Search graduate..."
               />
             </div>
           </div>
