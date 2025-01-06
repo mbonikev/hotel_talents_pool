@@ -39,11 +39,11 @@ function Queries() {
                   className=" py-4 px-5 max-lg:px-0 bg-transparent text-dark-body-color border-b w-full flex justify-between items-start gap-5"
                 >
                   <div className="flex flex-col items-start justify-start">
-                    <h1 className="font-normal tracking-tight text-base leading-5 min-h-[40px] w-full flex items-center justify-start">
+                    <h1 onClick={() => toggleAnswer(index)} className="cursor-pointer font-normal tracking-tight text-base leading-5 min-h-[40px] w-full flex items-center justify-start">
                       {item.question}
                     </h1>
                     <p
-                      className={`text-sm text-black/40 leading-5 font-normal transition-all duration-300 ease-in-out overflow-hidden ${
+                      className={`text-sm text-dark-text/80 leading-5 font-normal transition-all duration-300 ease-in-out overflow-hidden ${
                         activeIndex === index ? "max-h-96" : "max-h-0"
                       }`}
                     >

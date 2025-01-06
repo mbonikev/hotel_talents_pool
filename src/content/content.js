@@ -96,7 +96,7 @@ With nine specialized centers across Rwanda, Hotel Talents Pool brings world-cla
     {
       id: "HTP-CN-01",
       img: "/images/img49.jpg",
-      name: "Barista Training",
+      name: "Barista",
       description:
         "Get hands-on barista training to make the perfect coffee every time.",
       duration: "2 Months",
@@ -117,7 +117,7 @@ With nine specialized centers across Rwanda, Hotel Talents Pool brings world-cla
     {
       id: "HTP-CN-02",
       img: "/images/img20.jpg",
-      name: "Bakery Training",
+      name: "Bakery and Pastry",
       description:
         "Learn the art of baking, from bread basics to delicious pastries.",
       duration: "4 Months",
@@ -138,17 +138,17 @@ With nine specialized centers across Rwanda, Hotel Talents Pool brings world-cla
     {
       id: "HTP-CN-03",
       img: "/images/img96.jpg",
-      name: "Room Division Operation Training",
+      name: "Housekeeping",
       description:
-        "Build essential skills to manage hotel room operations smoothly.",
+        "Acquire the knowledge and skills needed to efficiently manage housekeeping operations in the hospitality industry.",
       duration: "4 Months",
       price: "RWF 100,000",
       registerForm: "",
       outcome: [
-        "Understand hotel room management practices.",
-        "Learn about inventory control and housekeeping.",
-        "Gain skills in customer service and guest relations.",
-        "Familiarize with reservation systems and software.",
+        "Master the fundamentals of housekeeping management.",
+        "Learn effective cleaning and maintenance practices.",
+        "Understand inventory management for housekeeping supplies.",
+        "Develop strong customer service and guest satisfaction skills.",
       ],
       gallery: [
         { img: "/images/img95.jpg" },
@@ -158,120 +158,35 @@ With nine specialized centers across Rwanda, Hotel Talents Pool brings world-cla
     },
     {
       id: "HTP-CN-04",
-      img: "",
-      name: "Refresher for Hotel Employees",
+      img: "/images/img97.jpg",
+      name: "Front Office",
       description:
-        "Refresh service skills with practical training tailored for hotels.",
+        "Enhance your expertise in front office operations with comprehensive training tailored for hospitality professionals.",
       duration: "5 Days",
       price: "RWF 30,000/Employee",
       registerForm: "",
       outcome: [
-        "Reinforce customer service skills.",
-        "Stay updated on industry standards and practices.",
-        "Enhance communication and teamwork skills.",
-        "Practice problem-solving in hospitality scenarios.",
+        "Master front desk and reception skills.",
+        "Learn effective communication and guest interaction techniques.",
+        "Understand reservation and billing processes.",
+        "Handle guest complaints and provide exceptional service.",
       ],
       gallery: [{ img: "" }, { img: "" }, { img: "" }],
     },
     {
       id: "HTP-CN-05",
       img: "",
-      name: "Entrepreneurship Training",
+      name: "Culinary Arts",
       description:
-        "Learn to turn your business ideas into reality with real-world tips.",
+        "Unleash your creativity and master the art of cooking with hands-on culinary training designed for aspiring chefs.",
       duration: "1 Month",
       price: "RWF 100,000",
       registerForm: "",
       outcome: [
-        "Understand the basics of starting a business.",
-        "Develop a viable business plan.",
-        "Learn about funding options and resources.",
-        "Gain marketing and networking skills.",
-      ],
-      gallery: [{ img: "" }, { img: "" }, { img: "" }],
-    },
-    {
-      id: "HTP-CN-06",
-      img: "",
-      name: "Sales and Marketing Training",
-      description:
-        "Discover effective sales and marketing tactics to grow your business.",
-      duration: "1 Month",
-      price: "RWF 100,000",
-      registerForm: "",
-      outcome: [
-        "Learn strategies for effective sales.",
-        "Understand market research and target audience.",
-        "Gain skills in digital marketing and social media.",
-        "Develop effective communication and negotiation skills.",
-      ],
-      gallery: [{ img: "" }, { img: "" }, { img: "" }],
-    },
-    {
-      id: "HTP-CN-07",
-      img: "",
-      name: "Team Building Training",
-      description:
-        "Boost teamwork and collaboration with fun, interactive sessions.",
-      duration: "5 Days",
-      price: "RWF 50,000",
-      registerForm: "",
-      outcome: [
-        "Enhance team collaboration and cohesion.",
-        "Develop problem-solving and conflict resolution skills.",
-        "Learn effective communication strategies.",
-        "Foster leadership qualities within teams.",
-      ],
-      gallery: [{ img: "" }, { img: "" }, { img: "" }],
-    },
-    {
-      id: "HTP-CN-08",
-      img: "",
-      name: "Business Leadership Training",
-      description:
-        "Learn key leadership skills to guide and inspire your team.",
-      duration: "5 Days",
-      price: "RWF 50,000",
-      registerForm: "",
-      outcome: [
-        "Understand leadership styles and their impact.",
-        "Develop strategic thinking and decision-making skills.",
-        "Learn how to motivate and inspire teams.",
-        "Enhance conflict resolution and negotiation skills.",
-      ],
-      gallery: [{ img: "" }, { img: "" }, { img: "" }],
-    },
-    {
-      id: "HTP-CN-09",
-      img: "",
-      name: "Hotel Human Resources Training",
-      description:
-        "Strengthen HR skills specifically designed for the hotel industry.",
-      duration: "5 Days",
-      price: "RWF 50,000",
-      registerForm: "",
-      outcome: [
-        "Understand HR practices in hospitality.",
-        "Learn about employee recruitment and training.",
-        "Develop skills in performance management.",
-        "Familiarize with labor laws and regulations.",
-      ],
-      gallery: [{ img: "" }, { img: "" }, { img: "" }],
-    },
-    {
-      id: "HTP-CN-10",
-      img: "",
-      name: "Hospitality Training for Non-Hoteliers",
-      description:
-        "Get a strong introduction to hospitality, no experience needed.",
-      duration: "4 Weeks",
-      price: "RWF 300,000",
-      registerForm: "",
-      outcome: [
-        "Gain an overview of the hospitality industry.",
-        "Learn basic customer service skills.",
-        "Understand the roles and responsibilities in hospitality.",
-        "Develop skills for working in diverse hospitality settings.",
+        "Learn essential cooking techniques and skills.",
+        "Understand kitchen organization and food safety practices.",
+        "Master the art of menu planning and presentation.",
+        "Explore culinary trends and international cuisines.",
       ],
       gallery: [{ img: "" }, { img: "" }, { img: "" }],
     },
@@ -412,8 +327,5 @@ Join us in redefining possibilities and breaking barriers as we shape a brighter
   },
 ];
 
-
 // graduate
-export const Graduates = [
-  
-]
+export const Graduates = [];

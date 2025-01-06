@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import { bannerVideo } from "../assets";
 import HeroSection from "../components/HeroSection";
 import Numbers from "../components/Numbers";
 import FewCourses from "../components/FewCourses";
@@ -15,7 +14,7 @@ function Home() {
       <Navbar />
       <HeroSection />
       <FewCourses />
-      <Trainers />
+      {/* <Trainers /> */}
       <Queries />
       <Testimonials />
       <Footer />

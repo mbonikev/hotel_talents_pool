@@ -16,6 +16,7 @@ import { Image, Space, Spin } from "antd";
 import { Centers } from "../content/content";
 import Reveal from "react-awesome-reveal";
 import { keyframes } from "@emotion/react";
+import { SangiraLogo } from "../assets";
 
 const customAnimation = keyframes`
   from {
@@ -66,13 +67,27 @@ function CenterDetails() {
     <div className="w-full h-fit text-dark-text max-w-[1700px] mx-auto">
       <Navbar setLoading={setLoading} />
       <div className="px-16 max-md:px-5">
-        <div className="w-full h-fit pt-20 pb-10 flex flex-col items-start justify-start gap-2">
+        <div
+          className={`w-full h-fit pb-10 pt-14 flex flex-col items-start justify-start gap-2 `}
+        >
           <h1 className="text-5xl font-bold w-fit text-main-color ">
             {center_name}
           </h1>
-          <h1 className=" text-[#626262] mt-3 text-justify  ">
+          <h1 className="text-dark-text mt-3 text-justify  ">
             {choosenCenter.introduction}
           </h1>
+          {center_name === "Nyamasheke Center" && (
+            <div className="mt-5">
+            <h1 className="mb-2">Sponsored by</h1>
+              <div className="w-fit min-w-fit h-[70px]">
+                <img
+                  src={SangiraLogo}
+                  alt="Sangira Logo"
+                  className="w-fit h-full"
+                />
+              </div>
+            </div>
+          )}
         </div>
       </div>
       <div className="w-full h-full px-16 max-lg:px-5 py-5 pb-10 ">

@@ -58,7 +58,7 @@ function About() {
             </div>
 
             {/* values */}
-            <div className="flex flex-col items-center justify-center gap-3 py-20 mt-[120px] mb-[70px]">
+            <div className="flex flex-col items-center justify-center gap-3 py-20 mt-[120px] mb-[0px]">
               <h1 className="text-6xl max-lg:text-4xl max-lg:max-w-[500px] max-lg:px-2 font-bold w-fit max-w-[800px] tracking-tight leading-[60px] text-center">
                 The fundamental principles guiding our team
               </h1>
@@ -83,7 +83,7 @@ function About() {
             </div>
 
             {/* leaders */}
-            <div className="w-full h-fit flex flex-col gap-1 px-16 max-md:px-0 ">
+            {/* <div className="w-full h-fit flex flex-col gap-1 px-16 max-md:px-0 ">
               <h1 className="text-lg font-bold text-main-color">Leaders</h1>
               <h1 className="text-5xl max-lg:text-4xl font-bold w-fit">Meet The Leaders</h1>
               <div className="w-full flex items-start justify-center flex-wrap p-2 gap-9 max-lg:gap-8 mt-8">
@@ -208,7 +208,7 @@ function About() {
                   <h1 className="text-lg">President</h1>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

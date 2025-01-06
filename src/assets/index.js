@@ -1,1 +1,1 @@
-export { default as bannerVideo } from "./banner.mp4";
+export { default as SangiraLogo } from "./sangira_logo.png";

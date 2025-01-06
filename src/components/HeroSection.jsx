@@ -53,7 +53,7 @@ function HeroSection() {
         <h1 className=" text-6xl leading-[75px] font-bold max-sm:text-4xl max-md:text-left max-md:pr-10 tracking-tight text-center w-full">
           {HeroSectionContent.BigTitle}
         </h1>
-        <h1 className=" text-lg max-lg:mt-0 leading-6 font-medium max-md:text-left max-md:pr-10 tracking-tight text-center w-full max-w-[500px] opacity-65">
+        <h1 className=" text-lg max-lg:mt-0 leading-6 font-medium max-md:text-left max-md:pr-10 tracking-tight text-center w-full max-w-[500px]">
           {HeroSectionContent.SmallDesc}
         </h1>
         <Link
@@ -63,7 +63,7 @@ function HeroSection() {
         >
           Enroll now
         </Link>
-        <h1 className=" text-sm font-medium tracking-tight text-center  max-md:text-left w-full max-w-[500px] opacity-45">
+        <h1 className=" text-sm font-normal tracking-tight text-center  max-md:text-left w-full max-w-[500px] opacity-70">
           Trained over {HeroSectionContent.count} Students
         </h1>
       </div>

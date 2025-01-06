@@ -20,13 +20,13 @@ function Navbar({ setLoading }) {
 
   return (
     <div className="w-full bg-body-color/90 backdrop-blur-lg sticky top-0 z-30">
-      <div className="w-full flex items-center justify-between px-5 py-2.5 text-dark-text max-w-[1700px] mx-auto">
+      <div className="w-full flex items-center justify-between px-16 py-2.5 text-dark-text max-w-[1700px] mx-auto">
         {/* logo */}
         <Link
           to="/"
           className="w-fit min-w-fit flex justify-center overflow-hidden"
         >
-          <img src="./logo.png" className="h-9 w-fit block object-contain" />
+          <img src="./logo.png" className="h-12 w-fit block object-contain" />
         </Link>
         {/* links */}
         <div
