@@ -256,7 +256,7 @@ I am truly grateful for everything Africa for Excellence has given me and contin
     },
     {
       img: "",
-      name: "",
+      name: "Yankunda Henriette",
       role: "",
       comment: `I would like to extend my heartfelt thanks to
 Sangira Friends of Rwanda for giving me
