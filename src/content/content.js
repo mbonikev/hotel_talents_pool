@@ -297,7 +297,19 @@ I continue to grow and thrive in the culinary world.`,
       img: "/images/Iradukunda_Dieudone.png",
       name: "Iradukunda Dieudone",
       role: "",
-      comment: ``,
+      comment: `I was selling shoes illegally just to make
+ends meet. Life was uncertain, and I didn’t
+know where to turn. However, after joining
+the program and dedicating myself to
+learning, I found my passion in culinary arts.
+I excelled in the program and am now
+proud to be working as the second chef at
+King Faisal Hospital, the best private
+hospital in Rwanda. I prepare meals for
+both doctors and patients, and I can
+honestly say that my life has taken a
+completely new and positive direction.
+Thank you, Sangira Friends of Rwanda.`,
     },
     {
       img: "/images/",
