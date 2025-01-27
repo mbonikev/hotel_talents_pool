@@ -272,6 +272,12 @@ I am truly grateful for everything Africa for Excellence has given me and contin
       role: "",
       comment: "",
     },
+    {
+      img: "",
+      name: "",
+      role: "",
+      comment: "",
+    },
   ],
 };
 
