@@ -278,9 +278,20 @@ restaurant.`,
     },
     {
       img: "/images/Janvier_Masengesho.png",
-      name: "",
+      name: "Janvier Masengesho",
       role: "",
-      comment: ``,
+      comment: `Before our paths crossed and I found myself at Boesujour
+Hotel in Kigali, I felt like my life was at a standstill. However,
+thanks to your unwavering support and belief in me, I was
+given the opportunity to pursue my passion for culinary
+arts.
+Your dedication to empowering individuals like me is truly
+inspiring, and I am forever grateful for the doors you have
+opened for me.
+Thank you for being a beacon of hope and a catalyst for
+positive change in my life. I will always carry the lessons
+and values instilled in me by Sangira Friends of Rwanda as
+I continue to grow and thrive in the culinary world.`,
     },
     {
       img: "/images/",
