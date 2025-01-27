@@ -315,9 +315,21 @@ Thank you, Sangira Friends of Rwanda.`,
       img: "/images/Keza_Mariam.png",
       name: "Keza Mariam",
       role: "",
-      comment: ``,
+      comment: `Before joining this program, I was a struggling single
+mother with no means to support my daughter. Life
+seemed overwhelming, and I didn’t know how I could give
+her a better future.
+However, after just six months of hard work and learning in
+the program, my life has completely changed. I am now
+employed as a receptionist at Gorilla Nyarutarama in
+Kigali, earning a steady income of $400 per month. This
+income is not only helping me provide for myself but also
+enabling me to send my daughter back to school.
+Thank you, Sangira Friends of Rwanda, for making this
+transformation possible. Your support has given me a
+chance to build a brighter future, and for that, I am forever
+grateful.`,
     },
-    
   ],
 };
 
