@@ -31,7 +31,7 @@ function Testimonials() {
                 <div className="h-12 w-12 min-w-12 aspect-square rounded-full flex items-center justify-center relative overflow-hidden">
                   <img
                     src={person.img}
-                    className="w-full  object-cover "
+                    className="w-full h-fit object-cover "
                   />
                 </div>
                 <div className="flex flex-col items-start justify-start">
