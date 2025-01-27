@@ -255,7 +255,7 @@ The lessons I learned and the opportunities Africa for excellence provided have 
 I am truly grateful for everything Africa for Excellence has given me and continue to look forward to further growing and contributing to society with the foundation you have helped me establish.`,
     },
     {
-      img: "",
+      img: "/images/Yankunda_Henriette.png",
       name: "Yankunda Henriette",
       role: "",
       comment: `I would like to extend my heartfelt thanks to
