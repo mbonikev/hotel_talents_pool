@@ -294,8 +294,8 @@ and values instilled in me by Sangira Friends of Rwanda as
 I continue to grow and thrive in the culinary world.`,
     },
     {
-      img: "/images/",
-      name: "",
+      img: "/images/Iradukunda_Dieudone.png",
+      name: "Iradukunda Dieudone",
       role: "",
       comment: ``,
     },
