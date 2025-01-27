@@ -312,8 +312,8 @@ completely new and positive direction.
 Thank you, Sangira Friends of Rwanda.`,
     },
     {
-      img: "/images/",
-      name: "",
+      img: "/images/Keza_Mariam.png",
+      name: "Keza Mariam",
       role: "",
       comment: ``,
     },
