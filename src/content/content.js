@@ -277,23 +277,24 @@ Beverages Supervisor at the same
 restaurant.`,
     },
     {
-      img: "",
+      img: "/images/Janvier_Masengesho.png",
       name: "",
       role: "",
-      comment: "",
+      comment: ``,
     },
     {
-      img: "",
+      img: "/images/",
       name: "",
       role: "",
-      comment: "",
+      comment: ``,
     },
     {
-      img: "",
+      img: "/images/",
       name: "",
       role: "",
-      comment: "",
+      comment: ``,
     },
+    
   ],
 };
 
