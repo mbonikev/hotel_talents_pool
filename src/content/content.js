@@ -258,7 +258,23 @@ I am truly grateful for everything Africa for Excellence has given me and contin
       img: "",
       name: "",
       role: "",
-      comment: "",
+      comment: `I would like to extend my heartfelt thanks to
+Sangira Friends of Rwanda for giving me
+the incredible opportunity to join the Hotel
+Talents Pool program. After completing
+school, I found myself with no clear path
+forward. Determined to follow my dreams, I
+moved away from home invested
+everything which was time I had into
+gaining the skills I always dreamed of.
+Thanks to the program, I was able to refine
+my talents, and during my second week of
+internship, I was hired as a barista at a local
+coffee restaurant and coffee shop. Through
+hard work and dedication, I have grown in
+my role and am now the Food and
+Beverages Supervisor at the same
+restaurant.`,
     },
     {
       img: "",
