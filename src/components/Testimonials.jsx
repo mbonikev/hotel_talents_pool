@@ -28,7 +28,7 @@ function Testimonials() {
             <div className="w-[120px] rounded-full -z-0 blur-[80px] aspect-square absolute bottom-[-20px] left-[-20px] bg-[#4D61BA]"></div>
             <div className="w-full h-full z-10 flex flex-col items-start justify-start gap-4">
               <div className="flex items-center justify-start gap-4">
-                <div className="h-12 w-12 min-w-12 aspect-square rounded-full flex items-center justify-center relative overflow-hidden">
+                <div className="h-16 w-16 min-w-16 aspect-square rounded-full flex items-center justify-center relative overflow-hidden">
                   <img
                     src={person.img}
                     className="w-fit min-w-full h-fit min-h-full absolute top-0 left-0 "
