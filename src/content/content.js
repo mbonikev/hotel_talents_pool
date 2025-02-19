@@ -22,7 +22,7 @@ export const HeroSectionContent = {
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNHdb4-6C8nWbyXb4v5ZRRING0GRxIpdoJ8LAWeciuxejHSDCo3Gi4bnQfvlAYry4A-gA&usqp=CAU",
   ],
   upperText: "We have Trained over",
-  count: "4,343+",
+  count: "1,343+",
   bottomText: "People",
   // right side
   sliderImages: [
@@ -95,7 +95,7 @@ With nine specialized centers across Rwanda, Hotel Talents Pool brings world-cla
   courses: [
     {
       id: "HTP-CN-01",
-      img: "/images/img49.jpg",
+      img: "/images/img87.jpg",
       name: "Barista",
       description:
         "Get hands-on barista training to make the perfect coffee every time.",
@@ -109,9 +109,9 @@ With nine specialized centers across Rwanda, Hotel Talents Pool brings world-cla
         "Develop customer service skills specific to coffee shops.",
       ],
       gallery: [
-        { img: "/images/img38.jpg" },
-        { img: "/images/img45.jpg" },
-        { img: "/images/img46.jpg" },
+        { img: "/images/img87.jpg" },
+        { img: "/images/img98.jpg" },
+        { img: "/images/img99.jpg" },
       ],
     },
     {
@@ -130,6 +130,7 @@ With nine specialized centers across Rwanda, Hotel Talents Pool brings world-cla
         "Develop skills for running a bakery business.",
       ],
       gallery: [
+        { img: "/images/img20.jpg" },
         { img: "/images/img17.jpg" },
         { img: "/images/img25.jpg" },
         { img: "/images/img23.jpg" },
@@ -137,7 +138,7 @@ With nine specialized centers across Rwanda, Hotel Talents Pool brings world-cla
     },
     {
       id: "HTP-CN-03",
-      img: "/images/img96.jpg",
+      img: "/images/img115.jpeg",
       name: "Housekeeping",
       description:
         "Acquire the knowledge and skills needed to efficiently manage housekeeping operations in the hospitality industry.",
@@ -151,14 +152,21 @@ With nine specialized centers across Rwanda, Hotel Talents Pool brings world-cla
         "Develop strong customer service and guest satisfaction skills.",
       ],
       gallery: [
-        { img: "/images/img95.jpg" },
-        { img: "/images/img96.jpg" },
-        { img: "/images/img97.jpg" },
+        { img: "/images/img115.jpeg" },
+        { img: "/images/img117.jpeg" },
+        { img: "/images/img116.jpeg" },
+        { img: "/images/img114.jpeg" },
+        { img: "/images/img113.jpeg" },
+        { img: "/images/img112.jpeg" },
+        { img: "/images/img111.jpeg" },
+        { img: "/images/img110.jpeg" },
+        { img: "/images/img109.jpeg" },
+        { img: "/images/img108.jpeg" },
       ],
     },
     {
       id: "HTP-CN-04",
-      img: "/images/img97.jpg",
+      img: "/images/img121.jpg",
       name: "Front Office",
       description:
         "Enhance your expertise in front office operations with comprehensive training tailored for hospitality professionals.",
@@ -171,11 +179,17 @@ With nine specialized centers across Rwanda, Hotel Talents Pool brings world-cla
         "Understand reservation and billing processes.",
         "Handle guest complaints and provide exceptional service.",
       ],
-      gallery: [{ img: "" }, { img: "" }, { img: "" }],
+      gallery: [
+        { img: "/images/img121.jpg" },
+        { img: "/images/img120.jpg" },
+        { img: "/images/img118.jpeg" },
+        { img: "/images/img119.jpg" },
+        { img: "/images/img122.jpg" },
+      ],
     },
     {
       id: "HTP-CN-05",
-      img: "",
+      img: "/images/img123.jpeg",
       name: "Culinary Arts",
       description:
         "Unleash your creativity and master the art of cooking with hands-on culinary training designed for aspiring chefs.",
@@ -188,7 +202,35 @@ With nine specialized centers across Rwanda, Hotel Talents Pool brings world-cla
         "Master the art of menu planning and presentation.",
         "Explore culinary trends and international cuisines.",
       ],
-      gallery: [{ img: "" }, { img: "" }, { img: "" }],
+      gallery: [
+        { img: "/images/img123.jpeg" },
+        { img: "/images/img124.jpeg" },
+        { img: "/images/img125.jpeg" },
+        { img: "/images/img126.jpg" },
+        { img: "/images/img127.jpg" },
+      ],
+    },
+    {
+      id: "HTP-CN-06",
+      img: "/images/img128.jpg",
+      name: "Food & Beverages",
+      description:
+        "Develop your culinary expertise and beverage craftsmanship with hands-on training in cooking, baking, and mixology, perfect for aspiring chefs and hospitality professionals.",
+      duration: "1 Month",
+      price: "RWF 100,000",
+      registerForm: "",
+      outcome: [
+        "Learn fundamental cooking, baking, and beverage preparation techniques.",
+        "Understand food safety, hygiene, and kitchen organization best practices.",
+        "Gain expertise in menu planning, plating, and presentation.",
+        "Explore global cuisines, mixology, and emerging culinary trends.",
+      ],
+      gallery: [
+        { img: "/images/img28.jpg" },
+        { img: "/images/img45.jpg" },
+        { img: "/images/img129.jpg" },
+        { img: "/images/img130.jpg" },
+      ],
     },
   ],
 };
@@ -222,12 +264,12 @@ export const FAQSectionSection = {
     {
       question: "Can international students enroll?",
       answer:
-        "8.Yes, we welcome international students. Please contact us for specific requirements and support.",
+        "Yes, we welcome international students. Please contact us for specific requirements and support.",
     },
     {
       question: "Do you offer job placement support?",
       answer:
-        "10.Yes, we connect graduates with employers through partnerships and our job placement services.",
+        "Yes, we connect graduates with employers through partnerships and our job placement services.",
     },
   ],
 };
