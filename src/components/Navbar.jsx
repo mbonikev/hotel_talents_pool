@@ -102,12 +102,12 @@ function Navbar({ setLoading }) {
           >
             Contact
           </Link>
-          <Link
+          {/* <Link
             className="text-sm hover:text-main-color whitespace-nowrap px-1.5"
             to="/hireGraduate"
           >
             Hire Graduate
-          </Link>
+          </Link> */}
           <Link
             className="text-sm text-main-color px-1.5 hidden max-lg:flex"
             to={formUrl}

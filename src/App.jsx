@@ -28,7 +28,7 @@ function App() {
             element={<CenterDetails />}
           />
           <Route path="/contacts" element={<Contacts />} />
-          <Route path="/hireGraduate" element={<HireGraduate />} />
+          {/* <Route path="/hireGraduate" element={<HireGraduate />} /> */}
           <Route path="/graduates" element={<Graduates />} />
           <Route path="/privacyPolicy" element={<PrivacyPolicy />} />
           <Route path="/TermsAndConditions" element={<TermsAndConditions />} />

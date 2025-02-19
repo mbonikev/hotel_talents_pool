@@ -52,18 +52,18 @@ function Footer() {
                   Kigali, Rwanda
                 </p>
                 <p className={`text-sm w-fit text-[#969696] font-medium`}>
-                  +250788888888
+                  +250795295448
                 </p>
               </div>
               {/* 2 */}
               <div className="flex flex-col gap-2">
-                <Link
+                {/* <Link
                   to={"/hireGraduate"}
                   target="_blank"
                   className={`${linkStyle}`}
                 >
                   Hire Graduate
-                </Link>
+                </Link> */}
                 <Link
                   to={formUrl}
                   target="_blank"
