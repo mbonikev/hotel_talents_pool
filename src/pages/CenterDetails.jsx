@@ -58,7 +58,7 @@ function CenterDetails() {
       ));
       setImageList(mappedImages);
       setLoading(false); // Set loading to false after delay
-    }, 2000);
+    }, 3000);
 
     return () => clearTimeout(timeout); // Cleanup timeout on component unmount
   }, [filteredImages]);

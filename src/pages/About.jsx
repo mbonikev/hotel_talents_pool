@@ -31,17 +31,15 @@ function About() {
                   Who we are?
                 </h1>
                 <p className="text-base font-medium leading-6 max-w-[590px] text-justify pt-5 opacity-65">
-                  We offer hands-on training for aspiring professionals and
-                  PWDs, helping them gain the skills and confidence to build
-                  successful, fulfilling careers in Rwanda’s growing hospitality
-                  industry. Lorem ipsum dolor, sit amet consectetur adipisicing
-                  elit. Natus tempore, corrupti, incidunt nobis magni ab magnam
-                  recusandae perspiciatis facere ad asperiores voluptatum
-                  accusantium earum unde voluptas iste! Aut, ab in! Lorem ipsum
-                  dolor sit amet consectetur adipisicing elit. Perspiciatis quod
-                  porro animi nihil est? Vero voluptatem, veniam, quod dolores
-                  dicta quisquam dolorem aperiam accusamus inventore,
-                  voluptatibus eaque consequatur molestias laudantium! lorem
+                  Hotel Talents Pool is more than a training center — we are a
+                  bridge between passion and profession. We are dedicated to
+                  nurturing aspiring hospitality professionals from all
+                  backgrounds, including individuals with disabilities (PWDs).
+                  Our programs equip learners with practical skills, industry
+                  knowledge, and the confidence needed to excel. Rooted in
+                  Rwanda’s vibrant hospitality landscape, we foster a culture of
+                  inclusivity and excellence, ensuring every graduate is ready
+                  to make an impact and drive innovation within the industry.
                 </p>
               </div>
               {/* image */}
@@ -209,6 +207,31 @@ function About() {
                 </div>
               </div>
             </div> */}
+            <div className="w-full mt-20 max-lg:mt-8 px-16 py-5 max-lg:px-0 max-lg:pt-0 flex gap-10 items-center justify-between max-lg:flex-col text-dark-text max-w-[1700px] mx-auto">
+              <div className="w-full max-lg:w-full h-fit flex flex-col gap-1 ">
+                <h1 className="text-5xl font-bold w-fit">
+                  Our Sponsors
+                </h1>
+                <p className="text-base font-medium leading-6 text-justify pt-5 opacity-65">
+                  Hotel Talents Pool (HTP) proudly operates with the support of
+                  Africa for Excellence Mission (AFEM), an NGO dedicated to
+                  promoting education and career growth across Africa. AFEM's
+                  sponsorship plays a crucial role in expanding our training
+                  programs, providing resources, and ensuring that our students
+                  receive quality education in hospitality. Together, HTP and
+                  AFEM work hand in hand to create meaningful opportunities for
+                  youth, shaping the future of the hospitality sector. <br />{" "}
+                  <br /> Discover more about AFEM:{" "}
+                  <a
+                    href="https://africaforexcellence.org/"
+                    target="_blank"
+                    className="text-main-color"
+                  >
+                    Africa for Excellence Mission
+                  </a>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

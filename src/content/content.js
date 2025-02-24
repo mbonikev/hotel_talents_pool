@@ -419,12 +419,7 @@ Join us in redefining possibilities and breaking barriers as we shape a brighter
     name: "Huye Center",
     introduction:
       "The Huye Center, located in Rwanda's cultural hub, is where tradition meets modern hospitality training. Here, students benefit from a rich blend of heritage and innovation, preparing them for diverse opportunities in the industry. Explore the Huye Center and become part of a legacy of excellence.",
-  },
-  {
-    name: "Karongi Center",
-    introduction:
-      "Situated in the scenic landscapes of Karongi, the Karongi Center offers a tranquil yet professional environment for learning. This center is dedicated to nurturing talent and helping students master the art of hospitality with confidence and skill. Start your journey to success with Karongi Center today.",
-  },
+  }
 ];
 
 // graduate
