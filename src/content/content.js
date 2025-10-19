@@ -378,6 +378,11 @@ grateful.`,
 // centers
 export const Centers = [
   {
+    name: "Nyamasheke Center",
+    introduction:
+      "Welcome to the Nyamasheke Center, a haven for aspiring hospitality professionals in the picturesque Western Province. Known for its dedication to quality and detail, this center provides an immersive environment where students learn, grow, and excel. Nyamasheke Center is your gateway to a brighter future in the hospitality industry.",
+  },
+  {
     name: "Special Program",
     introduction: `At Hotel Talents Pool, we believe in creating opportunities for everyone, regardless of their abilities. Our special program for Persons With Disabilities (PWDs) is designed to provide tailored training that equips participants with the skills, confidence, and expertise to excel in the hospitality industry.
 
@@ -404,11 +409,6 @@ Join us in redefining possibilities and breaking barriers as we shape a brighter
     name: "Nyagatare Center",
     introduction:
       "At the Nyagatare Center, hospitality training meets rural innovation. Situated in the heart of Rwanda’s agricultural region, this center equips learners with skills that resonate with both global standards and local needs. Step into Nyagatare Center and take the first step toward a fulfilling career in hospitality.",
-  },
-  {
-    name: "Nyamasheke Center",
-    introduction:
-      "Welcome to the Nyamasheke Center, a haven for aspiring hospitality professionals in the picturesque Western Province. Known for its dedication to quality and detail, this center provides an immersive environment where students learn, grow, and excel. Nyamasheke Center is your gateway to a brighter future in the hospitality industry.",
   },
   {
     name: "Rubavu Center",
